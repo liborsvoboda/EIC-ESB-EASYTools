@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.HTMLEditorNoImg</RootNamespace>
     <AssemblyName>EASYTools.HTMLEditorNoImg</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworks>net462</TargetFrameworks>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -27,7 +26,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\SRV-NUGETS\DEBUG\EASYTOOL.HTMLEditorNoImg\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -55,6 +54,31 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HTMLEditorNoImg</Title>
+    <Authors>Libor Svoboda</Authors>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>WPF HTMLEditor based MSHTML on Language  Translation Support
+with image upload from URL</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>WPF,html, editor,htmleditor</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>HTMLEditorNoImg</ToolCommandName>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>6.0</AnalysisLevel>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework.Classic" />
@@ -88,46 +112,7 @@
       <HintPath>..\..\..\..\..\Hotely\packages\Extended.Wpf.Toolkit.4.5.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="AttachedProperties\RichTextboxAssistant.cs" />
-    <Compile Include="Commands\CommandReference.cs" />
-    <Compile Include="Commands\DelegateCommand.cs" />
-    <Compile Include="Controls\RichTextEditor.xaml.cs">
-      <DependentUpon>RichTextEditor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="XamlToHtmlParser\HtmlCssParser.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlFromXamlConverter.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlLexicalAnalyzer.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlParser.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlSchema.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlTokenType.cs" />
-    <Compile Include="XamlToHtmlParser\HtmlToXamlConverter.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <None Include="EasyITGroupWareSolution.snk" />
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <AppDesigner Include="Properties\" />
-  </ItemGroup>
+
   <ItemGroup>
     <Resource Include="Controls\Images\charactergrowfont.png" />
   </ItemGroup>
@@ -178,12 +163,22 @@
     <Analyzer Include="..\packages\Microsoft.DependencyValidation.Analyzers.0.10.0\analyzers\dotnet\cs\Microsoft.DependencyValidation.Analyzers.resources.dll" />
     <Analyzer Include="..\packages\Microsoft.DependencyValidation.Analyzers.0.10.0\analyzers\dotnet\Microsoft.DependencyValidation.Analyzers.dll" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
 </Project>

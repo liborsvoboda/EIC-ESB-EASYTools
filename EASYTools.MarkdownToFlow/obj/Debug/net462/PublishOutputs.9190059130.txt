@@ -1,0 +1,2 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\bin\Debug\net462\publish\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\bin\Debug\net462\publish\EASYTools.MarkdownToFlow.pdb

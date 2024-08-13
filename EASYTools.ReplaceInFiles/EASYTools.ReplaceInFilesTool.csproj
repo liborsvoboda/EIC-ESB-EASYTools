@@ -8,16 +8,23 @@
     <StartupObject>EASYTools.ReplaceInFilesTool.Program</StartupObject>
     <NoWin32Manifest>true</NoWin32Manifest>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
-    <BaseOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles</BaseOutputPath>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>True</PackAsTool>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>EASYTools.ReplaceInFiles</Title>
-    <Company>GroupWare Solution Eu</Company>
+    <Title>ReplaceInFiles</Title>
+    <Company>GroupWare-Solution.Eu</Company>
     <Authors>Libor Svoboda</Authors>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <Description>Conditional Replacing strings in Files Utility</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>Replace;string;files;folder;</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +33,14 @@
 
   <ItemGroup>
     <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

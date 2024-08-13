@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 //
 // This program is free software; you can redistribute it and/or modify
@@ -18,7 +18,7 @@ using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace RemoteDesktopVNCWpf.Encodings
+namespace EASYTools.VNCLib.Encodings
 {
 	/// <summary>
 	/// Implementation of Hextile encoding, as well as drawing support. See RFB Protocol document v. 3.8 section 6.5.5.

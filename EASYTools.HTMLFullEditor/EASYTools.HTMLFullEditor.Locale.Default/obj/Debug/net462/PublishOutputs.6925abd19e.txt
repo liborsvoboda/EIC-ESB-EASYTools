@@ -1,0 +1,11 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.Locale.Default.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.Locale.Default.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\cs\EASYTools.HTMLFullEditor.Locale.Default.resources.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\System.Buffers.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\System.Memory.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\System.Numerics.Vectors.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\System.Resources.Extensions.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\Microsoft.mshtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.pdb

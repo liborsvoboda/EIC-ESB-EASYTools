@@ -16,5 +16,5 @@ DEBUG;TRACE
 21-93095057
 Dialogs\HyperlinkDialog.xaml;Dialogs\ImageDialog.xaml;Resources\Styles.xaml;Views\EditorToolbar.xaml;Resources\Icons.xaml;
 
-False
+True
 

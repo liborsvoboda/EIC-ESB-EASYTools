@@ -1,34 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.CrashReporter||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.Calendar||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.HTMLFullEditor.Locale.Default||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|solutionrelative:easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC1FF81E-F694-4B1B-9E04-3DEB2DE00B6A}|EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.htmlfulleditor\\easytools.htmlfulleditor.locale.default\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C3B4A7-504B-4EFF-BACC-C8F2FFE5AF6F}|EASYTools.Calendar\\EASYTools.Calendar.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.calendar\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.crashreporter\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -128,70 +101,8 @@
         },
         {
           "DockedHeight": 113,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.CrashReporter",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
-              "RelativeDocumentMoniker": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
-              "RelativeToolTip": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-13T00:41:12.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools.Calendar",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "RelativeToolTip": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-13T00:41:09.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EASYTools.HTMLFullEditor.Locale.Default",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
-              "RelativeDocumentMoniker": "EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
-              "RelativeToolTip": "EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-13T00:40:53.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EASYTools.MarkdownToHtml",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "RelativeToolTip": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "ViewState": "AgIAADkAAAAAAAAAAAAswEcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:14:37.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EASYTools.ImageEffectLibrary",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:10:43.473Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
@@ -207,10 +118,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

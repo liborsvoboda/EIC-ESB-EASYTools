@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 //
 // This program is free software; you can redistribute it and/or modify
@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 // FIXME: I can't understand why yet, but under the Xvnc server in Unix (v. 3.3.7), this doesn't work.  
 // Everything is fine using the Windows server!?
 
-namespace RemoteDesktopVNCWpf.Encodings
+namespace EASYTools.VNCLib.Encodings
 {
 	/// <summary>
 	/// Implementation of CoRRE encoding, as well as drawing support. See RFB Protocol document v. 3.8 section 6.5.4.

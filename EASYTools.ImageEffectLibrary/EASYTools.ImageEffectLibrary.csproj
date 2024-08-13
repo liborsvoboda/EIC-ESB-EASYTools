@@ -10,11 +10,16 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
-    <BaseOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.ImageEffectGallery</BaseOutputPath>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\</PackageOutputPath>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
+    <Authors>Libor Svoboda</Authors>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>Image Effect Library</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +28,10 @@
 
   <ItemGroup>
     <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

@@ -1,28 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>EASYTools.ReplaceInFilesTool</id>
     <version>1.0.0</version>
-    <title>EASYTools.ReplaceInFiles</title>
-    <authors>EASYTools.ReplaceInFilesTool</authors>
+    <title>ReplaceInFiles</title>
+    <authors>Libor Svoboda</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>groupware-solution.eu.png</icon>
-    <description>Package Description</description>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>Conditional Replacing strings in Files Utility</description>
+    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
+    <tags>Replace string files folder</tags>
     <packageTypes>
       <packageType name="DotnetTool" />
     </packageTypes>
-    <repository type="git" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
     <contentFiles>
       <files include="any/net6.0/favicon.ico" buildAction="Content" />
     </contentFiles>
   </metadata>
   <files>
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.dll" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.deps.json" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.deps.json" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.runtimeconfig.json" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.runtimeconfig.json" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.pdb" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.dll" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.deps.json" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.deps.json" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.runtimeconfig.json" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.runtimeconfig.json" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.pdb" target="tools\net6.0\any\EASYTools.ReplaceInFilesTool.pdb" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\favicon.ico" target="content\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
   </files>
 </package>

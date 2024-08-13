@@ -65,7 +65,10 @@
             <RowDefinition Height="50" />
         </Grid.RowDefinitions>
         <Grid
-            Grid.Row="0" Height="Auto" Margin="0,0,0,10" VerticalAlignment="Top">
+            Grid.Row="0"
+            Height="Auto"
+            Margin="0,0,0,10"
+            VerticalAlignment="Top">
             <Grid.RowDefinitions>
                 <RowDefinition Height="24" />
                 <RowDefinition Height="24" />
@@ -78,50 +81,62 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <TextBlock
-                Grid.Row="0" Grid.Column="0"
+                Grid.Row="0"
+                Grid.Column="0"
                 Style="{StaticResource LabelStyle}"
                 Text="Server name:" />
             <TextBlock
-                Grid.Row="2" Grid.Column="0"
+                Grid.Row="2"
+                Grid.Column="0"
                 Style="{StaticResource LabelStyle}"
                 Text="Authentication:" />
             <TextBlock
-                Grid.Row="1" Grid.Column="0"
+                Grid.Row="1"
+                Grid.Column="0"
                 Style="{StaticResource LabelStyle}"
                 Text="Database name:" />
             <TextBlock
-                Grid.Row="3" Grid.Column="0"
+                Grid.Row="3"
+                Grid.Column="0"
                 Style="{StaticResource LabelStyle}"
                 Text="User name:" />
             <TextBlock
-                Grid.Row="4" Grid.Column="0"
+                Grid.Row="4"
+                Grid.Column="0"
                 Style="{StaticResource LabelStyle}"
                 Text="Password:" />
 
             <TextBox
-                x:Name="ServerNameTextBox" Grid.Row="0" Grid.Column="1"
+                x:Name="ServerNameTextBox"
+                Grid.Row="0"
+                Grid.Column="1"
                 Style="{StaticResource TextBoxStyle}"
                 TabIndex="0"
                 Text="{Binding ServerName, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
             <ComboBox
-                Grid.Row="2" Grid.Column="1"
+                Grid.Row="2"
+                Grid.Column="1"
                 ItemsSource="{Binding AuthenticationModes}"
                 SelectedItem="{Binding Authentication, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                 Style="{StaticResource ComboboxFieldStyle}"
                 TabIndex="2" />
             <TextBox
-                Grid.Row="1" Grid.Column="1"
+                Grid.Row="1"
+                Grid.Column="1"
                 Style="{StaticResource TextBoxStyle}"
                 TabIndex="1"
                 Text="{Binding DatabaseName, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
             <TextBox
-                Grid.Row="3" Grid.Column="1"
+                Grid.Row="3"
+                Grid.Column="1"
                 IsEnabled="{Binding IsCredentialInputEnabled}"
                 Style="{StaticResource TextBoxStyle}"
                 TabIndex="3"
                 Text="{Binding UserName, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
             <PasswordBox
-                x:Name="PasswordBox" Grid.Row="4" Grid.Column="1"
+                x:Name="PasswordBox"
+                Grid.Row="4"
+                Grid.Column="1"
                 IsEnabled="{Binding IsCredentialInputEnabled}"
                 Style="{StaticResource PasswordStyle}"
                 TabIndex="4" />
@@ -133,7 +148,9 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <StackPanel
-                Grid.Column="0" VerticalAlignment="Top" Orientation="Horizontal">
+                Grid.Column="0"
+                VerticalAlignment="Top"
+                Orientation="Horizontal">
                 <Button
                     Command="{Binding TestCommand}"
                     Content="Test"
@@ -142,17 +159,22 @@
                     TabIndex="5" />
             </StackPanel>
             <StackPanel
-                Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Orientation="Horizontal">
+                Grid.Column="1"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Orientation="Horizontal">
                 <Button
                     Command="{Binding OkCommand}"
-                    Content="OK" IsDefault="True"
+                    Content="OK"
+                    IsDefault="True"
                     IsEnabled="{Binding IsValid}"
                     Style="{StaticResource ButtonStyle}"
                     TabIndex="6" />
                 <Button
                     Margin="0,0,0,0"
                     Command="{Binding CancelCommand}"
-                    Content="Cancel" IsCancel="True"
+                    Content="Cancel"
+                    IsCancel="True"
                     Style="{StaticResource ButtonStyle}"
                     TabIndex="7" />
             </StackPanel>

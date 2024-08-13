@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 //
 // This program is free software; you can redistribute it and/or modify
@@ -17,9 +17,9 @@
 
 using System;
 using System.Drawing;
-using RemoteDesktopVNCWpf.Encodings;
+using EASYTools.VNCLib.Encodings;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	/// <summary>
 	/// Factory class used to create derived EncodedRectangle objects at runtime based on data sent by VNC Server.

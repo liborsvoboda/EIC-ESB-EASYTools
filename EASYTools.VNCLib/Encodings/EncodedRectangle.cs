@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -25,7 +25,7 @@ using System.Windows.Media.Imaging;
 using System.Windows;
 using System.Linq;
 
-namespace RemoteDesktopVNCWpf.Encodings
+namespace EASYTools.VNCLib.Encodings
 {
 	/// <summary>
 	/// Abstract class representing an Encoded Rectangle to be read, decoded, and drawn.

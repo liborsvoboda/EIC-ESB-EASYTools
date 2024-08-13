@@ -1,4 +1,4 @@
-﻿// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+﻿// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -21,7 +21,7 @@ using System.Drawing;
 using System.ComponentModel;
 using System.Windows.Controls;
 
-//using RemoteDesktopVNCWpf.Encodings;
+//using EASYTools.VNCLib.Encodings;
 using System.Windows.Media.Imaging;
 using System.Windows.Input;
 using System.Collections.Generic;
@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Net;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	/// <summary>
 	/// Event Handler delegate declaration used by events that signal successful connection with the server.
@@ -54,11 +54,11 @@ namespace RemoteDesktopVNCWpf
 		Alt
 	}
 
-	[ToolboxBitmap(typeof(RemoteDesktopVNCWpf), "Resources.vncviewer.ico")]
+	[ToolboxBitmap(typeof(EASYTools.VNCLib), "Resources.vncviewer.ico")]
 	/// <summary>
 	/// The RemoteDesktop control takes care of all the necessary RFB Protocol and GUI handling, including mouse and keyboard support, as well as requesting and processing screen updates from the remote VNC host.  Most users will choose to use the RemoteDesktop control alone and not use any of the other protocol classes directly.
 	/// </summary>
-	public partial class RemoteDesktopVNCWpf : UserControl
+	public partial class EASYTools.VNCLib : UserControl
 	{
 		[Description("Raised after a successful call to the Connect() method.")]
 		/// <summary>
@@ -103,7 +103,7 @@ namespace RemoteDesktopVNCWpf
             Listen
 		}
 		
-		public RemoteDesktopVNCWpf() : base()
+		public EASYTools.VNCLib() : base()
 		{
             InitializeComponent();
 
@@ -228,7 +228,7 @@ namespace RemoteDesktopVNCWpf
 		/// for the full screen, and not a portion of it.  It will not do the update while
 		/// blocking.
 		/// </remarks>
-		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not in the Connected state.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not in the Connected state.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
 		public void FullScreenUpdate()
 		{
 			InsureConnection(true);
@@ -286,7 +286,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="host">The IP Address or Host Name of the VNC Host.</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host)
         {
             // Use Display 0 by default.
@@ -300,7 +300,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="viewOnly">Determines whether mouse and keyboard events will be sent to the host.</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host, bool viewOnly)
         {
             // Use Display 0 by default.
@@ -315,7 +315,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="scaled">Determines whether to use desktop scaling or leave it normal and clip.</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host, bool viewOnly, bool scaled)
         {
             // Use Display 0 by default.
@@ -329,7 +329,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="display">The Display number (used on Unix hosts).</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host, int display)
         {
             Connect(host, display, false);
@@ -343,7 +343,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="viewOnly">Determines whether mouse and keyboard events will be sent to the host.</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host, int display, bool viewOnly)
         {
             Connect(host, display, viewOnly, false);
@@ -358,7 +358,7 @@ namespace RemoteDesktopVNCWpf
         /// <param name="scaled">Determines whether to use desktop scaling or leave it normal and clip.</param>
         /// <exception cref="System.ArgumentNullException">Thrown if host is null.</exception>
         /// <exception cref="System.ArgumentOutOfRangeException">Thrown if display is negative.</exception>
-        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+        /// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
         public void Connect(string host, int display, bool viewOnly, bool scaled)
         {
             // TODO: Should this be done asynchronously so as not to block the UI?  Since an event 
@@ -459,7 +459,7 @@ namespace RemoteDesktopVNCWpf
 		/// <summary>
 		/// Authenticate with the VNC Host using a user supplied password.
 		/// </summary>
-		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already Connected.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
 		/// <exception cref="System.NullReferenceException">Thrown if the password is null.</exception>
 		/// <param name="password">The user's password.</param>
 		public void Authenticate(string password)
@@ -509,7 +509,7 @@ namespace RemoteDesktopVNCWpf
 		/// <summary>
 		/// After protocol-level initialization and connecting is complete, the local GUI objects have to be set-up, and requests for updates to the remote host begun.
 		/// </summary>
-		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already in the Connected state.  See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>		
+		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is already in the Connected state.  See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>		
 		protected void Initialize()
 		{
 			// Finish protocol handshake with host now that authentication is done.
@@ -547,7 +547,7 @@ namespace RemoteDesktopVNCWpf
                     //Cursor = new Cursor(GetType(), "Resources.vnccursor.cur");
                     Dispatcher.Invoke(new Action(() =>
                     {
-                        //Cursor = new Cursor("RemoteDesktopVNCWpf.Resources.vnccursor.cur");
+                        //Cursor = new Cursor("EASYTools.VNCLib.Resources.vnccursor.cur");
                         Cursor = ((TextBlock)this.Resources["VncCursor"]).Cursor;
                     }));
 					break;
@@ -565,7 +565,7 @@ namespace RemoteDesktopVNCWpf
 		/// <summary>
 		/// Creates and initially sets-up the local bitmap that will represent the remote desktop image.
 		/// </summary>
-		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not already in the Connected state. See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not already in the Connected state. See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
 		protected void SetupDesktop()
 		{
 			InsureConnection(true);
@@ -596,7 +596,7 @@ namespace RemoteDesktopVNCWpf
 		/// <summary>
 		/// Stops the remote host from sending further updates and disconnects.
 		/// </summary>
-		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not already in the Connected state. See <see cref="RemoteDesktopVNCWpf.RemoteDesktop.IsConnected" />.</exception>
+		/// <exception cref="System.InvalidOperationException">Thrown if the RemoteDesktop control is not already in the Connected state. See <see cref="EASYTools.VNCLib.RemoteDesktop.IsConnected" />.</exception>
 		public void Disconnect()
 		{
 			InsureConnection(true);

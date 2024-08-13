@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -20,16 +20,16 @@ using System;
 //using System.Windows.Forms;
 using System.Drawing;
 
-using RemoteDesktopVNCWpf;
+using EASYTools.VNCLib;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	/// <summary>
 	/// A Design Mode version of VncDesktopTransformPolicy.
 	/// </summary>
 	public sealed class VncDesignModeDesktopPolicy : VncDesktopTransformPolicy
 	{
-        public VncDesignModeDesktopPolicy(RemoteDesktopVNCWpf remoteDesktop) 
+        public VncDesignModeDesktopPolicy(EASYTools.VNCLib remoteDesktop) 
             : base(null, remoteDesktop)
         {
         }

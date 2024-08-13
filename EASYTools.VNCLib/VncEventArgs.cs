@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 //
 // This program is free software; you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 
 using System;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	public class VncEventArgs : EventArgs
 	{

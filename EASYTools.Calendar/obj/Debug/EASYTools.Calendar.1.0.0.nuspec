@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.Calendar</id>
+    <version>1.0.0</version>
+    <title>Calendar</title>
+    <authors>Libor Svoboda</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>WPF Calendar with notes</description>
+    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
+    <tags>WPF calendar schedule</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\DotnetToolSettings.xml" target="tools\net452\any\DotnetToolSettings.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\bin\Debug\net452\publish\EASYTools.Calendar.dll" target="tools\net452\any\EASYTools.Calendar.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\bin\Debug\net452\publish\EASYTools.Calendar.pdb" target="tools\net452\any\EASYTools.Calendar.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

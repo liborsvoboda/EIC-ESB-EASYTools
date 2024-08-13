@@ -1,4 +1,4 @@
-﻿<Window x:Class="RemoteDesktopVNCClientApp.ConnectDialogWpf"
+﻿<Window x:Class="EASYTools.VNCClient.ConnectDialogWpf"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Enter VNC Host" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top" ResizeMode="CanResize" SizeToContent="WidthAndHeight">

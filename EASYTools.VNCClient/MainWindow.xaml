@@ -1,8 +1,8 @@
-﻿<Window x:Class="RemoteDesktopVNCClientApp.MainWindow"
+﻿<Window x:Class="EASYTools.VNCClient.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:rdp="clr-namespace:RemoteDesktopWpf;assembly=RemoteDesktopWpf"
-        xmlns:local="clr-namespace:RemoteDesktopVNCClientApp"
+        xmlns:local="clr-namespace:EASYTools.VNCClient"
         Icon="vncviewer.ico"
         Title="MainWindow" Height="350" Width="525">
     <DockPanel>

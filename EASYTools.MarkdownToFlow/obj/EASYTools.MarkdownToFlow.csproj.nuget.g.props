@@ -5,21 +5,22 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\tatka\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\tatka\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\tatka\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net4.6.2' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net462' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.netframework.analyzers\2.9.4\build\Microsoft.NetFramework.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.analyzers\2.9.4\build\Microsoft.NetFramework.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.analyzers\2.9.4\build\Microsoft.NetCore.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.analyzers\2.9.4\build\Microsoft.NetCore.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codequality.analyzers\2.9.4\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codequality.analyzers\2.9.4\build\Microsoft.CodeQuality.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer\2.9.4\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.versioncheckanalyzer\2.9.4\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'net4.6.2' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net462' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\tatka\.nuget\packages\microsoft.netframework.analyzers\2.9.4</PkgMicrosoft_NetFramework_Analyzers>
     <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\tatka\.nuget\packages\microsoft.netcore.analyzers\2.9.4</PkgMicrosoft_NetCore_Analyzers>
     <PkgMicrosoft_DependencyValidation_Analyzers Condition=" '$(PkgMicrosoft_DependencyValidation_Analyzers)' == '' ">C:\Users\tatka\.nuget\packages\microsoft.dependencyvalidation.analyzers\0.11.0</PkgMicrosoft_DependencyValidation_Analyzers>

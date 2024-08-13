@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|solutionrelative:easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.vnclib\\vncwpfdesktoppolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\vncwpfdesktoppolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|solutionrelative:easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.vnclib\\rfbprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\rfbprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.vnclib\\remotedesktopvncwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\remotedesktopvncwpf.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -119,40 +123,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EASYTools.MarkdownToFlow",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
-              "RelativeToolTip": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-13T00:37:14.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools.MarkdownToHtml",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "RelativeToolTip": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
-              "ViewState": "AgIAADkAAAAAAAAAAAAswEcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:14:37.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EASYTools.ImageEffectLibrary",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "Title": "VncWpfDesktopPolicy.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\VncWpfDesktopPolicy.cs",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\VncWpfDesktopPolicy.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\VncWpfDesktopPolicy.cs",
+              "RelativeToolTip": "EASYTools.VNCLib\\VncWpfDesktopPolicy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-12T21:10:43.473Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T05:08:37.78Z",
               "EditorCaption": ""
             },
             {
@@ -170,6 +148,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RfbProtocol.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\RfbProtocol.cs",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\RfbProtocol.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\RfbProtocol.cs",
+              "RelativeToolTip": "EASYTools.VNCLib\\RfbProtocol.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T05:08:16.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoteDesktopVNCWpf.xaml",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\RemoteDesktopVNCWpf.xaml",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\RemoteDesktopVNCWpf.xaml",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.VNCLib\\RemoteDesktopVNCWpf.xaml",
+              "RelativeToolTip": "EASYTools.VNCLib\\RemoteDesktopVNCWpf.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-13T05:08:05.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Readme.md",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\Readme.md",
+              "RelativeDocumentMoniker": "Readme.md",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\Readme.md",
+              "RelativeToolTip": "Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-13T05:08:03.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

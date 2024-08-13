@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 //
 // This program is free software; you can redistribute it and/or modify
@@ -22,9 +22,9 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Windows.Forms;
 
-using RemoteDesktopVNCWpf.Encodings;
+using EASYTools.VNCLib.Encodings;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	/// <summary>
 	/// Delegate definition of an Event Handler used to indicate a Framebuffer Update has been received.

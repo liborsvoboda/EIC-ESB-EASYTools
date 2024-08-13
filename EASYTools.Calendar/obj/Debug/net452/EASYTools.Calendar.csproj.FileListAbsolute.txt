@@ -1,0 +1,11 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.g.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\bin\Debug\net452\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\bin\Debug\net452\EASYTools.Calendar.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.Calendar\obj\Debug\net452\EASYTools.Calendar.pdb

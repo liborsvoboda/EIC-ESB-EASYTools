@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.TouchKeyboard</id>
+    <version>1.0.0</version>
+    <title>EASYTools.TouchKeyboard</title>
+    <authors>Libor Svoboda</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>WPF Modal Touch Keyboard</description>
+    <tags>Touch keyboard panel kiosk</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="UIAutomationProvider" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\obj\DotnetToolSettings.xml" target="tools\net452\any\DotnetToolSettings.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\EASYTools.TouchKeyboard.dll" target="tools\net452\any\EASYTools.TouchKeyboard.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\EASYTools.TouchKeyboard.pdb" target="tools\net452\any\EASYTools.TouchKeyboard.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\Microsoft.Expression.Interactions.dll" target="tools\net452\any\Microsoft.Expression.Interactions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\System.Windows.Interactivity.dll" target="tools\net452\any\System.Windows.Interactivity.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\Microsoft.Expression.Interactions.xml" target="tools\net452\any\Microsoft.Expression.Interactions.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\System.Windows.Interactivity.xml" target="tools\net452\any\System.Windows.Interactivity.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

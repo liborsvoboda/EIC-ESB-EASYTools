@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.CrashReporter</RootNamespace>
     <AssemblyName>EASYTools.CrashReporter</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworks>net452</TargetFrameworks>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -29,7 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\SRV-NUGETS\DEBUG\EASYTOOL.CrashReporter\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -57,6 +57,29 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>CrashReporter</Title>
+    <Authors>Libor Svoboda</Authors>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>CrashReporter, Email sender on crash App</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>crash; report; fail;email;</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>6.0</AnalysisLevel>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net452|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
@@ -88,50 +111,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="CaptureScreenshot.cs" />
-    <Compile Include="MailUtility.cs" />
-    <Compile Include="ReportCrash.cs" />
-    <Compile Include="ReportEx.cs" />
-    <Compile Include="ucExceptions.xaml.cs">
-      <DependentUpon>ucExceptions.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ucGeneral.xaml.cs">
-      <DependentUpon>ucGeneral.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ucScreenshot.xaml.cs">
-      <DependentUpon>ucScreenshot.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="wdoCrashReport.xaml.cs">
-      <DependentUpon>wdoCrashReport.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <None Include="EasyITGroupWareSolution.snk" />
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="ucExceptions.xaml">
@@ -185,11 +164,20 @@
     <Analyzer Include="..\packages\Microsoft.DependencyValidation.Analyzers.0.10.0\analyzers\dotnet\cs\Microsoft.DependencyValidation.Analyzers.resources.dll" />
     <Analyzer Include="..\packages\Microsoft.DependencyValidation.Analyzers.0.10.0\analyzers\dotnet\Microsoft.DependencyValidation.Analyzers.dll" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
-  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

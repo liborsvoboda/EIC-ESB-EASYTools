@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -22,7 +22,7 @@ using System.Drawing.Imaging;
 using System.Windows.Media.Imaging;
 using System.Windows;
 
-namespace RemoteDesktopVNCWpf.Encodings
+namespace EASYTools.VNCLib.Encodings
 {
 	/// <summary>
 	/// Implementation of CopyRect encoding, as well as drawing support. See RFB Protocol document v. 3.8 section 6.5.2.

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RemoteDesktopVNCWpf.Properties {
+namespace EASYTools.VNCLib.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

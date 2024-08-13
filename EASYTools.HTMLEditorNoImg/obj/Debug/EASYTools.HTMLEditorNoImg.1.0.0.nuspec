@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.HTMLEditorNoImg</id>
+    <version>1.0.0</version>
+    <title>HTMLEditorNoImg</title>
+    <authors>Libor Svoboda</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>WPF HTMLEditor based MSHTML on Language  Translation Support
+with image upload from URL</description>
+    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
+    <tags>WPF,html, editor,htmleditor</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationFramework.Classic" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net462/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\obj\DotnetToolSettings.xml" target="tools\net462\any\DotnetToolSettings.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\EASYTools.HTMLEditorNoImg.dll" target="tools\net462\any\EASYTools.HTMLEditorNoImg.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\EASYTools.HTMLEditorNoImg.pdb" target="tools\net462\any\EASYTools.HTMLEditorNoImg.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Aero.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Aero.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Metro.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Metro.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Toolkit.dll" target="tools\net462\any\Xceed.Wpf.Toolkit.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\de\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\de\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\es\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\es\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\fr\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\fr\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\hu\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\hu\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\it\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\it\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ja-JP\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ja-JP\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ro\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ro\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ru\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ru\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\sv\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\sv\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

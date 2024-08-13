@@ -117,474 +117,6 @@
           "lib/net40/Microsoft.mshtml.dll": {}
         }
       }
-    },
-    ".NETFramework,Version=v4.6.2/win": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net45/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.Extensions/4.7.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.ResourceManager/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Unofficial.Microsoft.mshtml.NetStandard/7.0.3300.2": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win-arm64": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net45/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.Extensions/4.7.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.ResourceManager/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Unofficial.Microsoft.mshtml.NetStandard/7.0.3300.2": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win-x64": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net45/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.Extensions/4.7.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.ResourceManager/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Unofficial.Microsoft.mshtml.NetStandard/7.0.3300.2": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.6.2/win-x86": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      },
-      "System.Buffers/4.5.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net45/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Buffers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Memory.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Numerics",
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.Extensions/4.7.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "frameworkAssemblies": [
-          "System",
-          "mscorlib"
-        ],
-        "compile": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Resources.Extensions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Resources.ResourceManager/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Unofficial.Microsoft.mshtml.NetStandard/7.0.3300.2": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.mshtml.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -848,7 +380,8 @@
   },
   "packageFolders": {
     "C:\\Users\\tatka\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -859,9 +392,10 @@
       "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
       "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor\\obj\\",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
+      "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\tatka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -873,13 +407,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
       },
       "frameworks": {
         "net462": {
+          "targetAlias": "net462",
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
@@ -889,6 +430,7 @@
     },
     "frameworks": {
       "net462": {
+        "targetAlias": "net462",
         "dependencies": {
           "Microsoft.DependencyValidation.Analyzers": {
             "target": "Package",
@@ -906,21 +448,8 @@
             "target": "Package",
             "version": "[7.0.3300.2, )"
           }
-        }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-arm64": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
       }
     }
   }

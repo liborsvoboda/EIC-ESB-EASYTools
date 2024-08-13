@@ -1,0 +1,12 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.MarkDownToFlow\net462\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.MarkDownToFlow\net462\EASYTools.MarkdownToFlow.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.pdb

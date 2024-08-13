@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.NetworkInformation;
 
-namespace RemoteDesktopVNCClientApp
+namespace EASYTools.VNCClient
 {
     class LocalAddressService
     {

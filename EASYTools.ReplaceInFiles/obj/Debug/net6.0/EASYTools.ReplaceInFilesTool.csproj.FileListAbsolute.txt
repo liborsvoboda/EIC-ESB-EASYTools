@@ -33,7 +33,6 @@ E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.AssemblyInfo.cs
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.csproj.CoreCompileInputs.cache
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.dll
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\refint\EASYTools.ReplaceInFilesTool.dll
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.pdb
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\EASYTools.ReplaceInFilesTool.exe
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\EASYTools.ReplaceInFilesTool.deps.json
@@ -41,4 +40,9 @@ E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\EASYTools.ReplaceInFilesTool.dll
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\EASYTools.ReplaceInFilesTool.pdb
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.genruntimeconfig.cache
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\ref\EASYTools.ReplaceInFilesTool.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\EASYTools.ReplaceInFilesTool.exe
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\EASYTools.ReplaceInFilesTool.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\EASYTools.ReplaceInFilesTool.runtimeconfig.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\EASYTools.ReplaceInFilesTool.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\bin\Debug\net6.0\EASYTools.ReplaceInFilesTool.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ReplaceInFiles\obj\Debug\net6.0\EASYTools.ReplaceInFilesTool.sourcelink.json

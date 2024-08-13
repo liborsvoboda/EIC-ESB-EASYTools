@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.HTMLFullEditor</id>
+    <version>1.0.0</version>
+    <title>HTMLFullEditor</title>
+    <authors>Libor Svoboda</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>WPF HTMLEditor based MSHTML on Language  Translation Support
+with image upload as content</description>
+    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
+    <tags>WPF,html, editor,htmleditor</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net462/Code/ResourceHelper.Icons.tt" buildAction="Content" />
+      <files include="any/net462/favicon.ico" buildAction="Content" />
+      <files include="any/net462/Localization/ResourceManager.Texts.tt" buildAction="Content" />
+      <files include="any/net462/Resources/Microsoft.mshtml.dll" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\obj\DotnetToolSettings.xml" target="tools\net462\any\DotnetToolSettings.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.dll" target="tools\net462\any\EASYTools.HTMLFullEditor.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.pdb" target="tools\net462\any\EASYTools.HTMLFullEditor.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Buffers.dll" target="tools\net462\any\System.Buffers.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Memory.dll" target="tools\net462\any\System.Memory.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Numerics.Vectors.dll" target="tools\net462\any\System.Numerics.Vectors.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Resources.Extensions.dll" target="tools\net462\any\System.Resources.Extensions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Runtime.CompilerServices.Unsafe.dll" target="tools\net462\any\System.Runtime.CompilerServices.Unsafe.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\Microsoft.mshtml.dll" target="tools\net462\any\Microsoft.mshtml.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="content\Code\ResourceHelper.Icons.tt" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="contentFiles\any\net462\Code\ResourceHelper.Icons.tt" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="content\Localization\ResourceManager.Texts.tt" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="contentFiles\any\net462\Localization\ResourceManager.Texts.tt" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="content\Resources\Microsoft.mshtml.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="contentFiles\any\net462\Resources\Microsoft.mshtml.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

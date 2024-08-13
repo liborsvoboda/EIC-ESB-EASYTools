@@ -1,4 +1,4 @@
-﻿// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+﻿// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -29,7 +29,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
     /// <summary>
     /// PasswordDialogWpf.xaml の相互作用ロジック

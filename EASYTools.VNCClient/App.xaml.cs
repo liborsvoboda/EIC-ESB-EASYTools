@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace RemoteDesktopVNCClientApp
+namespace EASYTools.VNCClient
 {
     /// <summary>
     /// App.xaml の相互作用ロジック

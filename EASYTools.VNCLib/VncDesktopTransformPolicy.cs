@@ -1,4 +1,4 @@
-// RemoteDesktopVNCWpf - .NET VNC Client for WPF Library
+// EASYTools.VNCLib - .NET VNC Client for WPF Library
 // Copyright (C) 2008 David Humphrey
 // Copyright (C) 2011 Masanori Nakano (Modified VncSharp for WPF)
 //
@@ -20,9 +20,9 @@ using System;
 //using System.Windows.Forms;
 using System.Drawing;
 
-using RemoteDesktopVNCWpf;
+using EASYTools.VNCLib;
 
-namespace RemoteDesktopVNCWpf
+namespace EASYTools.VNCLib
 {
 	/// <summary>
 	/// Base class for desktop clipping/scaling policies.  Used by RemoteDesktop.
@@ -30,10 +30,10 @@ namespace RemoteDesktopVNCWpf
 	public abstract class VncDesktopTransformPolicy
 	{
         protected VncClient vnc;
-        protected RemoteDesktopVNCWpf remoteDesktop;
+        protected EASYTools.VNCLib remoteDesktop;
 
         public VncDesktopTransformPolicy(VncClient vnc,
-                                         RemoteDesktopVNCWpf remoteDesktop)
+                                         EASYTools.VNCLib remoteDesktop)
         {
             this.vnc = vnc;
             this.remoteDesktop = remoteDesktop;

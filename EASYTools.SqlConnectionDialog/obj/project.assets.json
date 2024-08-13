@@ -1,85 +1,16 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.5.2": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      }
-    },
-    ".NETFramework,Version=v4.5.2/win": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      }
-    },
-    ".NETFramework,Version=v4.5.2/win-arm64": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      }
-    },
-    ".NETFramework,Version=v4.5.2/win-x64": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      }
-    },
-    ".NETFramework,Version=v4.5.2/win-x86": {
-      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System"
-        ]
-      }
-    }
+    ".NETFramework,Version=v4.5.2": {}
   },
-  "libraries": {
-    "Microsoft.DependencyValidation.Analyzers/0.11.0": {
-      "sha512": "3xBVhMsM4o9cDpsvmlv78T1FG+cTH8i6bjl1Irk6hoIwEc6Ekoz4mKAR6Hn5M/2G2ZsHNrYBNwGkgF7aiw74UA==",
-      "type": "package",
-      "path": "microsoft.dependencyvalidation.analyzers/0.11.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/Microsoft.DependencyValidation.Analyzers.dll",
-        "analyzers/dotnet/cs/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/de/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/es/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/fr/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/it/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/ja/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/ko/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/pl/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/pt-BR/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/ru/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/tr/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/zh-HANS/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "analyzers/dotnet/zh-HANT/Microsoft.DependencyValidation.Analyzers.resources.dll",
-        "microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
-        "microsoft.dependencyvalidation.analyzers.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.5.2": [
-      "Microsoft.DependencyValidation.Analyzers >= 0.11.0"
-    ]
+    ".NETFramework,Version=v4.5.2": []
   },
   "packageFolders": {
     "C:\\Users\\tatka\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -90,9 +21,10 @@
       "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
       "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.SqlConnectionDialog\\obj\\",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
+      "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\tatka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,13 +36,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
       },
       "frameworks": {
         "net452": {
+          "targetAlias": "net452",
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
@@ -120,26 +59,8 @@
     },
     "frameworks": {
       "net452": {
-        "dependencies": {
-          "Microsoft.DependencyValidation.Analyzers": {
-            "target": "Package",
-            "version": "[0.11.0, )"
-          }
-        }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-arm64": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
+        "targetAlias": "net452",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
       }
     }
   }

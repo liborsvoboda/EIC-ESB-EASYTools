@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,7 +7,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.HTMLFullEditor.Locale.Override</RootNamespace>
     <AssemblyName>EASYTools.HTMLFullEditor.Locale.Override</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworks>net462</TargetFrameworks>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -18,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\SRV-NUGETS\DEBUG\EASYTOOL.HTMLFullEditor\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -39,6 +37,29 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Libor Svoboda</Authors>
+    <Title>HTMLFullEditor.Locale.Override</Title>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>WPF HTMLEditor based MSHTML on Language  Translation Support
+with image upload as content</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>WPF,html, editor,htmleditor</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>6.0</AnalysisLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,26 +71,24 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.csproj">
-      <Project>{04009E2D-9E54-423F-B6F0-62E15F1C8AE8}</Project>
-      <Name>EASYTools.HTMLFullEditor</Name>
-    </ProjectReference>
-  </ItemGroup>
+ 
   <ItemGroup>
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="EasyITGroupWareSolution.snk" />
+    <None Include="Readme.md" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.DependencyValidation.Analyzers">
-      <Version>0.11.0</Version>
-    </PackageReference>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

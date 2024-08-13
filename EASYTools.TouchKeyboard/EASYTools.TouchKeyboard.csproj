@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,28 +10,34 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.TouchKeyboard</RootNamespace>
     <AssemblyName>EASYTools.TouchKeyboard</AssemblyName>
-    <TargetFrameworks>net4.5.2</TargetFrameworks>
+    <TargetFrameworks>net452</TargetFrameworks>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <TargetFrameworkProfile />
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <BaseOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.TouchKeyboard</BaseOutputPath>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>EASYTools.TouchKeyboard</PackageId>
     <Title>EASYTools.TouchKeyboard</Title>
     <Authors>Libor Svoboda</Authors>
-    <Company>GroupWare Solution Eu</Company>
+    <Company>GroupWare-Solution.Eu</Company>
     <Product>EASYTools.TouchKeyboard</Product>
-    <Description>WPF Modal Touch KEyboard</Description>
+    <Description>WPF Modal Touch Keyboard </Description>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>True</PackAsTool>
     <ToolCommandName>EASYTools.TouchKeyboard</ToolCommandName>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>Touch;keyboard;panel;kiosk;</PackageTags>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +67,12 @@
   <PropertyGroup Condition="'$(TargetFramework)'=='net4.5.2'">
     <IsPublishable>True</IsPublishable>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net452|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
@@ -89,66 +101,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\AutoHideBehavior.cs" />
-    <Compile Include="Controls\FloatingTouchScreenKeyboard.xaml.cs">
-      <DependentUpon>FloatingTouchScreenKeyboard.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\OnScreenKeyEventArgs.cs" />
-    <Compile Include="Input\Native\HARDWAREINPUT.cs" />
-    <Compile Include="Input\Native\INPUT.cs" />
-    <Compile Include="Input\InputSimulator.cs" />
-    <Compile Include="Input\Native\KEYBDINPUT.cs" />
-    <Compile Include="Input\Native\MOUSEINPUT.cs" />
-    <Compile Include="Input\Native\MOUSEKEYBDHARDWAREINPUT.cs" />
-    <Compile Include="Input\VirtualKeyCode.cs" />
-    <Compile Include="LogicalKeys\CaseSensitiveKey.cs" />
-    <Compile Include="LogicalKeys\ChordKey.cs" />
-    <Compile Include="LogicalKeys\EmptyKey.cs" />
-    <Compile Include="LogicalKeys\ILogicalKey.cs" />
-    <Compile Include="LogicalKeys\InstantaneousModifierKey.cs" />
-    <Compile Include="LogicalKeys\LogicalKeyBase.cs" />
-    <Compile Include="LogicalKeys\ModifierKeyBase.cs" />
-    <Compile Include="LogicalKeys\MultiCharacterKey.cs" />
-    <Compile Include="LogicalKeys\NumLockSensitiveKey.cs" />
-    <Compile Include="LogicalKeys\ShiftSensitiveKey.cs" />
-    <Compile Include="LogicalKeys\StringKey.cs" />
-    <Compile Include="LogicalKeys\TogglingModifierKey.cs" />
-    <Compile Include="LogicalKeys\VirtualKey.cs" />
-    <Compile Include="Controls\OnScreenKey.cs" />
-    <Compile Include="Controls\OnScreenKeyboard.cs" />
-    <Compile Include="Controls\OnScreenKeyboardSection.cs" />
-    <Compile Include="Controls\OnScreenKeypad.cs" />
-    <Compile Include="Controls\OnScreenWebKeyboard.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="Controls\UniformOnScreenKeyboard.cs" />
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <None Include="..\groupware-solution.eu.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="Controls\FloatingTouchScreenKeyboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -159,18 +111,17 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\..\packages\Microsoft.DependencyValidation.Analyzers.0.11.0\analyzers\dotnet\cs\Microsoft.DependencyValidation.Analyzers.resources.dll" />
-    <Analyzer Include="..\..\packages\Microsoft.DependencyValidation.Analyzers.0.11.0\analyzers\dotnet\Microsoft.DependencyValidation.Analyzers.dll" />
+    <None Include="..\groupware-solution.eu.png" Link="groupware-solution.eu.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="favicon.ico" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

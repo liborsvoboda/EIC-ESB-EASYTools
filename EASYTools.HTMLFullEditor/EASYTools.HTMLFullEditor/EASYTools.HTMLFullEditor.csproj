@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.HTMLFullEditor</RootNamespace>
     <AssemblyName>EASYTools.HTMLFullEditor</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworks>net462</TargetFrameworks>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -18,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\SRV-NUGETS\DEBUG\EASYTOOL.HTMLFullEditor\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -58,89 +57,19 @@
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Annotations\Annotations.cs" />
-    <Compile Include="Code\Interop\DWebBrowserEvents2.cs" />
-    <Compile Include="Code\Interop\InteropHelper.cs" />
-    <Compile Include="Code\Interop\TimeConstants.cs" />
-    <Compile Include="Code\Interop\WebBrowserEventSubscriber.cs" />
-    <Compile Include="Code\Extensions.cs" />
-    <Compile Include="Code\Internal\BackgroundColorButton.cs" />
-    <Compile Include="Code\Internal\ColorButtonBase.cs" />
-    <Compile Include="Code\Internal\ColorPickerControl.cs" />
-    <Compile Include="Code\Internal\BrowserContextMenu.cs" />
-    <Compile Include="Code\Internal\FontPickerElement.cs" />
-    <Compile Include="Code\Internal\HighlightColorButton.cs" />
-    <Compile Include="Code\Internal\ImageButton.cs" />
-    <Compile Include="Code\Internal\LinkButton.cs" />
-    <Compile Include="Code\Internal\ResourceExtension.cs" />
-    <Compile Include="Code\Internal\ShowHtmlButton.cs" />
-    <Compile Include="Code\Internal\TemplateGenerator.cs" />
-    <Compile Include="Code\ResourceHelper.Icons.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceHelper.Icons.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Code\StandardToolbarElement.cs" />
-    <Compile Include="Code\Throttler.cs" />
-    <Compile Include="Code\Utils.cs" />
-    <Compile Include="Code\ResourceHelper.cs" />
-    <Compile Include="Code\Internal\TextColorButton.cs" />
-    <Compile Include="Code\ToolbarSplitButton.cs" />
-    <Compile Include="Dialogs\DialogBase.cs" />
-    <Compile Include="Dialogs\HyperlinkDialog.xaml.cs">
-      <DependentUpon>HyperlinkDialog.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Dialogs\ImageDialog.xaml.cs">
-      <DependentUpon>ImageDialog.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Html\FontSize.cs" />
-    <Compile Include="Code\Internal\FontSizePicker.cs" />
-    <Compile Include="Code\ToolbarButton.cs" />
-    <Compile Include="Code\ToolbarCommands.cs" />
-    <Compile Include="Code\ToolbarElement.cs" />
-    <Compile Include="Code\ToolbarSeparatorElement.cs" />
-    <Compile Include="HtmlEditor.cs" />
-    <Compile Include="Html\SelectedRange.cs" />
-    <Compile Include="Interfaces\IBrowserControl.cs" />
-    <Compile Include="Localization\DefaultResources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DefaultResources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Localization\IResourceManager.cs" />
-    <Compile Include="Localization\ResourceManager.cs" />
-    <Compile Include="Localization\ResourceManager.Texts.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceManager.Texts.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\AssemblyVersion.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModels\ToolbarViewModel.cs" />
-    <Compile Include="Views\EditorBrowser.cs" />
-    <Compile Include="Views\EditorToolbar.xaml.cs">
-      <DependentUpon>EditorToolbar.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Localization\DefaultResources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>DefaultResources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
+   <ItemGroup>
+    <None Include="..\..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="EasyITGroupWareSolution.snk" />
     <None Include="Resources\Empty.html" />
   </ItemGroup>
@@ -198,9 +127,31 @@
       <Version>7.0.3300.2</Version>
     </PackageReference>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Libor Svoboda</Authors>
+    <Title>HTMLFullEditor</Title>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>WPF HTMLEditor based MSHTML on Language  Translation Support
+with image upload as content</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>WPF,html, editor,htmleditor</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>6.0</AnalysisLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net462|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 </Project>

@@ -5,21 +5,36 @@
     <TargetFrameworks>net4.6.2;</TargetFrameworks>
     <StartupObject>EASYTools.GetIPOwnerInfoTool.Program</StartupObject>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
-    <BaseOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.GetIPOwnerInfo</BaseOutputPath>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>GetIPOwnerInfo</Title>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>True</PackAsTool>
-    <IncludeSymbols>True</IncludeSymbols>
+    <IncludeSymbols>False</IncludeSymbols>
     <AnalysisLevel>6.0</AnalysisLevel>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <Authors>Libor Svoboda</Authors>
+    <Company>GroupWare-Solution.Eu</Company>
+    <Description>Get WHoIs for List IP over Free public API</Description>
+    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageTags>Whois;IPinfo;API;</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="FakesAssemblies\**" />
-    <EmbeddedResource Remove="FakesAssemblies\**" />
-    <None Remove="FakesAssemblies\**" />
-  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net4.6.2|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net4.6.2|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
 
   <ItemGroup>
     <None Remove="config.json" />
@@ -44,6 +59,14 @@
 
   <ItemGroup>
     <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

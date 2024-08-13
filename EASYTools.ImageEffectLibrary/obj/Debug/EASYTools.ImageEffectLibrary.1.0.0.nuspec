@@ -1,26 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>EASYTools.ImageEffectLibrary</id>
     <version>1.0.0</version>
     <title>ImageEffectGallery</title>
-    <authors>EASYTools.ImageEffectLibrary</authors>
+    <authors>Libor Svoboda</authors>
     <icon>groupware-solution.eu.png</icon>
-    <description>Package Description</description>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>Image Effect Library</description>
+    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <packageTypes>
       <packageType name="DotnetTool" />
     </packageTypes>
-    <repository type="git" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="bf6c712bf7a71dee3295341167054f4493b24677" />
     <contentFiles>
       <files include="any/net452/favicon.ico" buildAction="Content" />
     </contentFiles>
   </metadata>
   <files>
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\obj\DotnetToolSettings.xml" target="tools\net452\any\DotnetToolSettings.xml" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.ImageEffectGallery\Debug\net452\publish\EASYTools.ImageEffectLibrary.dll" target="tools\net452\any\EASYTools.ImageEffectLibrary.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTOOL.ImageEffectGallery\Debug\net452\publish\EASYTools.ImageEffectLibrary.pdb" target="tools\net452\any\EASYTools.ImageEffectLibrary.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\bin\Debug\net452\publish\EASYTools.ImageEffectLibrary.dll" target="tools\net452\any\EASYTools.ImageEffectLibrary.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\bin\Debug\net452\publish\EASYTools.ImageEffectLibrary.pdb" target="tools\net452\any\EASYTools.ImageEffectLibrary.pdb" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\favicon.ico" target="content\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\favicon.ico" target="contentFiles\any\net452\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
   </files>
 </package>

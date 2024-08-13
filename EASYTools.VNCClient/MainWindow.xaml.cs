@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using RemoteDesktopWpf;
 
-namespace RemoteDesktopVNCClientApp
+namespace EASYTools.VNCClient
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
