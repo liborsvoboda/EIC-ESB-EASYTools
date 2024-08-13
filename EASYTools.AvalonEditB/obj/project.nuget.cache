@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CbehZV75Oyo=",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-CENTER\\EASY-TOOLS\\EASYTools.AvalonEditB\\EASYTools.AvalonEditB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.build.tasks.git\\8.0.0\\microsoft.build.tasks.git.8.0.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.sourcelink.common\\8.0.0\\microsoft.sourcelink.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.sourcelink.github\\8.0.0\\microsoft.sourcelink.github.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

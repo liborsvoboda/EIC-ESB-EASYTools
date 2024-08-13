@@ -1,0 +1,14 @@
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.csproj.AssemblyReference.cache
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\PasswordDialogWpf.baml
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\RemoteDesktopWpf.baml
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\PasswordDialogWpf.g.cs
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\RemoteDesktopWpf.g.cs
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf_MarkupCompile.cache
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.g.resources
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.Properties.Resources.resources
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.csproj.GenerateResource.cache
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\bin\Debug\VncSharpWpf.dll
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\bin\Debug\VncSharpWpf.pdb
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.csproj.CoreCompileInputs.cache
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.dll
+C:\Users\tatka\Desktop\meet\VncSharpWpf-master\VncSharpWpf\obj\x86\Debug\VncSharpWpf.pdb

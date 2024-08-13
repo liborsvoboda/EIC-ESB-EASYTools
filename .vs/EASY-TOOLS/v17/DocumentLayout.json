@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.CrashReporter||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.Calendar||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EASYTools.HTMLFullEditor.Locale.Default||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|solutionrelative:easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC1FF81E-F694-4B1B-9E04-3DEB2DE00B6A}|EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.htmlfulleditor\\easytools.htmlfulleditor.locale.default\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C3B4A7-504B-4EFF-BACC-C8F2FFE5AF6F}|EASYTools.Calendar\\EASYTools.Calendar.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.calendar\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\easyit-wpftools\\easytools.crashreporter\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 231,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 269,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 113,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.CrashReporter",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeDocumentMoniker": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeToolTip": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-13T00:41:12.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EASYTools.Calendar",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "RelativeDocumentMoniker": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "RelativeToolTip": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-13T00:41:09.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EASYTools.HTMLFullEditor.Locale.Default",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
+              "RelativeDocumentMoniker": "EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
+              "RelativeToolTip": "EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-13T00:40:53.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EASYTools.MarkdownToHtml",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeToolTip": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T21:14:37.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.ImageEffectLibrary",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-12T21:10:43.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{260978c3-582c-487d-ab12-c1fdde07c578}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 210,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{244df7ea-d757-4b52-b92c-efd2d3402c91}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b5f11fb0-b57a-4767-9bf6-2327c74d90f4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

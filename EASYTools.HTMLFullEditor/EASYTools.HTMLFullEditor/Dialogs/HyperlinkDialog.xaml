@@ -1,0 +1,40 @@
+﻿<local:DialogBase x:Class="EASYTools.HTMLFullEditor.Dialogs.HyperlinkDialog"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:local="clr-namespace:EASYTools.HTMLFullEditor.Dialogs"
+            xmlns:code="clr-namespace:EASYTools.HTMLFullEditor.Code"
+            xmlns:resx="clr-namespace:EASYTools.HTMLFullEditor.Localization"
+            Title="{code:Resource Member=resx:ResourceManager.Text_Link}"
+            Width="400"
+            Height="160">
+    <local:DialogBase.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EASYTools.HTMLFullEditor;component/Resources/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </local:DialogBase.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="{code:Resource Member=resx:ResourceManager.LinkForm_Text}" Target="{Binding ElementName=TxtText}" MouseLeftButtonUp="LabelClicked"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Text}" GotFocus="TextBoxSelectOnFocus" Name="TxtText"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="{code:Resource Member=resx:ResourceManager.LinkForm_Url}" Target="{Binding ElementName=TxtUrl}" MouseLeftButtonUp="LabelClicked" />
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Url}" GotFocus="TextBoxSelectOnFocus" Name="TxtUrl"/>
+
+        <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button Content="{code:Resource Member=resx:ResourceManager.Form_OK}" IsDefault="True" Click="OkClicked" />
+                <Button Content="{code:Resource Member=resx:ResourceManager.Form_Cancel}" IsCancel="True" Click="CancelClicked" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</local:DialogBase>

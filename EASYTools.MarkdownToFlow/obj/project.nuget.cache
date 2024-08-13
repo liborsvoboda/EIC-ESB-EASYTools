@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "6dE0tiw5Low=",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\2.9.4\\microsoft.codeanalysis.versioncheckanalyzer.2.9.4.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.codequality.analyzers\\2.9.4\\microsoft.codequality.analyzers.2.9.4.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.netcore.analyzers\\2.9.4\\microsoft.netcore.analyzers.2.9.4.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.netframework.analyzers\\2.9.4\\microsoft.netframework.analyzers.2.9.4.nupkg.sha512"
+  ],
+  "logs": []
+}

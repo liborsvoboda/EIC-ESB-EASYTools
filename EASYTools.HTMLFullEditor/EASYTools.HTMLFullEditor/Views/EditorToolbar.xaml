@@ -1,0 +1,127 @@
+﻿<UserControl
+    x:Class="EASYTools.HTMLFullEditor.Views.EditorToolbar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="26"
+    d:DesignWidth="800"
+    x:ClassModifier="internal"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EASYTools.HTMLFullEditor;component/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <ToolBarTray>
+        <!--  CommandBar is managed dynamically, this is just for preview/design purposes:  -->
+        <ToolBar x:Name="CommandBar" ToolBarTray.IsLocked="True">
+            <!--  Styles for disabled Paths/Images  -->
+            <ToolBar.Resources>
+                <Style TargetType="Path">
+                    <Style.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+                <Style TargetType="Image">
+                    <Style.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ToolBar.Resources>
+
+            <ComboBox Width="128" />
+            <ComboBox Width="42" />
+            <Separator />
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_Bold}" />
+            </ToggleButton>
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_Italic}" />
+            </ToggleButton>
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_Underline}" />
+            </ToggleButton>
+            <Separator />
+            <Button Padding="2,2,0,2">
+                <Viewbox Height="16">
+                    <Grid>
+                        <ContentControl Margin="-2,0,2,0" Content="{StaticResource Icon_HighlightColor_Main}" />
+                        <ContentControl Margin="-2,0,2,0" Content="{StaticResource Icon_HighlightColor_Underscore}" />
+                    </Grid>
+                </Viewbox>
+            </Button>
+            <ToggleButton Margin="0" Padding="0,7,2,7">
+                <ContentControl Content="{StaticResource Icon_DropDownArrow}" />
+            </ToggleButton>
+            <Button Padding="2,2,0,2">
+                <Viewbox Height="16">
+                    <Grid>
+                        <ContentControl Margin="-2,0,2,0" Content="{StaticResource Icon_TextColor_Main}" />
+                        <ContentControl Margin="-2,0,2,0" Content="{StaticResource Icon_TextColor_Underscore}" />
+                    </Grid>
+                </Viewbox>
+            </Button>
+            <ToggleButton Margin="0" Padding="0,7,2,7">
+                <ContentControl Content="{StaticResource Icon_DropDownArrow}" />
+            </ToggleButton>
+            <Separator />
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_AlignLeft}" />
+            </ToggleButton>
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_AlignCenter}" />
+            </ToggleButton>
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_AlignRight}" />
+            </ToggleButton>
+            <Separator />
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_BulletList}" />
+            </ToggleButton>
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_NumberedList}" />
+            </ToggleButton>
+            <Separator />
+            <Button>
+                <ContentControl Content="{StaticResource Icon_Outdent}" />
+            </Button>
+            <Button>
+                <ContentControl Content="{StaticResource Icon_Indent}" />
+            </Button>
+            <Separator />
+            <ToggleButton>
+                <Viewbox Height="16">
+                    <Grid>
+                        <ContentControl Content="{StaticResource Icon_Bucket_Main}" />
+                        <ContentControl Content="{StaticResource Icon_Bucket_UnderscoreAndDrop}" />
+                    </Grid>
+                </Viewbox>
+            </ToggleButton>
+            <Button>
+                <ContentControl Content="{StaticResource Icon_Image}" />
+            </Button>
+            <Button>
+                <ContentControl Content="{StaticResource Icon_Earth}" />
+            </Button>
+            <Separator />
+            <ToggleButton>
+                <ContentControl Content="{StaticResource Icon_Code}" />
+            </ToggleButton>
+            <!--<Separator/>
+            <Label Margin="0" Padding="0 2">Test:</Label>
+            <Button><ContentControl Content="{StaticResource Icon_Signature}"/></Button>
+            <Button><ContentControl Content="{StaticResource Icon_EmptyFile}"/></Button>
+            <Button><ContentControl Content="{StaticResource Icon_AddFile}"/></Button>
+            <Button><ContentControl Content="{StaticResource Icon_NewFile}"/></Button>
+            <Button><ContentControl Content="{StaticResource Icon_Save}"/></Button>-->
+        </ToolBar>
+    </ToolBarTray>
+</UserControl>

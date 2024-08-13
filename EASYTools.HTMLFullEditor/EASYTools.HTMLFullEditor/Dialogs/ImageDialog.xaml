@@ -1,0 +1,93 @@
+﻿<local:DialogBase x:Class="EASYTools.HTMLFullEditor.Dialogs.ImageDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EASYTools.HTMLFullEditor.Dialogs"
+             xmlns:code="clr-namespace:EASYTools.HTMLFullEditor.Code"
+             xmlns:resx="clr-namespace:EASYTools.HTMLFullEditor.Localization"
+             Title="{code:Resource Member=resx:ResourceManager.Text_Image}"
+             Width="600"
+             Height="407">
+    <local:DialogBase.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/EASYTools.HTMLFullEditor;component/Resources/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </local:DialogBase.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Content="{code:Resource Member=resx:ResourceManager.ImageForm_Path}" Target="{Binding ElementName=TxtPath}" MouseLeftButtonUp="LabelClicked"/>
+            <TextBox Grid.Column="1" Name="TxtPath" Text="{Binding Path=ImagePath, Mode=OneWay}" IsReadOnly="True" />
+            <Button Grid.Column="2" Content="{code:Resource Member=resx:ResourceManager.Form_Browse}" Click="BrowseClick"></Button>
+        </Grid>
+
+        <Border Grid.Row="1" Grid.Column="0" Background="WhiteSmoke" BorderThickness="1" BorderBrush="Gray">
+            <Grid>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="DarkSlateGray" Text="{code:Resource resx:ResourceManager.ImageForm_Preview}"/>
+                <ScrollViewer x:Name="PreviewScroll" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                    <Image Source="{Binding ImageSource}" Stretch="Uniform" Name="ImagePreview"/>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="{code:Resource resx:ResourceManager.ImageForm_Title}" Target="{Binding ElementName=TxtTitle}" MouseLeftButtonUp="LabelClicked"/>
+            <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Name="TxtTitle" Text="{Binding ImageTitle}" IsEnabled="{Binding IsSuccess}"/>
+
+            <Label Grid.Row="1" Grid.Column="0" Content="{code:Resource resx:ResourceManager.ImageForm_Width}" Target="{Binding ElementName=TxtWidth}" MouseLeftButtonUp="LabelClicked"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Name="TxtWidth" Text="{Binding ImageWidth}" IsEnabled="{Binding IsSuccess}"/>
+            <Label Grid.Row="1" Grid.Column="2" Content="{code:Resource resx:ResourceManager.ImageForm_Height}" Target="{Binding ElementName=TxtHeight}" MouseLeftButtonUp="LabelClicked"/>
+            <TextBox Grid.Row="1" Grid.Column="3" Name="TxtHeight" Text="{Binding ImageHeight}" IsEnabled="{Binding IsSuccess}"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="{code:Resource Member=resx:ResourceManager.ImageForm_Size}" Target="{Binding ElementName=SliderSize}" MouseLeftButtonUp="LabelClicked"/>
+            <Slider Grid.Row="2" Grid.Column="1" Name="SliderSize" Grid.ColumnSpan="3" Minimum="1" Maximum="100" TickPlacement="BottomRight" TickFrequency="5" Value="{Binding ReduceCoefficient}" IsEnabled="{Binding IsSuccess}" />
+
+            <CheckBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" IsChecked="{Binding DoPhysicalResize}">
+                <TextBlock Text="{code:Resource Member=resx:ResourceManager.ImageForm_DoPhysicalResize}"/>
+            </CheckBox>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <CheckBox IsChecked="{Binding ShowRealSize}">
+                <TextBlock Text="{code:Resource Member=resx:ResourceManager.ImageForm_ShowRealSize}"/>
+            </CheckBox>
+        </StackPanel>
+
+        <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button Content="{code:Resource Member=resx:ResourceManager.Form_OK}" Click="OkClicked" IsEnabled="{Binding IsSuccess}" />
+                <Button Content="{code:Resource Member=resx:ResourceManager.Form_Cancel}" IsCancel="True" Click="CancelClicked" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</local:DialogBase>

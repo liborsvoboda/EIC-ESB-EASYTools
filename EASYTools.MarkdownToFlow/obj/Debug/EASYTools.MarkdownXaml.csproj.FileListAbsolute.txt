@@ -1,0 +1,6 @@
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\build\Markdown.Xaml\Debug\EASYTools.MarkdownXaml.dll
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\build\Markdown.Xaml\Debug\EASYTools.MarkdownXaml.pdb
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.MarkdownViewer\obj\Debug\EASYTools.MarkdownXaml.csproj.AssemblyReference.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.MarkdownViewer\obj\Debug\EASYTools.MarkdownXaml.csproj.CoreCompileInputs.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.MarkdownViewer\obj\Debug\EASYTools.MarkdownXaml.dll
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.MarkdownViewer\obj\Debug\EASYTools.MarkdownXaml.pdb

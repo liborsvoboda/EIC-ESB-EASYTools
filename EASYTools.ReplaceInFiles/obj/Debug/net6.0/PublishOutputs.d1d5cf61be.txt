@@ -1,0 +1,5 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.exe
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.runtimeconfig.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\DEBUG\EASYTools.ReplaceInFiles\Debug\net6.0\publish\EASYTools.ReplaceInFilesTool.pdb

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>    
+    <TargetFrameworks>net462</TargetFrameworks>   
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>    
+    <DefineConstants>TRACE</DefineConstants>
+
+    <!-- <NeutralLanguage>en</NeutralLanguage> error? -->
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>    <!--to only have the english resources-->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <RootNamespace>EASYTools.AvalonEditB</RootNamespace>
+    <AssemblyName>EASYTools.AvalonEditB</AssemblyName>
+    <AssemblyTitle>AvalonEditB</AssemblyTitle>
+    <Title>AvalonEditB</Title>  
+    <Product>AvalonEditB</Product>
+    <PackageId>AvalonEditB</PackageId> 
+    
+    <Version>2.2.0</Version>
+    <AssemblyVersion>2.2.0</AssemblyVersion>
+    <FileVersion>2.2.0</FileVersion>
+    <PackageReleaseNotes>
+      - fix key handling when completion list box is invisible.
+      - FoldingManger.AutoRedrawFoldingSections = true ( by default)
+      - Disable email links
+    </PackageReleaseNotes>
+
+    <Authors>GoswinR</Authors>
+    <Copyright>Goswin Rothenthal 2021</Copyright>    
+    <Description>A fork of the TextEditor AvalonEdit with small changes.</Description>
+    <PackageDescription>A fork of the AvalonEdit TextEditor with small changes.</PackageDescription> <!--this desc is used by Nuget --> 
+
+    <!-- <SignAssembly>true</SignAssembly> <AssemblyOriginatorKeyFile>AvalonEditB.snk</AssemblyOriginatorKeyFile>  not needed anymore? snk file removed     -->
+
+  </PropertyGroup>
+   <PropertyGroup>  
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>      
+    <IncludeSymbols>true</IncludeSymbols>
+    <!--<SymbolPackageFormat>snupkg</SymbolPackageFormat>-->  <!-- using  snupkg the readme does not pack https://github.com/NuGet/Home/issues/10791 , fixed ?-->    
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>    
+    <PackageProjectUrl>https://github.com/goswinr/AvalonEditB</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/goswinr/AvalonEditB</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageIcon></PackageIcon>
+    <PackageReadmeFile></PackageReadmeFile>
+    <PackageTags>WPF Text Editor AvalonEdit</PackageTags>    
+  </PropertyGroup>
+  
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DependencyValidation.Analyzers" Version="0.11.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
+    <!-- https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files#controlling-dependency-assets -->
+  </ItemGroup> 
+
+  <ItemGroup> <!--PackagePath = "" makes the file available to nuget pack tool-->
+    
+    <None Remove="Search\next.png" />
+    <None Remove="Search\prev.png" />
+    <None Remove="themes\RightArrow.cur" />
+    <Resource Include="Search\next.png" />
+    <Resource Include="Search\prev.png" />
+    <Resource Include="themes\RightArrow.cur" />
+    <Resource Include="Search\replacenext.png" />
+    <Resource Include="Search\replaceall.png" />
+  
+    <!-- needed for enabling the highlighting engine: -->
+    <None Remove="Highlighting\Resources\*" />
+    <EmbeddedResource Include="Highlighting\Resources\*" />
+    <EmbeddedResource Remove="Highlighting\Resources\Resources.cs" />
+    <Resource Include="Highlighting\Resources\Resources.cs" />    
+ 
+  </ItemGroup>    
+
+  
+</Project>

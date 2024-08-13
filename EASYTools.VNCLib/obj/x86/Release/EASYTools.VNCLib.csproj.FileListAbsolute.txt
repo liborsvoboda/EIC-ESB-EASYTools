@@ -1,0 +1,15 @@
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\bin\Release\RemoteDesktopWpf.dll
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\bin\Release\RemoteDesktopWpf.pdb
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\EASYTools.VNCLib.csproj.AssemblyReference.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\PasswordDialogWpf.baml
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.baml
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\PasswordDialogWpf.g.cs
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.g.cs
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf_MarkupCompile.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.g.resources
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\VncSharp.PasswordDialog.resources
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.Properties.Resources.resources
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\EASYTools.VNCLib.csproj.GenerateResource.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\EASYTools.VNCLib.csproj.CoreCompileInputs.cache
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.dll
+E:\Projekty\MyGitHub\GroupWare-Solution\GLOBALFRONTEND\TOOLS\EASYTools.VNCLib\obj\x86\Release\RemoteDesktopWpf.pdb

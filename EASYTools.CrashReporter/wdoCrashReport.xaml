@@ -1,0 +1,136 @@
+﻿<Controls:MetroWindow
+    x:Class="EASYTools.CrashReporter.wdoCrashReport"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns:local="clr-namespace:EASYTools.CrashReporter"
+    Title="wdocrashReport"
+    Width="450"
+    Height="450"
+    Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" SharedSizeGroup="A" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" SharedSizeGroup="A" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="1" Grid.Column="1">
+            <TabItem Header="General">
+                <local:ucGeneral />
+            </TabItem>
+            <TabItem Header="Exceptions">
+                <local:ucExceptions />
+            </TabItem>
+            <TabItem Header="Screenshot">
+                <local:ucScreenshot />
+            </TabItem>
+        </TabControl>
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5" SharedSizeGroup="B" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="5" SharedSizeGroup="B" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" Grid.ColumnSpan="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5" SharedSizeGroup="C" />
+                </Grid.ColumnDefinitions>
+                <Button
+                    Name="btnSendReport" Grid.Column="1" Width="76" Height="34" Margin="0,0,0,3"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Controls:ButtonHelper.PreserveTextCase="True" Click="btn_Click"
+                    Style="{DynamicResource AccentedSquareButtonStyle}"
+                    ToolTip="Send Mail">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/EASYTools.CrashReporter;component/Images/email_go.png" Stretch="None" TileMode="None" />
+                    </Button.Background>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Margin="5,0,5,0" VerticalAlignment="Center" Source="/EASYTools.CrashReporter;component/Images/email_go.png" />
+                        <TextBlock
+                            Margin="0,0,5,0" VerticalAlignment="Center" Text="Send" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Name="btnSaveReport" Grid.Column="3" Width="76" Height="34" Margin="0,0,0,3"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Controls:ButtonHelper.PreserveTextCase="True" Click="btn_Click"
+                    Style="{DynamicResource AccentedSquareButtonStyle}"
+                    ToolTip="Save">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/EASYTools.CrashReporter;component/Images/save_as.png" Stretch="None" TileMode="None" />
+                    </Button.Background>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Margin="5,0,5,0" VerticalAlignment="Center" Source="/EASYTools.CrashReporter;component/Images/save_as.png" />
+                        <TextBlock
+                            Margin="0,0,5,0" VerticalAlignment="Center" Text="Save" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Name="btnCopy" Grid.Column="5" Width="73" Height="40" Margin="3,0,0,0"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Controls:ButtonHelper.PreserveTextCase="True" Click="btn_Click"
+                    Style="{DynamicResource AccentedSquareButtonStyle}"
+                    ToolTip="Copy">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/EASYTools.CrashReporter;component/Images/copy-32.png" Stretch="None" TileMode="None" />
+                    </Button.Background>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Margin="2,0,5,0" VerticalAlignment="Center" Source="/EASYTools.CrashReporter;component/Images/copy-32.png" />
+                        <TextBlock
+                            Margin="0,0,5,0" VerticalAlignment="Center" Text="Copy" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Name="btnAnnulla" Grid.Column="7" Width="74" Height="40" Margin="3,0,0,0"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Controls:ButtonHelper.PreserveTextCase="True" Click="btn_Click"
+                    Style="{DynamicResource AccentedSquareButtonStyle}"
+                    ToolTip="Close">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/EASYTools.CrashReporter;component/Images/Folders-OS-Exit-Full-Screen-Metro-32.png" Stretch="None" TileMode="None" />
+                    </Button.Background>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Margin="2,0,2,0" VerticalAlignment="Center" Source="/EASYTools.CrashReporter;component/Images/Folders-OS-Exit-Full-Screen-Metro-32.png" />
+                        <TextBlock
+                            Margin="0,0,2,0" VerticalAlignment="Center" Text="Close" />
+                    </StackPanel>
+                </Button>
+                <Button
+                    Name="btnQuit" Grid.Column="9" Width="73" Height="40" Margin="3,0,0,0"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Controls:ButtonHelper.PreserveTextCase="True" Click="btn_Click"
+                    Style="{DynamicResource AccentedSquareButtonStyle}"
+                    ToolTip="Quit">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/EASYTools.CrashReporter;component/Images/logout-32.png" Stretch="None" TileMode="None" />
+                    </Button.Background>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image
+                            Margin="2,0,5,0" VerticalAlignment="Center" Source="/EASYTools.CrashReporter;component/Images/logout-32.png" />
+                        <TextBlock
+                            Margin="0,0,5,0" VerticalAlignment="Center" Text="Quit" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

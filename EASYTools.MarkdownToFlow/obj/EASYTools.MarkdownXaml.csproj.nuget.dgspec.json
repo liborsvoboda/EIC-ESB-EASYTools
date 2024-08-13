@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projekty\\MyGitHub\\GroupWare-Solution\\GLOBALFRONTEND\\TOOLS\\EASYTools.MarkdownViewer\\EASYTools.MarkdownXaml.csproj": {}
+  },
+  "projects": {
+    "E:\\Projekty\\MyGitHub\\GroupWare-Solution\\GLOBALFRONTEND\\TOOLS\\EASYTools.MarkdownViewer\\EASYTools.MarkdownXaml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projekty\\MyGitHub\\GroupWare-Solution\\GLOBALFRONTEND\\TOOLS\\EASYTools.MarkdownViewer\\EASYTools.MarkdownXaml.csproj",
+        "projectName": "EASYTools.MarkdownXaml",
+        "projectPath": "E:\\Projekty\\MyGitHub\\GroupWare-Solution\\GLOBALFRONTEND\\TOOLS\\EASYTools.MarkdownViewer\\EASYTools.MarkdownXaml.csproj",
+        "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
+        "outputPath": "E:\\Projekty\\MyGitHub\\GroupWare-Solution\\GLOBALFRONTEND\\TOOLS\\EASYTools.MarkdownViewer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tatka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
+            "Microsoft.CodeAnalysis.VersionCheckAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W+7Jfqo4xu0=",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.SqlConnectionDialog\\EASYTools.SqlConnectionDialog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
