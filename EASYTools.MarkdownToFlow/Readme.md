@@ -15,87 +15,87 @@
 
 
 # Dokumentace **EasyITcenter** to je GroupWare
-Krátkı Úvod pro seznámení s Projektem Easy IT center a jeho vıznamu a pøínosem pro celı svìt.
+KrÃ¡tkÃ½ Ãšvod pro seznÃ¡menÃ­ s Projektem Easy IT center a jeho vÃ½znamu a pÅ™Ã­nosem pro celÃ½ svÄ›t.
 
-**Aktuální verzi [EasyITcenter](http://KlikneteZde.cz) mùete vidìt online.**  
-**Další informace o projektech EIC a ESB na Portálu [KlikneteZde.cz](http://KlikneteZde.cz)**
+**AktuÃ¡lnÃ­ verzi [EasyITcenter](http://KlikneteZde.cz) mÅ¯Å¾ete vidÄ›t online.**  
+**DalÅ¡Ã­ informace o projektech EIC a ESB na PortÃ¡lu [KlikneteZde.cz](http://KlikneteZde.cz)**
 
 
 # Dokumentace **EasyITcenter** to je Groupware 
-**EASY-IT-CENTER [EIC]** je NETCORE6 C# Visual Studio Projekt zamìøenı na 
-extrémnì snadnı a rychlı vıvoj Backend API serveru pomocí pøipravenıch Šablon Formuláøù.
+**EASY-IT-CENTER [EIC]** je NETCORE6 C# Visual Studio Projekt zamÄ›Å™enÃ½ na 
+extrÃ©mnÄ› snadnÃ½ a rychlÃ½ vÃ½voj Backend API serveru pomocÃ­ pÅ™ipravenÃ½ch Å ablon FormulÃ¡Å™Å¯.
 
-Projekt se ale Rozrostl díky snadnosti tvorby do Nyní komplexní správy IT,
-protoe jako bıvalı IT admin v 15 firmách to byly první agendy co mì napadly.
+Projekt se ale Rozrostl dÃ­ky snadnosti tvorby do NynÃ­ komplexnÃ­ sprÃ¡vy IT,
+protoÅ¾e jako bÃ½valÃ½ IT admin v 15 firmÃ¡ch to byly prvnÃ­ agendy co mÄ› napadly.
 
-ESB je tak Univerzální Server s Backend  API a jeho vıvojem pouhım
-kopírováním existujících API šablon ke jménùm novì vytvoøenıch Tabulek.
-A po Dynamickém API nebude potøeba AI to, a Backend Server si nastaví kadı sám 
+ESB je tak UniverzÃ¡lnÃ­ Server s Backend  API a jeho vÃ½vojem pouhÃ½m
+kopÃ­rovÃ¡nÃ­m existujÃ­cÃ­ch API Å¡ablon ke jmÃ©nÅ¯m novÄ› vytvoÅ™enÃ½ch Tabulek.
+A po DynamickÃ©m API nebude potÅ™eba AI to, a Backend Server si nastavÃ­ kaÅ¾dÃ½ sÃ¡m 
 
-Dynamickım Query Builderem. Nyní tedy Staèí pouze Vytvoøit DB Tabulku -
-Podporovány jsou všechny typy DB serverù i Všechny Typy OS. Po vytvoøení Tabulky 
+DynamickÃ½m Query Builderem. NynÃ­ tedy StaÄÃ­ pouze VytvoÅ™it DB Tabulku -
+PodporovÃ¡ny jsou vÅ¡echny typy DB serverÅ¯ i VÅ¡echny Typy OS. Po vytvoÅ™enÃ­ Tabulky 
 
-Scaffold Aktualizuje DB Schema a vy jen Doplníte API šablonu k novım Tabulkám.
-To je vše Co budete chtít vyvíjet. A brzy ji jen online 
-a staením updatovaného Projektu. Server Zabírá sám o sobì 60MB.
+Scaffold Aktualizuje DB Schema a vy jen DoplnÃ­te API Å¡ablonu k novÃ½m TabulkÃ¡m.
+To je vÅ¡e Co budete chtÃ­t vyvÃ­jet. A brzy jiÅ¾ jen online 
+a staÅ¾enÃ­m updatovanÃ©ho Projektu. Server ZabÃ­rÃ¡ sÃ¡m o sobÄ› 60MB.
 
-API šablony jsou stále stejné = REST FULL a vy tedy nemusíte nic ne nastavit
-správnı název Tabulky. Vše ostatní je souèástí šablony, která obsahuje Definici.
-
-
-## **Implementované Technologie**
-Pøes 100+ implemenovanıch Technologií dává znát monostem Tohoto Øešení.
-Tyto technologie nabídly implementovat celou podnikovou správu IT 
-do jediného Serveru navíc s administrací jakou mùou ostatní systémy jen závidìt.
-Nyní je na programu multiWeb Hosting, Správa Portálù Online,
-a následnì veøejnı Portal pro vytváøení webù, prezentací, galerií ATD.
+API Å¡ablony jsou stÃ¡le stejnÃ© = REST FULL a vy tedy nemusÃ­te nic neÅ¾ nastavit
+sprÃ¡vnÃ½ nÃ¡zev Tabulky. VÅ¡e ostatnÃ­ je souÄÃ¡stÃ­ Å¡ablony, kterÃ¡ obsahuje Definici.
 
 
-Ne v tomto Pøípadì. FrameWorkù je implementováno hned 5. 
-[Metro](https://mahapps.com/), [WPF NET](https://learn.microsoft.com/en-us/dotnet/?view=netdesktop-8.0), [XCEED](https://xceed.com/en/), [WpfLightToolkit](https://github.com/mohachouch/WpfLightToolkit), [HelixToolkit](https://helix-toolkit.github.io/)  Tím máme vyøešeny objekty pro formuláøe více  ne nadstadartnì.
+## **ImplementovanÃ© Technologie**
+PÅ™es 100+ implemenovanÃ½ch TechnologiÃ­ dÃ¡vÃ¡ znÃ¡t moÅ¾nostem Tohoto Å˜eÅ¡enÃ­.
+Tyto technologie nabÃ­dly implementovat celou podnikovou sprÃ¡vu IT 
+do jedinÃ©ho Serveru navÃ­c s administracÃ­ jakou mÅ¯Å¾ou ostatnÃ­ systÃ©my jen zÃ¡vidÄ›t.
+NynÃ­ je na programu multiWeb Hosting, SprÃ¡va PortÃ¡lÅ¯ Online,
+a nÃ¡slednÄ› veÅ™ejnÃ½ Portal pro vytvÃ¡Å™enÃ­ webÅ¯, prezentacÃ­, galeriÃ­ ATD.
 
-A nejen to, lze implementovat i naprosto rozdílné technologie, 
-jako napø. WEB aplikace pouhım vloením do rámeèku Okna Windows a máte novou aplikaci.
-Systém toti hostuje vlastní web server. 
-Aktuálnì je v Systému implementováno pøes 100 peèlivì vybranıch technologií,
-které nabízí tolik moností, e je není ani moné všechny vyuít.
+
+Ne v tomto PÅ™Ã­padÄ›. FrameWorkÅ¯ je implementovÃ¡no hned 5. 
+[Metro](https://mahapps.com/), [WPF NET](https://learn.microsoft.com/en-us/dotnet/?view=netdesktop-8.0), [XCEED](https://xceed.com/en/), [WpfLightToolkit](https://github.com/mohachouch/WpfLightToolkit), [HelixToolkit](https://helix-toolkit.github.io/)  TÃ­m mÃ¡me vyÅ™eÅ¡eny objekty pro formulÃ¡Å™e vÃ­ce  neÅ¾ nadstadartnÄ›.
+
+A nejen to, lze implementovat i naprosto rozdÃ­lnÃ© technologie, 
+jako napÅ™. WEB aplikace pouhÃ½m vloÅ¾enÃ­m do rÃ¡meÄku Okna Windows a mÃ¡te novou aplikaci.
+SystÃ©m totiÅ¾ hostuje vlastnÃ­ web server. 
+AktuÃ¡lnÄ› je v SystÃ©mu implementovÃ¡no pÅ™es 100 peÄlivÄ› vybranÃ½ch technologiÃ­,
+kterÃ© nabÃ­zÃ­ tolik moÅ¾nostÃ­, Å¾e je nenÃ­ ani moÅ¾nÃ© vÅ¡echny vyuÅ¾Ã­t.
  
 
-## **Modulární Server to jsou nová API**
-Nové Moduly to jsou nová APi se slubami. A takovıch bude pøibıvat ještì spousta.
-Primárnì ale server slouí jako WebPortal a Backend Server, brzy ještì Multi WebHosting.
+## **ModulÃ¡rnÃ­ Server to jsou novÃ¡ API**
+NovÃ© Moduly to jsou novÃ¡ APi se sluÅ¾bami. A takovÃ½ch bude pÅ™ibÃ½vat jeÅ¡tÄ› spousta.
+PrimÃ¡rnÄ› ale server slouÅ¾Ã­ jako WebPortal a Backend Server, brzy jeÅ¡tÄ› Multi WebHosting.
 
-Moduly Budou Pøibıvat ode mne jako nové API sluby, napø. WEbScraping,
-Dynamic API Management. Ten jje v plánu a Ani API u nebude potøeba Programovat.
-WebPortal Ji nyní obsahuje Nativní Web Stránky a Celı je uloen v Databázi.
+Moduly Budou PÅ™ibÃ½vat ode mne jako novÃ© API sluÅ¾by, napÅ™. WEbScraping,
+Dynamic API Management. Ten jje v plÃ¡nu a Ani API uÅ¾ nebude potÅ™eba Programovat.
+WebPortal JiÅ¾ nynÃ­ obsahuje NativnÃ­ Web StrÃ¡nky a CelÃ½ je uloÅ¾en v DatabÃ¡zi.
 
 ---
 
-## **Øešení EasyITcenter Obsahuje**   
+## **Å˜eÅ¡enÃ­ EasyITcenter Obsahuje**   
 
 #### Servery
  1. Multi Backend API Server - Any DB support
- 2. Server Plánovaè Úloh Procesy, Emaily, Socket, SQL
+ 2. Server PlÃ¡novaÄ Ãšloh Procesy, Emaily, Socket, SQL
  3. ANY IT Monitoring HW/SW/SERVICE/NET
- 4. Hromadnı Emailing API
- 4. Privátní Git Server
- 5. Privátní FTP Server
+ 4. HromadnÃ½ Emailing API
+ 4. PrivÃ¡tnÃ­ Git Server
+ 5. PrivÃ¡tnÃ­ FTP Server
  6. Web Portal + Online Dev 
- 8. Licenèní Server
+ 8. LicenÄnÃ­ Server
  9. Server MultiMedia Dokumentace
  10. Web Project Task Management Server
- 11. Web Portal s Online vıvojem z Webu èi Systému
+ 11. Web Portal s Online vÃ½vojem z Webu Äi SystÃ©mu
  12. Data Service API pro Controling API pro Reporty, Pivot, Grafy
 
-#### **Nástroje a Moduly**
+#### **NÃ¡stroje a Moduly**
  1. AutoWeb s Popisem a Testem API
- 2. Generátor DB Schema 
+ 2. GenerÃ¡tor DB Schema 
  3. Web Dashboard DB Schema Online
  4. Web Dashboard Monitor HW / SW /Service / NET
  5. Web Administrace Serveru Dokumentace
- 6. Web Administrace Portálu
+ 6. Web Administrace PortÃ¡lu
  7. Web Project Task Management DashBoard
- 8. WebStatic Studio Dashboard pro vıvoj WEB online
+ 8. WebStatic Studio Dashboard pro vÃ½voj WEB online
  9. WebLiveDataMonitor
  10. Web DatabaseManager
  11. WebShareFolderOnline
@@ -104,299 +104,299 @@ WebPortal Ji nyní obsahuje Nativní Web Stránky a Celı je uloen v Databázi.
  14. Private GitHub Dashboard
 
 
-#### **Web Portal a Web Hosting s implementací**
-1. 10+ Web Moderních Frameworkù
+#### **Web Portal a Web Hosting s implementacÃ­**
+1. 10+ Web ModernÃ­ch FrameworkÅ¯
 3. 200+ Web Knihovny Funkcionalit
-4. 1000+ Web Knihovny Objektù
-5. 100+ Web Editory, Prohlíeèe, Galerie
-6. 50x Moderní Web stránky
-7. 50 Pøedloh portálù,Systémù, Panelù
-6. Web Portal s Online Vıvojem z Webu èi ze Systému - Metro4
+4. 1000+ Web Knihovny ObjektÅ¯
+5. 100+ Web Editory, ProhlÃ­Å¾eÄe, Galerie
+6. 50x ModernÃ­ Web strÃ¡nky
+7. 50 PÅ™edloh portÃ¡lÅ¯,SystÃ©mÅ¯, PanelÅ¯
+6. Web Portal s Online VÃ½vojem z Webu Äi ze SystÃ©mu - Metro4
 
-**Web Server Slouí k provozu** z úloištì DB,souborové,ftp
-- 1x Generovaného Web Portál: s moností pøenosu do Statické Stránky pro tvorbu dalšího portálu
-- s Neomezenım poètem další statickıch webù, stránek, aplikací, Dashbordù, Galeríí, Dokumentací a všeho co si jen dokáete pøedstavit...
-s jednoduchım vıvojem z editorù, Visual Studia, Systému ESB, Web Portálu, Notepadu, èeho chcete..
-bez jakéhokoliv buildování a nasazování na server, to ji provádíte pøímo pouhou editací souborù...
-- Vıvojem App,Stránek,atd.. z Module Editoru
+**Web Server SlouÅ¾Ã­ k provozu** z ÃºloÅ¾iÅ¡tÄ› DB,souborovÃ©,ftp
+- 1x GenerovanÃ©ho Web PortÃ¡l: s moÅ¾nostÃ­ pÅ™enosu do StatickÃ© StrÃ¡nky pro tvorbu dalÅ¡Ã­ho portÃ¡lu
+- s NeomezenÃ½m poÄtem dalÅ¡Ã­ statickÃ½ch webÅ¯, strÃ¡nek, aplikacÃ­, DashbordÅ¯, GalerÃ­Ã­, DokumentacÃ­ a vÅ¡eho co si jen dokÃ¡Å¾ete pÅ™edstavit...
+s jednoduchÃ½m vÃ½vojem z editorÅ¯, Visual Studia, SystÃ©mu ESB, Web PortÃ¡lu, Notepadu, Äeho chcete..
+bez jakÃ©hokoliv buildovÃ¡nÃ­ a nasazovÃ¡nÃ­ na server, to jiÅ¾ provÃ¡dÃ­te pÅ™Ã­mo pouhou editacÃ­ souborÅ¯...
+- VÃ½vojem App,StrÃ¡nek,atd.. z Module Editoru
 
-**pro vıvoj pouhım editorem máte pøipraveno ihned k pouití:**
-- original Dokumentace Pouitıch technologii ve **VŠECH JAZYCÍCH**  
-do DETAILU: **nyní ji pochopíte všechny monosti celıch øešení**
+**pro vÃ½voj pouhÃ½m editorem mÃ¡te pÅ™ipraveno ihned k pouÅ¾itÃ­:**
+- original Dokumentace PouÅ¾itÃ½ch technologii ve **VÅ ECH JAZYCÃCH**  
+do DETAILU: **nynÃ­ jiÅ¾ pochopÃ­te vÅ¡echny moÅ¾nosti celÃ½ch Å™eÅ¡enÃ­**
 
-- Globální Knihovna kódù pro snadnı vıvoj kopírováním šablon,ji obsahuje veškeré pøíklady nutné pro vıvoj
-- XX Html Editory pro editace a tvorbu Stránek Online, k implementaci atd..
-- XX Code Editory pro komplexní vıvoj Webu z Editoru, Vıvoj všech typù Webovıch Aplikací
-- Database Editory SQLite pro monost samostatného webu s interní DB
-- Inteligentní Online Code Editory s InteliSense
-- XX Statické UI Frameworky pro Tvorbu Webù,Portálù,Intranetù,Aplikací v rùznıch designech
-- XX Statické UI DashBordy  pro Tvorbu Webù,Portálù,Intranetù,Aplikací v rùznıch designech
-- X Statické Generátory Dokumentací
-- Static FileManager , Soubory jsou øešeny pøes API
-- XX Statické Grafické nástroje Galerie,Animace,HighLight,Mermaid,Diagramy,Background Player,Video Galerie,...
-- XX Statické Prohlíeèe nejrùznìjších formátù souborù, Panorama, Office, 3D, Grafy, XML, PDF, MD,..
-- XX Další Knihovny Stylù CSS pro dodateèné implementace Animací, Objektù, Celkù, Webù
-- XX Javascript Knihovny pro implementaci všemonıch funkcionalit do portálu
-- XX šablony aplikací: Vue,React,Next, a všechny ostatní.. cca 50 typù
-- 50 Šablony moderních Webovıch Stránek
-- XX Generátory statickıch webovıch stránek - Celıch webovıch stránek nebo listù 
-     webovıch stránek technologií Drag&Drop
+- GlobÃ¡lnÃ­ Knihovna kÃ³dÅ¯ pro snadnÃ½ vÃ½voj kopÃ­rovÃ¡nÃ­m Å¡ablon,jiÅ¾ obsahuje veÅ¡kerÃ© pÅ™Ã­klady nutnÃ© pro vÃ½voj
+- XX Html Editory pro editace a tvorbu StrÃ¡nek Online, k implementaci atd..
+- XX Code Editory pro komplexnÃ­ vÃ½voj Webu z Editoru, VÃ½voj vÅ¡ech typÅ¯ WebovÃ½ch AplikacÃ­
+- Database Editory SQLite pro moÅ¾nost samostatnÃ©ho webu s internÃ­ DB
+- InteligentnÃ­ Online Code Editory s InteliSense
+- XX StatickÃ© UI Frameworky pro Tvorbu WebÅ¯,PortÃ¡lÅ¯,IntranetÅ¯,AplikacÃ­ v rÅ¯znÃ½ch designech
+- XX StatickÃ© UI DashBordy  pro Tvorbu WebÅ¯,PortÃ¡lÅ¯,IntranetÅ¯,AplikacÃ­ v rÅ¯znÃ½ch designech
+- X StatickÃ© GenerÃ¡tory DokumentacÃ­
+- Static FileManager , Soubory jsou Å™eÅ¡eny pÅ™es API
+- XX StatickÃ© GrafickÃ© nÃ¡stroje Galerie,Animace,HighLight,Mermaid,Diagramy,Background Player,Video Galerie,...
+- XX StatickÃ© ProhlÃ­Å¾eÄe nejrÅ¯znÄ›jÅ¡Ã­ch formÃ¡tÅ¯ souborÅ¯, Panorama, Office, 3D, Grafy, XML, PDF, MD,..
+- XX DalÅ¡Ã­ Knihovny StylÅ¯ CSS pro dodateÄnÃ© implementace AnimacÃ­, ObjektÅ¯, CelkÅ¯, WebÅ¯
+- XX Javascript Knihovny pro implementaci vÅ¡emoÅ¾nÃ½ch funkcionalit do portÃ¡lu
+- XX Å¡ablony aplikacÃ­: Vue,React,Next, a vÅ¡echny ostatnÃ­.. cca 50 typÅ¯
+- 50 Å ablony modernÃ­ch WebovÃ½ch StrÃ¡nek
+- XX GenerÃ¡tory statickÃ½ch webovÃ½ch strÃ¡nek - CelÃ½ch webovÃ½ch strÃ¡nek nebo listÅ¯ 
+     webovÃ½ch strÃ¡nek technologiÃ­ Drag&Drop
 
-s moností si pøidávat pouhım zkopírováním Cokoliv dalšího z GitHub a internetu
+s moÅ¾nostÃ­ si pÅ™idÃ¡vat pouhÃ½m zkopÃ­rovÃ¡nÃ­m Cokoliv dalÅ¡Ã­ho z GitHub a internetu
 
 ---
 
-## **Centrální Správa IT**
-Instalace na OS Windows provedete pomocí bìného Instalátoru.
-Instalace na OS LINUX/MACOS dle pøiloeného Návodu  
-Server Funguje jako Systémová Sluba, Systém je Tenkı/Tlustı Klient
-Ji Nyní Obsahuje Kompletní centrální Správu IT pro Vaši Spoleènost
-Chtìjte od svého IT oddìlení Více a poøiïte jim toto øešení ještì dnes
+## **CentrÃ¡lnÃ­ SprÃ¡va IT**
+Instalace na OS Windows provedete pomocÃ­ bÄ›Å¾nÃ©ho InstalÃ¡toru.
+Instalace na OS LINUX/MACOS dle pÅ™iloÅ¾enÃ©ho NÃ¡vodu  
+Server Funguje jako SystÃ©movÃ¡ SluÅ¾ba, SystÃ©m je TenkÃ½/TlustÃ½ Klient
+JiÅ¾ NynÃ­ Obsahuje KompletnÃ­ centrÃ¡lnÃ­ SprÃ¡vu IT pro VaÅ¡i SpoleÄnost
+ChtÄ›jte od svÃ©ho IT oddÄ›lenÃ­ VÃ­ce a poÅ™iÄte jim toto Å™eÅ¡enÃ­ jeÅ¡tÄ› dnes
 
 
-## **Jednoduchı Vıvoj API - Webù - Aplikací** 
-Vıvoj je u jen kopírování a vytváøení novıch tabulek dle potøeby.
-Øešení nabízí 2x více ne Kdokoliv. Dvojí administrace je moná
-jak ze Systému, Tak i z Webu, Vyvinutí jednoho nebo druhého je stejnì snadné
-na obou stranách. Vıvoj Webu je Èistì 1-stránková Statická Aplikace.
-Take Zmìny provádíte hned. 
-Vıvoj Serveru a Systému se provádí pomocí Visual Studia nebo ji Brzy Online
-z Portálu. Systémy bude moné Updatovat a vznikne i Distribuce Agend pro klienty, 
-tedy monost pøivıdìlku. Spolupráce, èi Cokoliv jiného je vdy Vítána.
+## **JednoduchÃ½ VÃ½voj API - WebÅ¯ - AplikacÃ­** 
+VÃ½voj je uÅ¾ jen kopÃ­rovÃ¡nÃ­ a vytvÃ¡Å™enÃ­ novÃ½ch tabulek dle potÅ™eby.
+Å˜eÅ¡enÃ­ nabÃ­zÃ­ 2x vÃ­ce neÅ¾ Kdokoliv. DvojÃ­ administrace je moÅ¾nÃ¡
+jak ze SystÃ©mu, Tak i z Webu, VyvinutÃ­ jednoho nebo druhÃ©ho je stejnÄ› snadnÃ©
+na obou stranÃ¡ch. VÃ½voj Webu je ÄŒistÄ› 1-strÃ¡nkovÃ¡ StatickÃ¡ Aplikace.
+TakÅ¾e ZmÄ›ny provÃ¡dÃ­te hned. 
+VÃ½voj Serveru a SystÃ©mu se provÃ¡dÃ­ pomocÃ­ Visual Studia nebo jiÅ¾ Brzy Online
+z PortÃ¡lu. SystÃ©my bude moÅ¾nÃ© Updatovat a vznikne i Distribuce Agend pro klienty, 
+tedy moÅ¾nost pÅ™ivÃ½dÄ›lku. SpoluprÃ¡ce, Äi Cokoliv jinÃ©ho je vÅ¾dy VÃ­tÃ¡na.
 
 
-## **Právì se Implementuje**
+## **PrÃ¡vÄ› se Implementuje**
 
  1. Subdomain Web Hosting - Multi WebServer React,Node,Next,Static 
- 2. Client Dev Portal s Online Nástroji pro správu Projektù C# Online
- 3. Centrální Logika Server Distributor Serveru a Systému
- 4. Online Generátor Serverù
- 5. Online Generátor Systémù
+ 2. Client Dev Portal s Online NÃ¡stroji pro sprÃ¡vu ProjektÅ¯ C# Online
+ 3. CentrÃ¡lnÃ­ Logika Server Distributor Serveru a SystÃ©mu
+ 4. Online GenerÃ¡tor ServerÅ¯
+ 5. Online GenerÃ¡tor SystÃ©mÅ¯
  2. SSH Server
  3. Online Dev, Web, Info, Help Portal 
  4. JS Knihovny
- 5. Statické nástroje
+ 5. StatickÃ© nÃ¡stroje
  6. Dynamic User Api - pro Controling, Reporty, Pivot, Grafy
 
 
 ---
 
-## **Neomezené Monosti v Jediném Øešení**
-Toto Øešení tak ji nyní nabízí doslova unikátní monosti nastavení
-jak webovıch systému, Tak Desktopovıch Aplikací, A c chcete Více?  
+## **NeomezenÃ© MoÅ¾nosti v JedinÃ©m Å˜eÅ¡enÃ­**
+Toto Å˜eÅ¡enÃ­ tak jiÅ¾ nynÃ­ nabÃ­zÃ­ doslova unikÃ¡tnÃ­ moÅ¾nosti nastavenÃ­
+jak webovÃ½ch systÃ©mu, Tak DesktopovÃ½ch AplikacÃ­, A c chcete VÃ­ce?  
 
-Plnohodnotná Správa celého IT vèetnì vlastního IS je souèástí Øešení.
-Vlastní Web s moností kdykoliv si cokoliv ONLINE upravit a navíc
-jak ze Systému pøes Editory èi Online pomocí Web Editorù. 
+PlnohodnotnÃ¡ SprÃ¡va celÃ©ho IT vÄetnÄ› vlastnÃ­ho IS je souÄÃ¡stÃ­ Å˜eÅ¡enÃ­.
+VlastnÃ­ Web s moÅ¾nostÃ­ kdykoliv si cokoliv ONLINE upravit a navÃ­c
+jak ze SystÃ©mu pÅ™es Editory Äi Online pomocÃ­ Web EditorÅ¯. 
 
-Chybí jen Vlastní Email Server, kterı je ji taky pøedchystanı.  
-I Tak Je nachystána další Stovka rùznıch Øešení, která budou
-postupnì Implementována a nabídnuta Zákazníkùm k Aktualizaci èi rozšíøení.
-U Bude na kadém z vás Jestli se dále Vydáte Vlastní Cestou,
-nebo Své Úsilí spojíme v plodné a pøínosné èinnosti.
+ChybÃ­ jen VlastnÃ­ Email Server, kterÃ½ je jiÅ¾ taky pÅ™edchystanÃ½.  
+I Tak Je nachystÃ¡na dalÅ¡Ã­ Stovka rÅ¯znÃ½ch Å˜eÅ¡enÃ­, kterÃ¡ budou
+postupnÄ› ImplementovÃ¡na a nabÃ­dnuta ZÃ¡kaznÃ­kÅ¯m k Aktualizaci Äi rozÅ¡Ã­Å™enÃ­.
+UÅ¾ Bude na kaÅ¾dÃ©m z vÃ¡s Jestli se dÃ¡le VydÃ¡te VlastnÃ­ Cestou,
+nebo SvÃ© ÃšsilÃ­ spojÃ­me v plodnÃ© a pÅ™Ã­nosnÃ© Äinnosti.
 
-## **Jednoduchá Instalace** 
-Instalace na OS Windows provedete pomocí bìného Instalátoru.  
-Instalace na OS LINUX/MACOS dle pøiloeného Návodu   
-   * Server Funguje jako Systémová Sluba 
-   * Systém je (tlustší)Tenkı Klient 
+## **JednoduchÃ¡ Instalace** 
+Instalace na OS Windows provedete pomocÃ­ bÄ›Å¾nÃ©ho InstalÃ¡toru.  
+Instalace na OS LINUX/MACOS dle pÅ™iloÅ¾enÃ©ho NÃ¡vodu   
+   * Server Funguje jako SystÃ©movÃ¡ SluÅ¾ba 
+   * SystÃ©m je (tlustÅ¡Ã­)TenkÃ½ Klient 
 
-(tlustı jen velikostí díky vlastnímu serveru,lze oèistit na velikost 20MB)
-
-
-## **Nejlevnìjší ØEŠENÍ IT mùe bıt Nejlepší**
-To vám nabízí toto øešení. Vyvinutí systému si mùete objednat a díky
-ji existujícím øešením je vıvoj raketovì rychlı. Nemluvì o implementacích
-technologií pouze 1x, Následnì je zaøazena do vıbavy Systému a díky portálu
-a chystanému Centrálnímu Vıvoji pro aktualizace, centralizovanı vıvoj a
-Vıvoj Systému Online pøes internet pomocí Grafického Studia to bude jen zábava.
+(tlustÃ½ jen velikostÃ­ dÃ­ky vlastnÃ­mu serveru,lze oÄistit na velikost 20MB)
 
 
-## **A mnoho dalšího snad najde své Zájemce**
-Toto byl jen malinkı vıèet co vše je v projektu obsaeno a kam míøí.
-Pokud vás Projekt zaujal, neváhejte mne kontaktovat a poøídit si jej
-tøeba ještì dnes.
-ádná investice se vám nevrátí tak rychle, jako v tomto pøípadì.
+## **NejlevnÄ›jÅ¡Ã­ Å˜EÅ ENÃ IT mÅ¯Å¾e bÃ½t NejlepÅ¡Ã­**
+To vÃ¡m nabÃ­zÃ­ toto Å™eÅ¡enÃ­. VyvinutÃ­ systÃ©mu si mÅ¯Å¾ete objednat a dÃ­ky
+jiÅ¾ existujÃ­cÃ­m Å™eÅ¡enÃ­m je vÃ½voj raketovÄ› rychlÃ½. NemluvÄ› o implementacÃ­ch
+technologiÃ­ pouze 1x, NÃ¡slednÄ› je zaÅ™azena do vÃ½bavy SystÃ©mu a dÃ­ky portÃ¡lu
+a chystanÃ©mu CentrÃ¡lnÃ­mu VÃ½voji pro aktualizace, centralizovanÃ½ vÃ½voj a
+VÃ½voj SystÃ©mu Online pÅ™es internet pomocÃ­ GrafickÃ©ho Studia to bude jen zÃ¡bava.
 
 
-## **Podívejte se na Server online hned Teï**
-**Aktuální verzi Serveru najdete na [KlikneteZde.cz](http://KlikneteZde.cz).**   
-**Online dokumentace, pøíklady, Git, Knihovny kódù, Nástroje, Online Dev Studio 
- a centrální správu projektù naleznete ji nyní èi v blízké budoucnosti na tomto portálu.**
+## **A mnoho dalÅ¡Ã­ho snad najde svÃ© ZÃ¡jemce**
+Toto byl jen malinkÃ½ vÃ½Äet co vÅ¡e je v projektu obsaÅ¾eno a kam mÃ­Å™Ã­.
+Pokud vÃ¡s Projekt zaujal, nevÃ¡hejte mne kontaktovat a poÅ™Ã­dit si jej
+tÅ™eba jeÅ¡tÄ› dnes.
+Å½Ã¡dnÃ¡ investice se vÃ¡m nevrÃ¡tÃ­ tak rychle, jako v tomto pÅ™Ã­padÄ›.
+
+
+## **PodÃ­vejte se na Server online hned TeÄ**
+**AktuÃ¡lnÃ­ verzi Serveru najdete na [KlikneteZde.cz](http://KlikneteZde.cz).**   
+**Online dokumentace, pÅ™Ã­klady, Git, Knihovny kÃ³dÅ¯, NÃ¡stroje, Online Dev Studio 
+ a centrÃ¡lnÃ­ sprÃ¡vu projektÅ¯ naleznete jiÅ¾ nynÃ­ Äi v blÃ­zkÃ© budoucnosti na tomto portÃ¡lu.**
  
-**Ji Nyní k dispozici 30denní plná verze Serveru EIC i Systému ESB k vyzkoušení ZDARMA.**   
-**Další informace o projektech EIC a ESB na Portálu [KlikneteZde.cz](http://KlikneteZde.cz)**
+**JiÅ¾ NynÃ­ k dispozici 30dennÃ­ plnÃ¡ verze Serveru EIC i SystÃ©mu ESB k vyzkouÅ¡enÃ­ ZDARMA.**   
+**DalÅ¡Ã­ informace o projektech EIC a ESB na PortÃ¡lu [KlikneteZde.cz](http://KlikneteZde.cz)**
 
 
-**EIC + ESB = Nerozluèná Dvojice, která spolu dokáe VŠE**
+**EIC + ESB = NerozluÄnÃ¡ Dvojice, kterÃ¡ spolu dokÃ¡Å¾e VÅ E**
 
 
 
 
 # Dokumentace **EasySYSTEMbuilder** to je GroupWare
-Krátkı Úvod pro seznámení s Projektem Easy SYSTEM buider a jeho vıznamu a pøínosem pro celı svìt.
+KrÃ¡tkÃ½ Ãšvod pro seznÃ¡menÃ­ s Projektem Easy SYSTEM buider a jeho vÃ½znamu a pÅ™Ã­nosem pro celÃ½ svÄ›t.
 
-**Aktuální verzi [EasySYSTEMBuilder](http://KlikneteZde.cz:8000) mùete vyzkoušet online.**  
-**Další informace o projektech EIC a ESB na Portálu [KlikneteZde.cz](http://KlikneteZde.cz)**
+**AktuÃ¡lnÃ­ verzi [EasySYSTEMBuilder](http://KlikneteZde.cz:8000) mÅ¯Å¾ete vyzkouÅ¡et online.**  
+**DalÅ¡Ã­ informace o projektech EIC a ESB na PortÃ¡lu [KlikneteZde.cz](http://KlikneteZde.cz)**
 
 ## **Co je EasySYSTEMbuilder?**
-**EASY-SYSTEM-BUILDER [ESB]** je C# WPF Visual Studio Projekt zamìøenı na 
-extrémnì snadnı a rychlı vıvoj JAKÉHOKOLI SYSTÉMU pomocí pøipravenıch Šablon Formuláøù.
+**EASY-SYSTEM-BUILDER [ESB]** je C# WPF Visual Studio Projekt zamÄ›Å™enÃ½ na 
+extrÃ©mnÄ› snadnÃ½ a rychlÃ½ vÃ½voj JAKÃ‰HOKOLI SYSTÃ‰MU pomocÃ­ pÅ™ipravenÃ½ch Å ablon FormulÃ¡Å™Å¯.
 
-ESB je tak Univerzální SYSTÉMOVÁ ŠABLONA pro další vıvoj pouze pomocí grafickıch Formuláøù
-a brzy ji v Grafickém Studiu, kde se vám FORMULÁØ i sám Vygeneruje
-na základì struktury Dat dané Tabulky [Faktury,seznam adres] a vy jen doladíte.
+ESB je tak UniverzÃ¡lnÃ­ SYSTÃ‰MOVÃ Å ABLONA pro dalÅ¡Ã­ vÃ½voj pouze pomocÃ­ grafickÃ½ch FormulÃ¡Å™Å¯
+a brzy jiÅ¾ v GrafickÃ©m Studiu, kde se vÃ¡m FORMULÃÅ˜ i sÃ¡m Vygeneruje
+na zÃ¡kladÄ› struktury Dat danÃ© Tabulky [Faktury,seznam adres] a vy jen doladÃ­te.
 
-Systémové šablony jsou stále stejné a vy tedy nemusíte nic ne nastavit správnì nová políèka.
-Vše ostatní je souèástí šablony, která obsahuje Obsluhující funkcionality.
+SystÃ©movÃ© Å¡ablony jsou stÃ¡le stejnÃ© a vy tedy nemusÃ­te nic neÅ¾ nastavit sprÃ¡vnÄ› novÃ¡ polÃ­Äka.
+VÅ¡e ostatnÃ­ je souÄÃ¡stÃ­ Å¡ablony, kterÃ¡ obsahuje ObsluhujÃ­cÃ­ funkcionality.
 
-**Systém jako takovı není toti Nic jiného ne Seznam Formuláøù s rozdílnımi Daty**.
-A pøesnì takto je postaven **EasySYSTEMbuilder**. 
+**SystÃ©m jako takovÃ½ nenÃ­ totiÅ¾ Nic jinÃ©ho neÅ¾ Seznam FormulÃ¡Å™Å¯ s rozdÃ­lnÃ½mi Daty**.
+A pÅ™esnÄ› takto je postaven **EasySYSTEMbuilder**. 
 
-Dokonale nastavené Jádro systému, spravuje vše další potøebné k plnohodnotnému chodu.
-Systém disponuje všemi bìnımi funkcionalitami, **Tiskem**, **správou** ,**MultiJazyèností,** **MultiMedia**, **3D**, i jako **Centrální Klient více Serverù najednou** tedy více systémù a mnohem Více. 
+Dokonale nastavenÃ© JÃ¡dro systÃ©mu, spravuje vÅ¡e dalÅ¡Ã­ potÅ™ebnÃ© k plnohodnotnÃ©mu chodu.
+SystÃ©m disponuje vÅ¡emi bÄ›Å¾nÃ½mi funkcionalitami, **Tiskem**, **sprÃ¡vou** ,**MultiJazyÄnostÃ­,** **MultiMedia**, **3D**, i jako **CentrÃ¡lnÃ­ Klient vÃ­ce ServerÅ¯ najednou** tedy vÃ­ce systÃ©mÅ¯ a mnohem VÃ­ce. 
 
-Tento Systém je plnì kompatibilní s kadım monım typem Systému.
-A u **Informaèní, Dotykovı, Nadstavba, Controling, Reporting, Monitor Hardware, Dotykové Kiosky,
-Plánovací èi Øídící èi Monitorovací Terminály a Systémy, Vırobní Terminály** 
-a ji Bzy i jako **Ovládací Panely vırobních Strojù SIEMENS**.
+Tento SystÃ©m je plnÄ› kompatibilnÃ­ s kaÅ¾dÃ½m moÅ¾nÃ½m typem SystÃ©mu.
+AÅ¥ uÅ¾ **InformaÄnÃ­, DotykovÃ½, Nadstavba, Controling, Reporting, Monitor Hardware, DotykovÃ© Kiosky,
+PlÃ¡novacÃ­ Äi Å˜Ã­dÃ­cÃ­ Äi MonitorovacÃ­ TerminÃ¡ly a SystÃ©my, VÃ½robnÃ­ TerminÃ¡ly** 
+a jiÅ¾ Bzy i jako **OvlÃ¡dacÃ­ Panely vÃ½robnÃ­ch StrojÅ¯ SIEMENS**.
 
-A to Zdaleka není jediná Vıhoda. Jen na [Github.com](https://github.com/search?q=C%23%20WPF&type=repositories) máte stovku ne-li 
-Tisíce témìø hotovıch nástrojù, funkcionalit, editorù, prohlíeèù, designù, pøíkladù, nápadù øešení,
-která vás posunou Vpøed. 
+A to Zdaleka nenÃ­ jedinÃ¡ VÃ½hoda. Jen na [Github.com](https://github.com/search?q=C%23%20WPF&type=repositories) mÃ¡te stovku ne-li 
+TisÃ­ce tÃ©mÄ›Å™ hotovÃ½ch nÃ¡strojÅ¯, funkcionalit, editorÅ¯, prohlÃ­Å¾eÄÅ¯, designÅ¯, pÅ™Ã­kladÅ¯, nÃ¡padÅ¯ Å™eÅ¡enÃ­,
+kterÃ¡ vÃ¡s posunou VpÅ™ed. 
 
  
-## **Implementované Technologie**
+## **ImplementovanÃ© Technologie**
 
-V dnešní Dobì Frameworkù, co se dá nazvat technologií, je nepøeberné mnoství moností.
-Obecnì platí e se pouívá 1 Framework aby nedocházelo ke kolizi.
-Ne v tomto Pøípadì. FrameWorkù je implementováno hned 5. 
+V dneÅ¡nÃ­ DobÄ› FrameworkÅ¯, coÅ¾ se dÃ¡ nazvat technologiÃ­, je nepÅ™ebernÃ© mnoÅ¾stvÃ­ moÅ¾nostÃ­.
+ObecnÄ› platÃ­ Å¾e se pouÅ¾Ã­vÃ¡ 1 Framework aby nedochÃ¡zelo ke kolizi.
+Ne v tomto PÅ™Ã­padÄ›. FrameWorkÅ¯ je implementovÃ¡no hned 5. 
 [Metro](https://mahapps.com/), [WPF NET](https://learn.microsoft.com/en-us/dotnet/?view=netdesktop-8.0), 
 [XCEED](https://xceed.com/en/), [WpfLightToolkit](https://github.com/mohachouch/WpfLightToolkit), 
 [HelixToolkit](https://helix-toolkit.github.io/)  
-Tím máme vyøešeny objekty pro formuláøe více ne nadstandartnì.
+TÃ­m mÃ¡me vyÅ™eÅ¡eny objekty pro formulÃ¡Å™e vÃ­ce neÅ¾ nadstandartnÄ›.
 
-A nejen to, lze implementovat i naprosto rozdílné technologie, 
-jako napø. WEB aplikace pouhım vloením do rámeèku Okna Windows a máte novou aplikaci.
-Systém toti hostuje vlastní web server. 
-Aktuálnì je v Systému implementováno pøes 100 peèlivì vybranıch technologií,
-které nabízí tolik moností, e je není ani moné všechny vyuít.
+A nejen to, lze implementovat i naprosto rozdÃ­lnÃ© technologie, 
+jako napÅ™. WEB aplikace pouhÃ½m vloÅ¾enÃ­m do rÃ¡meÄku Okna Windows a mÃ¡te novou aplikaci.
+SystÃ©m totiÅ¾ hostuje vlastnÃ­ web server. 
+AktuÃ¡lnÄ› je v SystÃ©mu implementovÃ¡no pÅ™es 100 peÄlivÄ› vybranÃ½ch technologiÃ­,
+kterÃ© nabÃ­zÃ­ tolik moÅ¾nostÃ­, Å¾e je nenÃ­ ani moÅ¾nÃ© vÅ¡echny vyuÅ¾Ã­t.
  
 ---
 
-## **Modulární SYSTÉM to jsou jen rùzné typy Šablon**
-Pøesnì tak. A ty jsou ji pøipraveny pro 90% všech standartních systémù.
-A snadno lze vytvoøit nové, Díky Internetu je i Sebesloitìjší Formuláø, jen Formuláø.
+## **ModulÃ¡rnÃ­ SYSTÃ‰M to jsou jen rÅ¯znÃ© typy Å ablon**
+PÅ™esnÄ› tak. A ty jsou jiÅ¾ pÅ™ipraveny pro 90% vÅ¡ech standartnÃ­ch systÃ©mÅ¯.
+A snadno lze vytvoÅ™it novÃ©, DÃ­ky Internetu je i SebesloÅ¾itÄ›jÅ¡Ã­ FormulÃ¡Å™, jen FormulÃ¡Å™.
 
-Støíhání Videa je zaimplementováno do tıdne. Tak si pøedstavte co mùete mít do 1 roku.
-System ji aktuálnì funguje jako Administrace celého IT odvìtví a malı Fakturaèní Systém.
+StÅ™Ã­hÃ¡nÃ­ Videa je zaimplementovÃ¡no do tÃ½dne. Tak si pÅ™edstavte co mÅ¯Å¾ete mÃ­t do 1 roku.
+System jiÅ¾ aktuÃ¡lnÄ› funguje jako Administrace celÃ©ho IT odvÄ›tvÃ­ a malÃ½ FakturaÄnÃ­ SystÃ©m.
 
-Bìhem 5dnù Byl i dodán Dotykovı Terminál pro Vykazování práce ve Vırobní spoleènosti,
-Šablony se skládají z Designu - Ten si snadno upravíte dle ji existujících Agend,
-a obsluhujících funkcionalit, kde jen upravíte nová datová pole.
-
-
-## **Øešení system EasySYSTEMbuilder obsahuje**
-1. 15x Rozšiøující Nástroje, Editory, Generátory, Funkcionality
-2. 500+ Objektù pro tvorbu Formuláøù pro kadı Typ Systému
-3. Pluginy - Chystá se Celé Aplikace jako plugin = Formuláø, proces(napø. WorkFlow)
-4. 10x Hostované Windows èi Jiné nativní Aplikace : React, Electron
-5. 20x Hostované Web aplikace spuštìné v jádru systému (web serveru)
-6. Multi Poboèkovı Fakturaèní, Nabídkovı, Objednávkovı Systém s Pokladnou
-7. Modul Vykazování Práce ve Vırobì vèetnì Reportingu
-8. Kompletní Správa Serverovıch Agend
-9. Emailing,WebBlog, NewsLetter, Notifikace, Privátní Zprávy 
-10. Dohledové Centrum
-11. Sdílení na Internetu, Live Web Data Monitoring
-12. Reporting vèetnì Report Builderu 
-13. Agendy Nástrojù, Hromadnıch Operací Atd.
-14. Kompletní Správa Multimedia Online Dokumentace
-15. Licenèní Server
-16. Kompletní Správa a Vıvoj Web Portálu Online + Dynamické Moduly
-17. Plánovaè Úloh, Zasílání Emailù, spouštìní Procesù, Socket, SQL
-18. Kalendáø
+BÄ›hem 5dnÅ¯ Byl i dodÃ¡n DotykovÃ½ TerminÃ¡l pro VykazovÃ¡nÃ­ prÃ¡ce ve VÃ½robnÃ­ spoleÄnosti,
+Å ablony se sklÃ¡dajÃ­ z Designu - Ten si snadno upravÃ­te dle jiÅ¾ existujÃ­cÃ­ch Agend,
+a obsluhujÃ­cÃ­ch funkcionalit, kde jen upravÃ­te novÃ¡ datovÃ¡ pole.
 
 
-A to není zdaleka vše. Na spoustu vìcí mít web nikdy nebude.
-Aktuálnì Vytvoøená správa serveru vèetnì webového portálu se spravuje  
-snáz z aplikace ne pøímo z webu. Aktuálnì ji nyní slouí systém k online
-Vıvoji webového portálu.
+## **Å˜eÅ¡enÃ­ system EasySYSTEMbuilder obsahuje**
+1. 15x RozÅ¡iÅ™ujÃ­cÃ­ NÃ¡stroje, Editory, GenerÃ¡tory, Funkcionality
+2. 500+ ObjektÅ¯ pro tvorbu FormulÃ¡Å™Å¯ pro kaÅ¾dÃ½ Typ SystÃ©mu
+3. Pluginy - ChystÃ¡ se CelÃ© Aplikace jako plugin = FormulÃ¡Å™, proces(napÅ™. WorkFlow)
+4. 10x HostovanÃ© Windows Äi JinÃ© nativnÃ­ Aplikace : React, Electron
+5. 20x HostovanÃ© Web aplikace spuÅ¡tÄ›nÃ© v jÃ¡dru systÃ©mu (web serveru)
+6. Multi PoboÄkovÃ½ FakturaÄnÃ­, NabÃ­dkovÃ½, ObjednÃ¡vkovÃ½ SystÃ©m s Pokladnou
+7. Modul VykazovÃ¡nÃ­ PrÃ¡ce ve VÃ½robÄ› vÄetnÄ› Reportingu
+8. KompletnÃ­ SprÃ¡va ServerovÃ½ch Agend
+9. Emailing,WebBlog, NewsLetter, Notifikace, PrivÃ¡tnÃ­ ZprÃ¡vy 
+10. DohledovÃ© Centrum
+11. SdÃ­lenÃ­ na Internetu, Live Web Data Monitoring
+12. Reporting vÄetnÄ› Report Builderu 
+13. Agendy NÃ¡strojÅ¯, HromadnÃ½ch OperacÃ­ Atd.
+14. KompletnÃ­ SprÃ¡va Multimedia Online Dokumentace
+15. LicenÄnÃ­ Server
+16. KompletnÃ­ SprÃ¡va a VÃ½voj Web PortÃ¡lu Online + DynamickÃ© Moduly
+17. PlÃ¡novaÄ Ãšloh, ZasÃ­lÃ¡nÃ­ EmailÅ¯, spouÅ¡tÄ›nÃ­ ProcesÅ¯, Socket, SQL
+18. KalendÃ¡Å™
 
 
-## Centrální Správa IT
-Instalace na OS Windows provedete pomocí bìného Instalátoru.
-Instalace na OS LINUX/MACOS dle pøiloeného Návodu  
-Server Funguje jako Systémová Sluba, Systém je Tenkı/Tlustı Klient
-Ji Nyní Obsahuje Kompletní centrální Správu IT pro Vaši Spoleènost
-Chtìjte od svého IT oddìlení Více a poøidtì jim toto øešení ještì dnes
+A to nenÃ­ zdaleka vÅ¡e. Na spoustu vÄ›cÃ­ mÃ­t web nikdy nebude.
+AktuÃ¡lnÄ› VytvoÅ™enÃ¡ sprÃ¡va serveru vÄetnÄ› webovÃ©ho portÃ¡lu se spravuje  
+snÃ¡z z aplikace neÅ¾ pÅ™Ã­mo z webu. AktuÃ¡lnÄ› jiÅ¾ nynÃ­ slouÅ¾Ã­ systÃ©m k online
+VÃ½voji webovÃ©ho portÃ¡lu.
 
 
-## Jednoduchı Vıvoj API - Webù - Aplikací 
-Vıvoj je u jen kopírování a vytváøení novıch tabulek dle potøeby.
-Øešení nabízí 2x více ne Kdokoliv. Dvojí administrace je moná
-jak ze Systému, Tak i z Webu, Vyvynutí jednoho nebo druhého je stejnì snadné
-na obou stranách. Vıvoj Webu je Èistì 1-stránková Statická Aplikace.
-Take Zmìny provádíte hned. 
-Vıvoj Serveru a Systému se provádí pomocí Visual Studia nebo ji Brzy Online
-z Portálu. Sstémy bude moné Updatovat a vznikne i Distibuce Agend pro klienty, 
-tedy monost pøivıdìlku. Spolupráce, èi Cokoliv jinéhjo je vdy Vítána.
+## CentrÃ¡lnÃ­ SprÃ¡va IT
+Instalace na OS Windows provedete pomocÃ­ bÄ›Å¾nÃ©ho InstalÃ¡toru.
+Instalace na OS LINUX/MACOS dle pÅ™iloÅ¾enÃ©ho NÃ¡vodu  
+Server Funguje jako SystÃ©movÃ¡ SluÅ¾ba, SystÃ©m je TenkÃ½/TlustÃ½ Klient
+JiÅ¾ NynÃ­ Obsahuje KompletnÃ­ centrÃ¡lnÃ­ SprÃ¡vu IT pro VaÅ¡i SpoleÄnost
+ChtÄ›jte od svÃ©ho IT oddÄ›lenÃ­ VÃ­ce a poÅ™idtÄ› jim toto Å™eÅ¡enÃ­ jeÅ¡tÄ› dnes
 
 
-## Právì se Implementuje
+## JednoduchÃ½ VÃ½voj API - WebÅ¯ - AplikacÃ­ 
+VÃ½voj je uÅ¾ jen kopÃ­rovÃ¡nÃ­ a vytvÃ¡Å™enÃ­ novÃ½ch tabulek dle potÅ™eby.
+Å˜eÅ¡enÃ­ nabÃ­zÃ­ 2x vÃ­ce neÅ¾ Kdokoliv. DvojÃ­ administrace je moÅ¾nÃ¡
+jak ze SystÃ©mu, Tak i z Webu, VyvynutÃ­ jednoho nebo druhÃ©ho je stejnÄ› snadnÃ©
+na obou stranÃ¡ch. VÃ½voj Webu je ÄŒistÄ› 1-strÃ¡nkovÃ¡ StatickÃ¡ Aplikace.
+TakÅ¾e ZmÄ›ny provÃ¡dÃ­te hned. 
+VÃ½voj Serveru a SystÃ©mu se provÃ¡dÃ­ pomocÃ­ Visual Studia nebo jiÅ¾ Brzy Online
+z PortÃ¡lu. SstÃ©my bude moÅ¾nÃ© Updatovat a vznikne i Distibuce Agend pro klienty, 
+tedy moÅ¾nost pÅ™ivÃ½dÄ›lku. SpoluprÃ¡ce, Äi Cokoliv jinÃ©hjo je vÅ¾dy VÃ­tÃ¡na.
+
+
+## PrÃ¡vÄ› se Implementuje
 
  1. SubServers Management
- 2. Online C# Vıvoj Projektù Online ze Systému
- 3. Správa Separátního Statického souborového uloištì
+ 2. Online C# VÃ½voj ProjektÅ¯ Online ze SystÃ©mu
+ 3. SprÃ¡va SeparÃ¡tnÃ­ho StatickÃ©ho souborovÃ©ho uloÅ¾iÅ¡tÄ›
 
 ---
 
-## Neomezené Monosti v Jediném Øešení
-Toto Øešení tak ji nyní nabízí doslova unikátní monosti nastavení
-jak webovıch systému, Tak Desktopovıch Aplikací, A c chcete Více?  
+## NeomezenÃ© MoÅ¾nosti v JedinÃ©m Å˜eÅ¡enÃ­
+Toto Å˜eÅ¡enÃ­ tak jiÅ¾ nynÃ­ nabÃ­zÃ­ doslova unikÃ¡tnÃ­ moÅ¾nosti nastavenÃ­
+jak webovÃ½ch systÃ©mu, Tak DesktopovÃ½ch AplikacÃ­, A c chcete VÃ­ce?  
 
-Plnohodnotná Správa celého IT vèetnì vlastího IS je souèástí Øešení.
-Vlastní Web s moností kdykoliv si cokoliv ONLINE upravit a navíc
-jak ze Systému pøes Editory èi Online pomocí Web Editorù. 
+PlnohodnotnÃ¡ SprÃ¡va celÃ©ho IT vÄetnÄ› vlastÃ­ho IS je souÄÃ¡stÃ­ Å˜eÅ¡enÃ­.
+VlastnÃ­ Web s moÅ¾nostÃ­ kdykoliv si cokoliv ONLINE upravit a navÃ­c
+jak ze SystÃ©mu pÅ™es Editory Äi Online pomocÃ­ Web EditorÅ¯. 
 
-Chybí jen Vlastní Email Server, kterı je ji taky pøedchystanı.  
-I Tak Je nachystána další Stovka rùznıch Øešení, která budou
-postupnì Implementována a nabídnuta Zákazníkùm k Aktualizaci èi rozšíøení.
-U Bude na kadém z vás Jestli se dále Vydáte Vlastní Cestou,
-nebo Své Úsilí spojíme v plodné a pøínosné èinnosti.
-
-
-## Jednoduchá Instalace 
-Instalace na OS Windows provedete pomocí bìného Instalátoru.  
-Instalace na OS LINUX/MACOS dle pøiloeného Návodu   
-   * Server Funguje jako Systémová Sluba 
-   * Systém je (tlustší)Tenkı Klient 
-
-(tlustı jen vekostí díky vlastnímu serveru,lze oèistit na velikost 20MB)
+ChybÃ­ jen VlastnÃ­ Email Server, kterÃ½ je jiÅ¾ taky pÅ™edchystanÃ½.  
+I Tak Je nachystÃ¡na dalÅ¡Ã­ Stovka rÅ¯znÃ½ch Å˜eÅ¡enÃ­, kterÃ¡ budou
+postupnÄ› ImplementovÃ¡na a nabÃ­dnuta ZÃ¡kaznÃ­kÅ¯m k Aktualizaci Äi rozÅ¡Ã­Å™enÃ­.
+UÅ¾ Bude na kaÅ¾dÃ©m z vÃ¡s Jestli se dÃ¡le VydÃ¡te VlastnÃ­ Cestou,
+nebo SvÃ© ÃšsilÃ­ spojÃ­me v plodnÃ© a pÅ™Ã­nosnÃ© Äinnosti.
 
 
-## **Nejlevnìjší ØEŠENÍ IT mùe bıt Nejlepší**
-To vám nabízí toto øešení. Vyvinutí systému si mùete objednat a díky
-ji existujícím øešením je vıvoj raketovì rychlı. Nemluvì o implementacích
-technologií pouze 1x, Následnì je zaøazena do vıbavy Systému a díky portálu
-a chystanému Centrálnímu Vıvoji pro aktualizace, centralizovanı vıvoj a
-Vıvoj Systému Online pøes internet pomocí Grafického Studia to bude jen zábava.
+## JednoduchÃ¡ Instalace 
+Instalace na OS Windows provedete pomocÃ­ bÄ›Å¾nÃ©ho InstalÃ¡toru.  
+Instalace na OS LINUX/MACOS dle pÅ™iloÅ¾enÃ©ho NÃ¡vodu   
+   * Server Funguje jako SystÃ©movÃ¡ SluÅ¾ba 
+   * SystÃ©m je (tlustÅ¡Ã­)TenkÃ½ Klient 
+
+(tlustÃ½ jen vekostÃ­ dÃ­ky vlastnÃ­mu serveru,lze oÄistit na velikost 20MB)
 
 
-## **A mnoho dalšího snad najde své Zájemce**
-Toto byl jen malinkı vıèet co vše je v projektu obsaeno a kam míøí.
-Pokud vás Projekt zaujal, neváhejte mne kontaktovat a poøídit si jej
-tøeba ještì dnes.
-ádná investice se vám nevrátí tak rychle, jako v tomto pøípadì.
+## **NejlevnÄ›jÅ¡Ã­ Å˜EÅ ENÃ IT mÅ¯Å¾e bÃ½t NejlepÅ¡Ã­**
+To vÃ¡m nabÃ­zÃ­ toto Å™eÅ¡enÃ­. VyvinutÃ­ systÃ©mu si mÅ¯Å¾ete objednat a dÃ­ky
+jiÅ¾ existujÃ­cÃ­m Å™eÅ¡enÃ­m je vÃ½voj raketovÄ› rychlÃ½. NemluvÄ› o implementacÃ­ch
+technologiÃ­ pouze 1x, NÃ¡slednÄ› je zaÅ™azena do vÃ½bavy SystÃ©mu a dÃ­ky portÃ¡lu
+a chystanÃ©mu CentrÃ¡lnÃ­mu VÃ½voji pro aktualizace, centralizovanÃ½ vÃ½voj a
+VÃ½voj SystÃ©mu Online pÅ™es internet pomocÃ­ GrafickÃ©ho Studia to bude jen zÃ¡bava.
 
 
-## **Vyzkoušejte MS SYSTÉM online Hned Teï**
-**Aktuální verzi [EasySYSTEMBuilder](http://KlikneteZde.cz:8000) mùete vyzkoušet online.**   
-**Online dokumentace, pøíklady, Git, Knihovny kódù, Nástroje, Online Dev Studio
- naleznete ji nyní èi v blízké budoucnosti na tomto portálu.**  
+## **A mnoho dalÅ¡Ã­ho snad najde svÃ© ZÃ¡jemce**
+Toto byl jen malinkÃ½ vÃ½Äet co vÅ¡e je v projektu obsaÅ¾eno a kam mÃ­Å™Ã­.
+Pokud vÃ¡s Projekt zaujal, nevÃ¡hejte mne kontaktovat a poÅ™Ã­dit si jej
+tÅ™eba jeÅ¡tÄ› dnes.
+Å½Ã¡dnÃ¡ investice se vÃ¡m nevrÃ¡tÃ­ tak rychle, jako v tomto pÅ™Ã­padÄ›.
+
+
+## **VyzkouÅ¡ejte MS SYSTÃ‰M online Hned TeÄ**
+**AktuÃ¡lnÃ­ verzi [EasySYSTEMBuilder](http://KlikneteZde.cz:8000) mÅ¯Å¾ete vyzkouÅ¡et online.**   
+**Online dokumentace, pÅ™Ã­klady, Git, Knihovny kÃ³dÅ¯, NÃ¡stroje, Online Dev Studio
+ naleznete jiÅ¾ nynÃ­ Äi v blÃ­zkÃ© budoucnosti na tomto portÃ¡lu.**  
   
-**Ji Nyní k dispozici 30denní plná verze Serveru EIC i Systému ESB k vyzkoušení ZDARMA.**  
-**Další informace o projektech EIC a ESB na Portálu [KlikneteZde.cz](http://KlikneteZde.cz)**
+**JiÅ¾ NynÃ­ k dispozici 30dennÃ­ plnÃ¡ verze Serveru EIC i SystÃ©mu ESB k vyzkouÅ¡enÃ­ ZDARMA.**  
+**DalÅ¡Ã­ informace o projektech EIC a ESB na PortÃ¡lu [KlikneteZde.cz](http://KlikneteZde.cz)**
 
 
-Pro myšlení, vıvoj nástrojù a práci s nimi hodné 21. století
-**EIC + ESB = Nerozluèná Dvojice, která spolu dokáe VŠE**
+Pro myÅ¡lenÃ­, vÃ½voj nÃ¡strojÅ¯ a prÃ¡ci s nimi hodnÃ© 21. stoletÃ­
+**EIC + ESB = NerozluÄnÃ¡ Dvojice, kterÃ¡ spolu dokÃ¡Å¾e VÅ E**
