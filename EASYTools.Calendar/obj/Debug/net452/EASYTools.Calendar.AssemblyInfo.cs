@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF Calendar with notes ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b8ecd01affc9e8d32bf7a54d5a6bc51b54a73e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+305418e37bb5f919ba72bf418dc8b2873e666cb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.Calendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.Calendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

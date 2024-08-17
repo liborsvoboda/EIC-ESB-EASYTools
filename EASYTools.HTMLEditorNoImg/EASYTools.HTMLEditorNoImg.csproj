@@ -67,7 +67,7 @@ with image upload from URL</Description>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>WPF,html, editor,htmleditor</PackageTags>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <ToolCommandName>HTMLEditorNoImg</ToolCommandName>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>

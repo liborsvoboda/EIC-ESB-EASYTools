@@ -37,7 +37,7 @@
     <Company>GroupWare-Solution.Eu</Company>
     <Product>EASYTools.MarkdownToHtml</Product>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\</PackageOutputPath>
     <ToolCommandName>MarkdownToHtml</ToolCommandName>
     <AnalysisLevel>6.0</AnalysisLevel>

@@ -27,7 +27,7 @@
     <Product>EASYTools.TouchKeyboard</Product>
     <Description>WPF Modal Touch Keyboard </Description>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <ToolCommandName>EASYTools.TouchKeyboard</ToolCommandName>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>

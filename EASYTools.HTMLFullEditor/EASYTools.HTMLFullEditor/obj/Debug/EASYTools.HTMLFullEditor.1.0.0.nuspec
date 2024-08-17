@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>EASYTools.HTMLFullEditor</id>
     <version>1.0.0</version>
@@ -14,10 +14,15 @@
 with image upload as content</description>
     <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>WPF,html, editor,htmleditor</tags>
-    <packageTypes>
-      <packageType name="DotnetTool" />
-    </packageTypes>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="0b8ecd01affc9e8d32bf7a54d5a6bc51b54a73e8" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="305418e37bb5f919ba72bf418dc8b2873e666cb0" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.11.0" exclude="Build,Analyzers" />
+        <dependency id="System.Resources.Extensions" version="4.7.1" exclude="Build,Analyzers" />
+        <dependency id="System.Resources.ResourceManager" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Unofficial.Microsoft.mshtml.NetStandard" version="7.0.3300.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.2" />
       <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.2" />
@@ -41,15 +46,7 @@ with image upload as content</description>
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\obj\DotnetToolSettings.xml" target="tools\net462\any\DotnetToolSettings.xml" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.dll" target="tools\net462\any\EASYTools.HTMLFullEditor.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\EASYTools.HTMLFullEditor.pdb" target="tools\net462\any\EASYTools.HTMLFullEditor.pdb" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Buffers.dll" target="tools\net462\any\System.Buffers.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Memory.dll" target="tools\net462\any\System.Memory.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Numerics.Vectors.dll" target="tools\net462\any\System.Numerics.Vectors.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Resources.Extensions.dll" target="tools\net462\any\System.Resources.Extensions.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\System.Runtime.CompilerServices.Unsafe.dll" target="tools\net462\any\System.Runtime.CompilerServices.Unsafe.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\publish\Microsoft.mshtml.dll" target="tools\net462\any\Microsoft.mshtml.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\EASYTools.HTMLFullEditor.dll" target="lib\net462\EASYTools.HTMLFullEditor.dll" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="content\Code\ResourceHelper.Icons.tt" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="contentFiles\any\net462\Code\ResourceHelper.Icons.tt" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="content\favicon.ico" />

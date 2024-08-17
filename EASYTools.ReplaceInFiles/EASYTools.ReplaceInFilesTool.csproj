@@ -11,7 +11,7 @@
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>ReplaceInFiles</Title>
     <Company>GroupWare-Solution.Eu</Company>

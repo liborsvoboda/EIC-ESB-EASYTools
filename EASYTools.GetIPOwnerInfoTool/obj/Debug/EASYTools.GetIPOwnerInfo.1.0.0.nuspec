@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>EASYTools.GetIPOwnerInfo</id>
     <version>1.0.0</version>
@@ -13,10 +13,14 @@
     <description>Get WHoIs for List IP over Free public API</description>
     <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>Whois IPinfo API</tags>
-    <packageTypes>
-      <packageType name="DotnetTool" />
-    </packageTypes>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="0b8ecd01affc9e8d32bf7a54d5a6bc51b54a73e8" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="305418e37bb5f919ba72bf418dc8b2873e666cb0" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="System.AppContext" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.2" />
     </frameworkAssemblies>
@@ -26,21 +30,7 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\DotnetToolSettings.xml" target="tools\net462\any\DotnetToolSettings.xml" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\config.json" target="tools\net462\any\config.json" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\EASYTools.GetIPOwnerInfo.exe" target="tools\net462\any\EASYTools.GetIPOwnerInfo.exe" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\EASYTools.GetIPOwnerInfo.exe.config" target="tools\net462\any\EASYTools.GetIPOwnerInfo.exe.config" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\EASYTools.GetIPOwnerInfo.pdb" target="tools\net462\any\EASYTools.GetIPOwnerInfo.pdb" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\Microsoft.Bcl.AsyncInterfaces.dll" target="tools\net462\any\Microsoft.Bcl.AsyncInterfaces.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.AppContext.dll" target="tools\net462\any\System.AppContext.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Buffers.dll" target="tools\net462\any\System.Buffers.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Memory.dll" target="tools\net462\any\System.Memory.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Numerics.Vectors.dll" target="tools\net462\any\System.Numerics.Vectors.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Runtime.CompilerServices.Unsafe.dll" target="tools\net462\any\System.Runtime.CompilerServices.Unsafe.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Text.Encodings.Web.dll" target="tools\net462\any\System.Text.Encodings.Web.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Text.Json.dll" target="tools\net462\any\System.Text.Json.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.Threading.Tasks.Extensions.dll" target="tools\net462\any\System.Threading.Tasks.Extensions.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\publish\System.ValueTuple.dll" target="tools\net462\any\System.ValueTuple.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\bin\Debug\net4.6.2\EASYTools.GetIPOwnerInfo.exe" target="lib\net462\EASYTools.GetIPOwnerInfo.exe" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\config.json" target="content\config.json" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\config.json" target="contentFiles\any\net462\config.json" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\favicon.ico" target="content\favicon.ico" />

@@ -49,7 +49,7 @@
     <Authors>Libor Svoboda</Authors>
     <Description>SQL Connection Dialog for WPF</Description>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <ToolCommandName>EASYTools.SqlConnectionDialog</ToolCommandName>
     <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS\</PackageOutputPath>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>

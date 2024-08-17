@@ -4,7 +4,7 @@
     <TargetFrameworks>net452</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <Title>ImageEffectGallery</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>

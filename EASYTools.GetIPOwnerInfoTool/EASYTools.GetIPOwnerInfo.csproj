@@ -9,7 +9,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>GetIPOwnerInfo</Title>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <IncludeSymbols>False</IncludeSymbols>
     <AnalysisLevel>6.0</AnalysisLevel>
     <SignAssembly>True</SignAssembly>

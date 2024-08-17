@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>EASYTools.HTMLEditorNoImg</id>
     <version>1.0.0</version>
@@ -14,10 +14,15 @@
 with image upload from URL</description>
     <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>WPF,html, editor,htmleditor</tags>
-    <packageTypes>
-      <packageType name="DotnetTool" />
-    </packageTypes>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="0b8ecd01affc9e8d32bf7a54d5a6bc51b54a73e8" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="305418e37bb5f919ba72bf418dc8b2873e666cb0" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Extended.Wpf.Toolkit" version="4.6.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.QualityTools.Testing.Fakes" version="17.5.0-beta.23060.1" exclude="Build,Analyzers" />
+        <dependency id="Xceed.Products.Wpf.Toolkit.AvalonDock.Themes" version="4.6.24151.1544" exclude="Build,Analyzers" />
+        <dependency id="Xceed.Wpf.AvalonDock.Themes.VS2013" version="2.9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.2" />
       <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.2" />
@@ -38,56 +43,7 @@ with image upload from URL</description>
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\obj\DotnetToolSettings.xml" target="tools\net462\any\DotnetToolSettings.xml" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\WindowsBase.4.0.0.0.Fakes.dll" target="tools\net462\any\WindowsBase.4.0.0.0.Fakes.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\EASYTools.HTMLEditorNoImg.dll" target="tools\net462\any\EASYTools.HTMLEditorNoImg.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\EASYTools.HTMLEditorNoImg.pdb" target="tools\net462\any\EASYTools.HTMLEditorNoImg.pdb" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Microsoft.QualityTools.Testing.Fakes.dll" target="tools\net462\any\Microsoft.QualityTools.Testing.Fakes.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Aero.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Aero.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Metro.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Metro.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Office2007.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Office2007.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.VS2010.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.VS2013.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.VS2013.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.AvalonDock.Themes.Windows10.dll" target="tools\net462\any\Xceed.Wpf.AvalonDock.Themes.Windows10.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.dll" target="tools\net462\any\Xceed.Wpf.Themes.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.FluentDesign.dll" target="tools\net462\any\Xceed.Wpf.Themes.FluentDesign.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.MaterialDesign.dll" target="tools\net462\any\Xceed.Wpf.Themes.MaterialDesign.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.MaterialDesignColors.dll" target="tools\net462\any\Xceed.Wpf.Themes.MaterialDesignColors.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.Metro.dll" target="tools\net462\any\Xceed.Wpf.Themes.Metro.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.Office2007.dll" target="tools\net462\any\Xceed.Wpf.Themes.Office2007.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Themes.Windows10.dll" target="tools\net462\any\Xceed.Wpf.Themes.Windows10.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\Xceed.Wpf.Toolkit.dll" target="tools\net462\any\Xceed.Wpf.Toolkit.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\WindowsBase.4.0.0.0.Fakes.fakesconfig" target="tools\net462\any\WindowsBase.4.0.0.0.Fakes.fakesconfig" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ja-JP\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ja-JP\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\cs\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\cs\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\de\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\de\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\de\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\de\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\es\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\es\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\es\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\es\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\fr\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\fr\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\it\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\it\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\it\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\it\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ko\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\ko\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\pl\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\pl\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ru\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ru\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\tr\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\tr\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll" target="tools\net462\any\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\hu\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\hu\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\ro\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\ro\Xceed.Wpf.AvalonDock.resources.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\publish\sv\Xceed.Wpf.AvalonDock.resources.dll" target="tools\net462\any\sv\Xceed.Wpf.AvalonDock.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\EASYTools.HTMLEditorNoImg.dll" target="lib\net462\EASYTools.HTMLEditorNoImg.dll" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="content\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
     <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />

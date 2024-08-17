@@ -57,7 +57,7 @@
     <Product>MarkDownToFlow</Product>
     <Company>GroupWare-Solution.Eu</Company>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <ToolCommandName>MarkDownToFLow</ToolCommandName>
     <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
     <IncludeSymbols>False</IncludeSymbols>
