@@ -1,0 +1,2 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MarkdownToHtml\bin\Debug\net462\publish\EASYTools.MarkdownToHtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MarkdownToHtml\bin\Debug\net462\publish\EASYTools.MarkdownToHtml.pdb

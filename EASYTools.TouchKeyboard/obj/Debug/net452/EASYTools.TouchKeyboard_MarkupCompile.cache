@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\obj\Debug\net452\
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\obj\Debug\net452\
 EASYTools.TouchKeyboard
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE;DEBUG;NETFRAMEWORK;NET452;
 
 21193657438
 
-32-572711301
-18-886607571
+311048589528
+18-1729762411
 Controls\FloatingTouchScreenKeyboard.xaml;Styles\OnScreenKeyoard.xaml;
 
 False

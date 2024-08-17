@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "UE5vS0YCBJI=",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatka\\.nuget\\packages\\extended.wpf.toolkit\\4.6.1\\extended.wpf.toolkit.4.6.1.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.qualitytools.testing.fakes\\17.5.0-beta.23060.1\\microsoft.qualitytools.testing.fakes.17.5.0-beta.23060.1.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.products.wpf.toolkit.avalondock.themes\\4.6.24151.1544\\xceed.products.wpf.toolkit.avalondock.themes.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock\\4.6.24151.1544\\xceed.wpf.avalondock.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.aero\\4.6.24151.1544\\xceed.wpf.avalondock.themes.aero.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.fluentdesign\\4.6.24151.1544\\xceed.wpf.avalondock.themes.fluentdesign.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.materialdesign\\4.6.24151.1544\\xceed.wpf.avalondock.themes.materialdesign.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.metro\\4.6.24151.1544\\xceed.wpf.avalondock.themes.metro.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.metroaccent\\4.6.24151.1544\\xceed.wpf.avalondock.themes.metroaccent.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.office2007\\4.6.24151.1544\\xceed.wpf.avalondock.themes.office2007.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.vs2010\\4.6.24151.1544\\xceed.wpf.avalondock.themes.vs2010.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.vs2013\\2.9.0.1\\xceed.wpf.avalondock.themes.vs2013.2.9.0.1.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.avalondock.themes.windows10\\4.6.24151.1544\\xceed.wpf.avalondock.themes.windows10.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes\\4.6.24151.1544\\xceed.wpf.themes.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.fluentdesign\\4.6.24151.1544\\xceed.wpf.themes.fluentdesign.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.materialdesign\\4.6.24151.1544\\xceed.wpf.themes.materialdesign.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.materialdesigncolors\\4.6.24151.1544\\xceed.wpf.themes.materialdesigncolors.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.metro\\4.6.24151.1544\\xceed.wpf.themes.metro.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.office2007\\4.6.24151.1544\\xceed.wpf.themes.office2007.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.themes.windows10\\4.6.24151.1544\\xceed.wpf.themes.windows10.4.6.24151.1544.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\xceed.wpf.toolkit\\4.6.24151.1544\\xceed.wpf.toolkit.4.6.24151.1544.nupkg.sha512"
+  ],
+  "logs": []
+}

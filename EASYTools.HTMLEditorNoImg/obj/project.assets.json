@@ -1,11 +1,900 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.6.2": {}
+    ".NETFramework,Version=v4.6.2": {
+      "Extended.Wpf.Toolkit/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net40/nl-BE/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Microsoft.QualityTools.Testing.Fakes/17.5.0-beta.23060.1": {
+        "type": "package",
+        "compile": {
+          "lib/net35/Microsoft.QualityTools.Testing.Fakes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/Microsoft.QualityTools.Testing.Fakes.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net35/cs/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net35/de/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35/es/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35/fr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35/it/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35/ja/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35/ko/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net35/pl/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net35/pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net35/ru/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35/tr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net35/zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Microsoft.Qualitytools.Testing.Fakes.targets": {}
+        }
+      },
+      "Xceed.Products.Wpf.Toolkit.AvalonDock.Themes/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock.Themes.Aero": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.FluentDesign": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.MaterialDesign": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.Metro": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.MetroAccent": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.Office2007": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.VS2010": "[4.6.24151.1544]",
+          "Xceed.Wpf.AvalonDock.Themes.Windows10": "[4.6.24151.1544]"
+        }
+      },
+      "Xceed.Wpf.AvalonDock/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.Aero/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.FluentDesign/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.FluentDesign": "[4.6.24151.1544]",
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.MaterialDesign/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.MaterialDesign": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.MaterialDesignColors": "[4.6.24151.1544]",
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.Metro/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.MetroAccent/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.Metro": "[4.6.24151.1544]",
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.Office2007/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.Office2007": "[4.6.24151.1544]",
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Office2007.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Office2007.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.VS2010/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.VS2013/2.9.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Extended.Wpf.Toolkit": "2.9.0"
+        },
+        "compile": {
+          "lib/net40-client/Xceed.Wpf.AvalonDock.Themes.VS2013.dll": {}
+        },
+        "runtime": {
+          "lib/net40-client/Xceed.Wpf.AvalonDock.Themes.VS2013.dll": {}
+        }
+      },
+      "Xceed.Wpf.AvalonDock.Themes.Windows10/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.AvalonDock": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.Windows10": "[4.6.24151.1544]",
+          "Xceed.Wpf.Toolkit": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Windows10.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Windows10.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes/4.6.24151.1544": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.FluentDesign/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.FluentDesign.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.FluentDesign.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesign/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]",
+          "Xceed.Wpf.Themes.MaterialDesignColors": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.MaterialDesign.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.MaterialDesign.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesignColors/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.Metro/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.Metro.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.Metro.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.Office2007/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.Office2007.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.Office2007.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.Windows10/4.6.24151.1544": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.6.24151.1544]"
+        },
+        "compile": {
+          "lib/net40/Xceed.Wpf.Themes.Windows10.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Themes.Windows10.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Toolkit/4.6.24151.1544": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Extended.Wpf.Toolkit/4.6.1": {
+      "sha512": "LZlLLGZP08mJufT/rjCiURP0owr34ZuAvcyzk5xgsvSMiKJRQvK7oaWUP7IXONE4BwCXREwKhtl34nUS8+RGQg==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/4.6.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Xceed_Logo_Retina-400x400.png",
+        "extended.wpf.toolkit.4.6.1.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/nl-BE/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.dll",
+        "lib/net5.0/Xceed.Wpf.Toolkit.dll",
+        "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "Microsoft.QualityTools.Testing.Fakes/17.5.0-beta.23060.1": {
+      "sha512": "z3wkf7mOjkebatkNg8j9zl/JQvOzxoKGutecHFMflkXtD2EeENxXrrbhcuGHGBupTEL6LuOeY+Jvm1Ey6ZVTLQ==",
+      "type": "package",
+      "path": "microsoft.qualitytools.testing.fakes/17.5.0-beta.23060.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.txt",
+        "build/Microsoft.Qualitytools.Testing.Fakes.targets",
+        "lib/net35/Microsoft.QualityTools.Testing.Fakes.dll",
+        "lib/net35/Microsoft.QualityTools.Testing.Fakes.xml",
+        "lib/net35/cs/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/de/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/es/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/fr/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/it/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/ja/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/ko/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/pl/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/ru/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/tr/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/net35/zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/Microsoft.QualityTools.Testing.Fakes.dll",
+        "lib/netstandard2.0/Microsoft.QualityTools.Testing.Fakes.xml",
+        "lib/netstandard2.0/cs/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/de/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/es/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/fr/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/it/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/ja/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/ko/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/pl/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/ru/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/tr/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "lib/netstandard2.0/zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll",
+        "microsoft.qualitytools.testing.fakes.17.5.0-beta.23060.1.nupkg.sha512",
+        "microsoft.qualitytools.testing.fakes.nuspec"
+      ]
+    },
+    "Xceed.Products.Wpf.Toolkit.AvalonDock.Themes/4.6.24151.1544": {
+      "sha512": "mOmRRVgoSQ5h+1pxYLZXJo1Hj5Yzfz3/JwpVOmv3eZxnNBEMVYepOPJoAJZaCJeQ5q5YnbUXcYPcmaYjthahwA==",
+      "type": "package",
+      "path": "xceed.products.wpf.toolkit.avalondock.themes/4.6.24151.1544",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "tools/init.ps1",
+        "xceed.products.wpf.toolkit.avalondock.themes.4.6.24151.1544.nupkg.sha512",
+        "xceed.products.wpf.toolkit.avalondock.themes.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock/4.6.24151.1544": {
+      "sha512": "L4/pt6syjyScvWMVsuwLum3SdUAZ3Y2arkCxWjg8kbQEgZzkf9huvOX18+z5Exbukv23kDVecls9aQVlPApKDA==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.xml",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.xml",
+        "lib/net5.0/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "xceed.wpf.avalondock.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.Aero/4.6.24151.1544": {
+      "sha512": "XnlyRbop+GulrK/hWrPLkqWMqXAzv7avlDIj+BQKWgMmmeVizNahwx7hrzcqJYzCckVFb0fqiDZcs9oMJulB+A==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.aero/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.xml",
+        "xceed.wpf.avalondock.themes.aero.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.aero.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.FluentDesign/4.6.24151.1544": {
+      "sha512": "6lcT2Q/GwR/MRNoxngaZZXpghhChRigj/M4GP27hmlZG+GV1WUCCLY8Gvo0KvVVEK5iLDjDopazB+u6wfQAQAg==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.fluentdesign/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.FluentDesign.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.FluentDesign.xml",
+        "xceed.wpf.avalondock.themes.fluentdesign.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.fluentdesign.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.MaterialDesign/4.6.24151.1544": {
+      "sha512": "H4lDqDP55iAwLO1B9clZo+BX2ubnjblgt+5qF0XZfmDfTo3J+/vkxuw+LtqBeCtTINpNHeL5/2UHlTyz9WggVg==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.materialdesign/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.MaterialDesign.xml",
+        "xceed.wpf.avalondock.themes.materialdesign.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.materialdesign.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.Metro/4.6.24151.1544": {
+      "sha512": "6kORIvZ7DMRCTDCtaq/itHxQTl2xPYtvwknOpnsVd4u2jdF3U7TTBme7swuopMekcCqJjO5yOWc9z8iXtsyW4A==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.metro/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.xml",
+        "xceed.wpf.avalondock.themes.metro.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.metro.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.MetroAccent/4.6.24151.1544": {
+      "sha512": "+ogukaEgotgal3/jn1rWB7b/TItrC4WffbQppl1kitc4ZxqLxMFM5LzQF4yAC8z83MEAWR+hDKX3oG4tOrnGEg==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.metroaccent/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.MetroAccent.xml",
+        "xceed.wpf.avalondock.themes.metroaccent.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.metroaccent.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.Office2007/4.6.24151.1544": {
+      "sha512": "5KW0oPIjdP3H8bLiy8eCdOlqvJYExBVX5FesvHPkP44Lh7VyL/rFnJ/wodn/ge6BajyxiMwAeZXdyrTFoy4/ew==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.office2007/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Office2007.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Office2007.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Office2007.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Office2007.xml",
+        "xceed.wpf.avalondock.themes.office2007.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.office2007.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.VS2010/4.6.24151.1544": {
+      "sha512": "CxSlCDri04efRVFBuIUj5cgUCisyNh0tVQGwXIBnbh7O5lhe+Qw2EUU3oLzT2FAYdxR0w6SEct0SJ20ejN/DAg==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.vs2010/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.xml",
+        "xceed.wpf.avalondock.themes.vs2010.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.vs2010.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.VS2013/2.9.0.1": {
+      "sha512": "jCJ6yUuAJtQDzIXfoBG1A6P7vqMMvVh/zRuT5/2e2nH6xYVX9WZ0IW3vY2bb7hExyUrh+QDd+NotpGqCgS7K+w==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.vs2013/2.9.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40-client/Xceed.Wpf.AvalonDock.Themes.VS2013.dll",
+        "xceed.wpf.avalondock.themes.vs2013.2.9.0.1.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.vs2013.nuspec"
+      ]
+    },
+    "Xceed.Wpf.AvalonDock.Themes.Windows10/4.6.24151.1544": {
+      "sha512": "TZtQQlCROPWvmFhfBbVu2Jn4n8VGeKQ6b/1Vkpbr7x3vgIljT7D6p/t8b2YAwdGK80jTQr84mtA8sOfimEhrrg==",
+      "type": "package",
+      "path": "xceed.wpf.avalondock.themes.windows10/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Windows10.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Windows10.xml",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Windows10.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Windows10.xml",
+        "xceed.wpf.avalondock.themes.windows10.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.avalondock.themes.windows10.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes/4.6.24151.1544": {
+      "sha512": "jFiR3M5UA947+mjIXTcQoPFa0wuoME7FJofzYdRJQ4iFxpIJxrkY4Vwfmz4ccUWj1zEoDk/YGtBR3rTj0lNzgg==",
+      "type": "package",
+      "path": "xceed.wpf.themes/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.dll",
+        "lib/net40/Xceed.Wpf.Themes.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.xml",
+        "xceed.wpf.themes.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.FluentDesign/4.6.24151.1544": {
+      "sha512": "9SAJkmwpcNbksuTzRmJiyALjlliFUJxxRJSylKCQrws4jKfnGPgyTVcXpyRkUsVywGc+6ebW6kHhVmsmOwRmEQ==",
+      "type": "package",
+      "path": "xceed.wpf.themes.fluentdesign/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.FluentDesign.dll",
+        "lib/net40/Xceed.Wpf.Themes.FluentDesign.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.FluentDesign.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.FluentDesign.xml",
+        "xceed.wpf.themes.fluentdesign.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.fluentdesign.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.MaterialDesign/4.6.24151.1544": {
+      "sha512": "x+Mt3XfZyQfZrawtWxhy5U8TyiWI9Triyi2rcUbLq3H51ep+qgO628hD/AwE2rjpu4WFH36o/Evdpeo3C1j6IQ==",
+      "type": "package",
+      "path": "xceed.wpf.themes.materialdesign/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesign.dll",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesign.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.xml",
+        "xceed.wpf.themes.materialdesign.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.materialdesign.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.MaterialDesignColors/4.6.24151.1544": {
+      "sha512": "qBXT/j8ex+VuUY8nHiomyo0Y6nb3nlBhHCM01p/irAVP0OLfj+M9GhJ930Bqr9SDTCLuQlLGpGirN/aASj4bPw==",
+      "type": "package",
+      "path": "xceed.wpf.themes.materialdesigncolors/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.dll",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.xml",
+        "xceed.wpf.themes.materialdesigncolors.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.materialdesigncolors.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.Metro/4.6.24151.1544": {
+      "sha512": "AiRrSJVF7SC8dMmOfjgxz4xaLyPV1It7lQFqKaOq7LpycU6is8BlklZLvhkbKfXegNDk5fMZGO0XTCoCCJYw4g==",
+      "type": "package",
+      "path": "xceed.wpf.themes.metro/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.Themes.Metro.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.Metro.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.Metro.xml",
+        "xceed.wpf.themes.metro.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.metro.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.Office2007/4.6.24151.1544": {
+      "sha512": "q3SDA5vu0wdQHDSUuoYisW2j/YxNrTWymu+EWOWqWUTm0vaOwFQMXxEqYHB4XxOw6SCbuiQaAAQiFhmzHti4VA==",
+      "type": "package",
+      "path": "xceed.wpf.themes.office2007/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.Office2007.dll",
+        "lib/net40/Xceed.Wpf.Themes.Office2007.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.Office2007.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.Office2007.xml",
+        "xceed.wpf.themes.office2007.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.office2007.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.Windows10/4.6.24151.1544": {
+      "sha512": "CL/YuUW5g3/P0N9EbGeAvUZTvtb4lWmqb1hYlRFkCB2pCsCLAlsrqCe7Ktk2KvWTheBecpIyy/UnCJucz/UeoQ==",
+      "type": "package",
+      "path": "xceed.wpf.themes.windows10/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.Windows10.dll",
+        "lib/net40/Xceed.Wpf.Themes.Windows10.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.Windows10.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.Windows10.xml",
+        "xceed.wpf.themes.windows10.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.themes.windows10.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Toolkit/4.6.24151.1544": {
+      "sha512": "kmFvgQV8cUkjwEJkdIsI3jxmI83y2uZK09nyGqLBV20HKxGwSdElZ0RjrGRufrEHNVfbozvme36qkWxIXdYPAg==",
+      "type": "package",
+      "path": "xceed.wpf.toolkit/4.6.24151.1544",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.xml",
+        "lib/net5.0/Xceed.Wpf.Toolkit.dll",
+        "lib/net5.0/Xceed.Wpf.Toolkit.xml",
+        "xceed.wpf.toolkit.4.6.24151.1544.nupkg.sha512",
+        "xceed.wpf.toolkit.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.6.2": []
+    ".NETFramework,Version=v4.6.2": [
+      "Extended.Wpf.Toolkit >= 4.6.1",
+      "Microsoft.QualityTools.Testing.Fakes >= 17.5.0-beta.23060.1",
+      "Xceed.Products.Wpf.Toolkit.AvalonDock.Themes >= 4.6.24151.1544",
+      "Xceed.Wpf.AvalonDock.Themes.VS2013 >= 2.9.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tatka\\.nuget\\packages\\": {},
@@ -15,11 +904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+      "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
       "projectName": "EASYTools.HTMLEditorNoImg",
-      "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+      "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
       "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
-      "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\obj\\",
+      "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -37,6 +926,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-NUGETS": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
       },
@@ -60,6 +950,24 @@
     "frameworks": {
       "net462": {
         "targetAlias": "net462",
+        "dependencies": {
+          "Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[4.6.1, )"
+          },
+          "Microsoft.QualityTools.Testing.Fakes": {
+            "target": "Package",
+            "version": "[17.5.0-beta.23060.1, )"
+          },
+          "Xceed.Products.Wpf.Toolkit.AvalonDock.Themes": {
+            "target": "Package",
+            "version": "[4.6.24151.1544, )"
+          },
+          "Xceed.Wpf.AvalonDock.Themes.VS2013": {
+            "target": "Package",
+            "version": "[2.9.0.1, )"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
       }
     }

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\obj\Debug\net452\
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\obj\Debug\net452\
 EASYTools.SqlConnectionDialog
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE;DEBUG;NETFRAMEWORK;NET452;
 
 11604089414
 1-1719396183
-71063028587
+51055922130
 171545558256
 Dialog.xaml;
 
-True
+False
 

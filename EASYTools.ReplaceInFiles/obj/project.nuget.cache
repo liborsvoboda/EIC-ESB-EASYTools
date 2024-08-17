@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZJInamzHd1o=",
+  "success": true,
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ReplaceInFiles\\EASYTools.ReplaceInFilesTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.CrashReporter\obj\Debug\net452\
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.CrashReporter\obj\Debug\net452\
 EASYTools.CrashReporter
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE;DEBUG;NETFRAMEWORK;NET452;
 
 41518618595
 
-111501670573
-201428928122
+10-1171995894
+201447220572
 ucExceptions.xaml;ucGeneral.xaml;ucScreenshot.xaml;wdoCrashReport.xaml;
 
 False

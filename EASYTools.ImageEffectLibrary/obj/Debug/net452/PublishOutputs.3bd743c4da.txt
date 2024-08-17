@@ -1,0 +1,2 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\bin\Debug\net452\publish\EASYTools.ImageEffectLibrary.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.ImageEffectLibrary\bin\Debug\net452\publish\EASYTools.ImageEffectLibrary.pdb

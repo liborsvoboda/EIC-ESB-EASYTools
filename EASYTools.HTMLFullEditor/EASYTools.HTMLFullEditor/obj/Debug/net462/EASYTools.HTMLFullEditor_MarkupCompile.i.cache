@@ -1,10 +1,10 @@
 ﻿EASYTools.HTMLFullEditor
-
+1.0.0.0
 
 library
 C#
 .cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\obj\Debug\net462\
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\obj\Debug\net462\
 EASYTools.HTMLFullEditor
 none
 false
@@ -12,7 +12,7 @@ DEBUG;TRACE;DEBUG;NETFRAMEWORK;NET462;
 
 5-1327396693
 4-288528850
-471170775240
+46-2072089273
 23-2131460094
 Dialogs\HyperlinkDialog.xaml;Dialogs\ImageDialog.xaml;Resources\Styles.xaml;Views\EditorToolbar.xaml;Resources\Icons.xaml;
 

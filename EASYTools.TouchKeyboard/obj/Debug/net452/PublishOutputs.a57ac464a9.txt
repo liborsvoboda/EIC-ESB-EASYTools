@@ -1,0 +1,6 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\EASYTools.TouchKeyboard.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\EASYTools.TouchKeyboard.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\Microsoft.Expression.Interactions.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\System.Windows.Interactivity.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\Microsoft.Expression.Interactions.xml
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.TouchKeyboard\bin\Debug\net452\publish\System.Windows.Interactivity.xml

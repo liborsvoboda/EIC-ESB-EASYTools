@@ -31,7 +31,7 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.MarkdownToHtml</PackageId>
     <Title>MarkdownToHtml</Title>
     <Company>GroupWare-Solution.Eu</Company>
@@ -50,6 +50,7 @@
     <RepositoryType>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryType>
     <PackageTags>Markdown;Md;WPF;</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -14,4 +14,8 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net462' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\tatka\.nuget\packages\extended.wpf.toolkit\4.6.1</PkgExtended_Wpf_Toolkit>
+    <PkgXceed_Products_Wpf_Toolkit_AvalonDock_Themes Condition=" '$(PkgXceed_Products_Wpf_Toolkit_AvalonDock_Themes)' == '' ">C:\Users\tatka\.nuget\packages\xceed.products.wpf.toolkit.avalondock.themes\4.6.24151.1544</PkgXceed_Products_Wpf_Toolkit_AvalonDock_Themes>
+  </PropertyGroup>
 </Project>

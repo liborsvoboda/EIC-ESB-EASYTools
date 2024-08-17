@@ -73,6 +73,7 @@
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>Markdown;Md;WPF;</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net4.6.2'">
     <IsPublishable>True</IsPublishable>

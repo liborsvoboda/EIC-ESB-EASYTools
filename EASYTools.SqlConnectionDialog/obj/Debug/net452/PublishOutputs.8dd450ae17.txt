@@ -1,0 +1,4 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\bin\Debug\net452\publish\EASYTools.SqlConnectionDialog.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\bin\Debug\net452\publish\EASYTools.SqlConnectionDialog.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\bin\Debug\net452\publish\System.Windows.Forms.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.SqlConnectionDialog\bin\Debug\net452\publish\System.Windows.Forms.xml

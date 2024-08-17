@@ -1,10 +1,10 @@
 ﻿EASYTools.CrashReporter
-
+1.0.0.0
 
 library
 C#
 .cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.CrashReporter\obj\Debug\net452\
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.CrashReporter\obj\Debug\net452\
 EASYTools.CrashReporter
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE;DEBUG;NETFRAMEWORK;NET452;
 
 41518618595
 
-12-1164889437
-201428928122
+12-409306925
+201447220572
 ucExceptions.xaml;ucGeneral.xaml;ucScreenshot.xaml;wdoCrashReport.xaml;
 
 False
