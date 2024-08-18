@@ -25,7 +25,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\SRV-NUGETS</PackageOutputPath>
+    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
     <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
   </PropertyGroup>

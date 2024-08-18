@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.5.2": {
+    ".NETFramework,Version=v4.6.2": {
       "Microsoft.DependencyValidation.Analyzers/0.11.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -41,7 +41,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.5.2": [
+    ".NETFramework,Version=v4.6.2": [
       "Microsoft.DependencyValidation.Analyzers >= 0.11.0"
     ]
   },
@@ -51,7 +51,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
       "projectName": "EASYTools.Calendar",
@@ -70,7 +70,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net452"
+        "net462"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -80,8 +80,8 @@
         "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
       },
       "frameworks": {
-        "net452": {
-          "targetAlias": "net452",
+        "net462": {
+          "targetAlias": "net462",
           "projectReferences": {}
         }
       },
@@ -97,8 +97,8 @@
       }
     },
     "frameworks": {
-      "net452": {
-        "targetAlias": "net452",
+      "net462": {
+        "targetAlias": "net462",
         "dependencies": {
           "Microsoft.DependencyValidation.Analyzers": {
             "target": "Package",

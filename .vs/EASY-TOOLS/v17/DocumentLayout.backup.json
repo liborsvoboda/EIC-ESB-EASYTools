@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B675F044-90E7-4DCE-A361-E0471E63394F}|EASYTools.GetIPOwnerInfoTool\\EASYTools.GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\eicesb-modules\\easyit-wpftools\\easytools.getipownerinfotool\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B675F044-90E7-4DCE-A361-E0471E63394F}|EASYTools.GetIPOwnerInfoTool\\EASYTools.GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfotool\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\eicesb-modules\\easyit-wpftools\\easytools.crashreporter\\easytools.crashreporter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|solutionrelative:easytools.crashreporter\\easytools.crashreporter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\eicesb-modules\\easyit-wpftools\\easytools.crashreporter\\easytools.crashreporter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|solutionrelative:easytools.crashreporter\\easytools.crashreporter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31C3B4A7-504B-4EFF-BACC-C8F2FFE5AF6F}|EASYTools.Calendar\\EASYTools.Calendar.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\easy-it-projects\\eicesb-modules\\easyit-wpftools\\easytools.calendar\\easytools.calendar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{31C3B4A7-504B-4EFF-BACC-C8F2FFE5AF6F}|EASYTools.Calendar\\EASYTools.Calendar.csproj|solutionrelative:easytools.calendar\\easytools.calendar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -18,19 +30,69 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.GetIPOwnerInfoTool\\Functions\\Functions.cs",
+              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfoTool\\Functions\\Functions.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.GetIPOwnerInfoTool\\Functions\\Functions.cs",
+              "RelativeToolTip": "EASYTools.GetIPOwnerInfoTool\\Functions\\Functions.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T23:41:54.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EASYTools.CrashReporter",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeDocumentMoniker": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeToolTip": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T23:39:10.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EASYTools.Calendar",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
               "RelativeDocumentMoniker": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
               "RelativeToolTip": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-17T23:09:35.6Z",
+              "WhenOpened": "2024-08-17T23:37:42.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EASYTools.Calendar",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "RelativeDocumentMoniker": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "RelativeToolTip": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T23:30:33.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.CrashReporter",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeDocumentMoniker": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeToolTip": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-17T23:29:54.645Z",
               "EditorCaption": ""
             },
             {
@@ -108,18 +170,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.Calendar",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "RelativeToolTip": "EASYTools.Calendar\\EASYTools.Calendar.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-17T23:10:46.097Z",
-              "EditorCaption": ""
             }
           ]
         },

@@ -12,7 +12,7 @@
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>WPF Modal Touch Keyboard</description>
     <tags>Touch keyboard panel kiosk</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="305418e37bb5f919ba72bf418dc8b2873e666cb0" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="cd9fde07635ec9950c469cee4c47e5ed73a22e2f" />
     <dependencies>
       <group targetFramework=".NETFramework4.5.2" />
     </dependencies>

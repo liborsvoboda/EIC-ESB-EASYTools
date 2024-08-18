@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Markdowmn Convert Definitions to Flow Document for WPF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+305418e37bb5f919ba72bf418dc8b2873e666cb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd9fde07635ec9950c469cee4c47e5ed73a22e2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarkDownToFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.MarkdownToFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

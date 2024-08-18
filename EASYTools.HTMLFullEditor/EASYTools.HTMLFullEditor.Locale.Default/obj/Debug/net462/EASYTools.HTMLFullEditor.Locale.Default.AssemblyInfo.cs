@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF HTMLEditor based MSHTML on Language  Translation Support\r\nwith image upload a" +
     "s content")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+305418e37bb5f919ba72bf418dc8b2873e666cb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd9fde07635ec9950c469cee4c47e5ed73a22e2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.HTMLFullEditor.Locale.Default")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.HTMLFullEditor.Locale.Default")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

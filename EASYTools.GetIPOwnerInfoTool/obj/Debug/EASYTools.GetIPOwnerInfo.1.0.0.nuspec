@@ -13,7 +13,7 @@
     <description>Get WHoIs for List IP over Free public API</description>
     <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>Whois IPinfo API</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="305418e37bb5f919ba72bf418dc8b2873e666cb0" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="cd9fde07635ec9950c469cee4c47e5ed73a22e2f" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="System.AppContext" version="4.3.0" exclude="Build,Analyzers" />
