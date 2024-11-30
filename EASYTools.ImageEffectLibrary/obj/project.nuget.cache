@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aCX/j/I8YOs=",
+  "dgSpecHash": "S+D1oDlXggM=",
   "success": true,
-  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
   ],

@@ -1,0 +1,13 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\Calculator.g.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator_MarkupCompile.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator_MarkupCompile.lref
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\bin\Debug\EASYTools.Calculator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\bin\Debug\EASYTools.Calculator.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\Calculator.baml
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.g.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.Properties.Resources.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.csproj.GenerateResource.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\EASYTools.Calculator.pdb

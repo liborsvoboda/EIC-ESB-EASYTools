@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj": {}
+    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj": {}
   },
   "projects": {
-    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj": {
+    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+        "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
         "projectName": "EASYTools.ImageEffectLibrary",
-        "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+        "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
         "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\obj\\",
+        "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.ImageEffectLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -29,9 +29,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-NUGETS": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+          "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-NUGETS": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net452": {

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("CrashReporter, Email sender on crash App")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+cd9fde07635ec9950c469cee4c47e5ed73a22e2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+bd34a9e7dafd2f5bd150b1c9675fe30cd61ddde6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.CrashReporter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.CrashReporter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

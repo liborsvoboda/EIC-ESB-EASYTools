@@ -1,0 +1,17 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.g.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.Properties.Resources.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.csproj.GenerateResource.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\bin\Debug\net452\EASYTools.Calculator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\bin\Debug\net452\EASYTools.Calculator.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\Calculator.g.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator_MarkupCompile.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator_MarkupCompile.lref
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\Calculator.baml
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Calculator\obj\Debug\net452\EASYTools.Calculator.pdb

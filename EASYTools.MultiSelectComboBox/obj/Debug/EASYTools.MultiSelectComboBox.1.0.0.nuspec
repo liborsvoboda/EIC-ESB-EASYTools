@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.MultiSelectComboBox</id>
+    <version>1.0.0</version>
+    <title>EASYTools.MultiSelectComboBox</title>
+    <authors>EASYTools.MultiSelectComboBox</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <description>Package Description</description>
+    <repository type="git" commit="bd34a9e7dafd2f5bd150b1c9675fe30cd61ddde6" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.2" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MultiSelectComboBox\bin\Debug\net462\EASYTools.MultiSelectComboBox.dll" target="lib\net462\EASYTools.MultiSelectComboBox.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

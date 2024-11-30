@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{78147C43-DB7B-4571-BC7A-E7F0075B4B78}</ProjectGuid>
-    <OutputType>library</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EASYTools.HTMLEditorNoImg</RootNamespace>
     <AssemblyName>EASYTools.HTMLEditorNoImg</AssemblyName>

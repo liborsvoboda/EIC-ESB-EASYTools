@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF HighLight TextBox extension ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd9fde07635ec9950c469cee4c47e5ed73a22e2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd34a9e7dafd2f5bd150b1c9675fe30cd61ddde6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.HighlightTextBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.HighlightTextBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

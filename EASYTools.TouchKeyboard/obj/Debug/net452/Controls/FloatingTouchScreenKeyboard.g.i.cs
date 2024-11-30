@@ -79,7 +79,8 @@ namespace EASYTools.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.TouchKeyboard;component/controls/floatingtouchscreenkeyboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.TouchKeyboard;V1.0.0.0;component/controls/floatingtouchscreenkeyboard." +
+                    "xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\FloatingTouchScreenKeyboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

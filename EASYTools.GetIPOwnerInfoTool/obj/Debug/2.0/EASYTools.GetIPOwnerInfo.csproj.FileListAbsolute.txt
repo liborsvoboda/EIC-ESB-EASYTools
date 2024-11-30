@@ -1,5 +1,0 @@
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\Debug\2.0\EASYTools.GetIPOwnerInfo.csproj.AssemblyReference.cache
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\Debug\2.0\EASYTools.GetIPOwnerInfo.GeneratedMSBuildEditorConfig.editorconfig
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\Debug\2.0\EASYTools.GetIPOwnerInfo.AssemblyInfoInputs.cache
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\Debug\2.0\EASYTools.GetIPOwnerInfo.AssemblyInfo.cs
-E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTools.GetIPOwnerInfoTool\obj\Debug\2.0\EASYTools.GetIPOwnerInfo.csproj.CoreCompileInputs.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UE5vS0YCBJI=",
+  "dgSpecHash": "tb5XSepWLx4=",
   "success": true,
-  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatka\\.nuget\\packages\\extended.wpf.toolkit\\4.6.1\\extended.wpf.toolkit.4.6.1.nupkg.sha512",
     "C:\\Users\\tatka\\.nuget\\packages\\microsoft.qualitytools.testing.fakes\\17.5.0-beta.23060.1\\microsoft.qualitytools.testing.fakes.17.5.0-beta.23060.1.nupkg.sha512",

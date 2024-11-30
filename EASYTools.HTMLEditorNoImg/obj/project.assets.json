@@ -904,11 +904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+      "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
       "projectName": "EASYTools.HTMLEditorNoImg",
-      "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
+      "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\EASYTools.HTMLEditorNoImg.csproj",
       "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
-      "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\obj\\",
+      "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.HTMLEditorNoImg\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -926,9 +926,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EICESB-NUGETS": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-NUGETS": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net462": {
