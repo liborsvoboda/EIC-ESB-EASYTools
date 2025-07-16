@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.MonacoProvider</id>
+    <version>0.2.2</version>
+    <title>MonacoProvider</title>
+    <authors>Libor Svoboda</authors>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>Package Description</description>
+    <repository type="git" commit="9ab3b94699a8ac0c955f741ed054702d6df7b8d1" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Features" version="4.8.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Workspaces" version="4.8.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Common" version="4.8.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Workspaces.Common" version="4.8.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EICESB-MODULES\MonacoProvider\bin\Debug\net6.0\MonacoProvider.dll" target="lib\net6.0\MonacoProvider.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EICESB-MODULES\MonacoProvider\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EICESB-MODULES\MonacoProvider\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+  </files>
+</package>

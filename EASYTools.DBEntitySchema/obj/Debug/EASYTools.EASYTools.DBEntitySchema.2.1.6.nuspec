@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.EASYTools.DBEntitySchema</id>
+    <version>2.1.6</version>
+    <title>DBEntitySchema</title>
+    <authors>Libor Svoboda</authors>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
+    <description>DBEntitySchema
+      Using this library, you will be able to provide a "/DBEntitySchema" endpoint to automatically generate an entity relationship diagram from a sql server database.</description>
+    <tags>diagram relationship entity sql server derify core netcore</tags>
+    <repository type="git" commit="2c95d771512eb848f429d0b0b78295d8b32e05b4" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.AspNetCore.Hosting" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http" version="2.1.34" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.dll" target="lib\net6.0\EASYTools.DBEntitySchema.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+  </files>
+</package>

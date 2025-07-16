@@ -1,0 +1,13 @@
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.deps.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.csproj.AssemblyReference.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.AssemblyInfoInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.AssemblyInfo.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.csproj.CoreCompileInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.sourcelink.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\refint\EASYTools.DBEntitySchema.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\ref\EASYTools.DBEntitySchema.dll

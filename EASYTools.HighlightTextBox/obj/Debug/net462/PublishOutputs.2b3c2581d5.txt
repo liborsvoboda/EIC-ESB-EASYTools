@@ -1,0 +1,2 @@
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTool.HighlightTextBox\bin\Debug\net462\publish\EASYTools.HighlightTextBox.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\EASYTool.HighlightTextBox\bin\Debug\net462\publish\EASYTools.HighlightTextBox.pdb

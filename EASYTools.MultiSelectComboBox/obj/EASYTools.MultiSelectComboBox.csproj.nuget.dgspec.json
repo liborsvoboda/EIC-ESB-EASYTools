@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj": {}
+    "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj": {}
   },
   "projects": {
-    "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj": {
+    "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj",
+        "projectUniqueName": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj",
         "projectName": "EASYTools.MultiSelectComboBox",
-        "projectPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj",
-        "packagesPath": "C:\\Users\\tatka\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.MultiSelectComboBox\\obj\\",
+        "projectPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MultiSelectComboBox\\EASYTools.MultiSelectComboBox.csproj",
+        "packagesPath": "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\",
+        "outputPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MultiSelectComboBox\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tatka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Libor.Svoboda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,8 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-NUGETS": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,12 +44,13 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net462": {
           "targetAlias": "net462",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

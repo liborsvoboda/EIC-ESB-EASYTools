@@ -1,6 +1,0 @@
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\bin\Debug\SharpSyntax.dll
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\bin\Debug\SharpSyntax.pdb
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\obj\Debug\SharpSyntax.csproj.AssemblyReference.cache
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\obj\Debug\SharpSyntax.csproj.CoreCompileInputs.cache
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\obj\Debug\SharpSyntax.dll
-C:\Users\tatka\Desktop\Metro4\SharpSyntax-master\SharpSyntax\obj\Debug\SharpSyntax.pdb

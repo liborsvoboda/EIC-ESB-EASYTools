@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DBEntitySchema</id>
+    <version>2.1.6</version>
+    <title>DBEntitySchema</title>
+    <authors>Libor Svoboda</authors>
+    <icon>groupware-solution.eu.png</icon>
+    <projectUrl>https://groupware-solution.eu/</projectUrl>
+    <description>DBEntitySchema
+      Using this library, you will be able to provide a "/DBEntitySchema" endpoint to automatically generate an entity relationship diagram from a sql server database.</description>
+    <tags>diagram relationship entity sql server derify core netcore</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://groupware-solution.eu" commit="f24b4a128062abcd529d601d8d9c15937cfe82e6" />
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\obj\DotnetToolSettings.xml" target="tools\net6.0\any\DotnetToolSettings.xml" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\DBEntitySchema.dll" target="tools\net6.0\any\DBEntitySchema.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\DBEntitySchema.deps.json" target="tools\net6.0\any\DBEntitySchema.deps.json" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\DBEntitySchema.pdb" target="tools\net6.0\any\DBEntitySchema.pdb" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Hosting.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Hosting.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Hosting.Abstractions.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Hosting.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Http.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.Abstractions.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Http.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.Extensions.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Http.Extensions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.Features.dll" target="tools\net6.0\any\Microsoft.AspNetCore.Http.Features.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.AspNetCore.WebUtilities.dll" target="tools\net6.0\any\Microsoft.AspNetCore.WebUtilities.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Binder.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.Binder.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.CommandLine.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.CommandLine.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.FileExtensions.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.Json.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.Json.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Configuration.UserSecrets.dll" target="tools\net6.0\any\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.DependencyInjection.dll" target="tools\net6.0\any\Microsoft.Extensions.DependencyInjection.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.FileProviders.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.FileProviders.Physical.dll" target="tools\net6.0\any\Microsoft.Extensions.FileProviders.Physical.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.FileSystemGlobbing.dll" target="tools\net6.0\any\Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Hosting.dll" target="tools\net6.0\any\Microsoft.Extensions.Hosting.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Hosting.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.Hosting.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Configuration.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.Configuration.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Console.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.Console.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Debug.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.Debug.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.EventLog.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.EventLog.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.EventSource.dll" target="tools\net6.0\any\Microsoft.Extensions.Logging.EventSource.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.ObjectPool.dll" target="tools\net6.0\any\Microsoft.Extensions.ObjectPool.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Options.dll" target="tools\net6.0\any\Microsoft.Extensions.Options.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Options.ConfigurationExtensions.dll" target="tools\net6.0\any\Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Extensions.Primitives.dll" target="tools\net6.0\any\Microsoft.Extensions.Primitives.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\Microsoft.Net.Http.Headers.dll" target="tools\net6.0\any\Microsoft.Net.Http.Headers.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\System.Data.SqlClient.dll" target="tools\net6.0\any\System.Data.SqlClient.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\System.Diagnostics.EventLog.dll" target="tools\net6.0\any\System.Diagnostics.EventLog.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win-arm64\native\sni.dll" target="tools\net6.0\any\runtimes\win-arm64\native\sni.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win-x64\native\sni.dll" target="tools\net6.0\any\runtimes\win-x64\native\sni.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win-x86\native\sni.dll" target="tools\net6.0\any\runtimes\win-x86\native\sni.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" target="tools\net6.0\any\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" target="tools\net6.0\any\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll" target="tools\net6.0\any\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\DBEntitySchema\bin\Debug\net6.0\publish\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll" target="tools\net6.0\any\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-IT-CENTER-SERVER\Data\images\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+  </files>
+</package>

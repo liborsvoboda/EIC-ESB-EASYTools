@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DBEntitySchema</id>
+    <version>2.1.6</version>
+    <title>DBEntitySchema</title>
+    <authors>Libor Svoboda</authors>
+    <projectUrl>https://groupware-solution.eu/</projectUrl>
+    <description>DBEntitySchema
+      Using this library, you will be able to provide a "/DBEntitySchema" endpoint to automatically generate an entity relationship diagram from a sql server database.</description>
+    <tags>diagram relationship entity sql server derify core netcore</tags>
+    <repository url="https://groupware-solution.eu" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.AspNetCore.Hosting" version="2.2.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\MyGitHub\GroupWare-Solution\Universal-Backend-Server\Modules\DBEntitySchema\bin\Release\net6.0\DBEntitySchema.dll" target="lib\net6.0\DBEntitySchema.dll" />
+  </files>
+</package>

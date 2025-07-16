@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bX6L7pM8mWk=",
+  "dgSpecHash": "s3OAA/w2qxY=",
   "success": true,
-  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EICESB-MODULES\\EASYIT-WPFTOOLS\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
+  "projectFilePath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.Calendar\\EASYTools.Calendar.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
+    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
   ],
   "logs": []
 }

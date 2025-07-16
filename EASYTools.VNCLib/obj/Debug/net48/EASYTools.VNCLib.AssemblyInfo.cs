@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("VNC WPF Remote Desktop Client Extension Library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd34a9e7dafd2f5bd150b1c9675fe30cd61ddde6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c95d771512eb848f429d0b0b78295d8b32e05b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.VNCLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.VNCLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotNetProjects.MonacoProvider</id>
+    <version>0.2.0</version>
+    <authors>MonacoProvider</authors>
+    <projectUrl>https://github.com/node-projects/MonacoProvider</projectUrl>
+    <description>Package Description</description>
+    <repository type="git" commit="01cea37af915270818ab66ef78140d4baa5b22b1" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Features" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Workspaces" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Common" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Workspaces.Common" version="4.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Projekty\zEasy\EASY-IT-CENTER\EASY-ADDONS\Module\MonacoProvider\bin\Release\net6.0\MonacoProvider.dll" target="lib\net6.0\MonacoProvider.dll" />
+  </files>
+</package>

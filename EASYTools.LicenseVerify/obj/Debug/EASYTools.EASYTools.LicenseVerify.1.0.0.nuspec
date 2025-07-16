@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EASYTools.EASYTools.LicenseVerify</id>
+    <version>1.0.0</version>
+    <title>LicenseVerify</title>
+    <authors>Libor Svoboda</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2c95d771512eb848f429d0b0b78295d8b32e05b4" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+      <group targetFramework="net8.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0/favicon.ico" buildAction="Content" />
+      <files include="any/net8.0/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net6.0\EASYTools.LicenseVerify.dll" target="lib\net6.0\EASYTools.LicenseVerify.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net8.0\EASYTools.LicenseVerify.dll" target="lib\net8.0\EASYTools.LicenseVerify.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
+  </files>
+</package>

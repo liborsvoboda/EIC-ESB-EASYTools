@@ -1,0 +1,13 @@
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.deps.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.csproj.AssemblyReference.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.AssemblyInfoInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.AssemblyInfo.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.csproj.CoreCompileInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.sourcelink.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\refint\EASYTools.MonacoProvider.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\ref\EASYTools.MonacoProvider.dll
