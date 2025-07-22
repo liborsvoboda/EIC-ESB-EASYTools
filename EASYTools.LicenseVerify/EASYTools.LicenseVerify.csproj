@@ -7,8 +7,8 @@
     <OutputType>Library</OutputType>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
-    <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.LicenseVerify</PackageId>
     <Title>LicenseVerify</Title>
     <Authors>Libor Svoboda</Authors>
@@ -20,6 +20,9 @@
     <PackageOutputPath></PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
+    <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
+    <DelaySign>True</DelaySign>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
@@ -48,6 +51,17 @@
 
   <ItemGroup>
     <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

@@ -8,21 +8,35 @@
     <AssemblyVersion>0.2.1</AssemblyVersion>
     <FileVersion>0.2.1</FileVersion>
     <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
-    <PackageReadmeFile></PackageReadmeFile>
-    <PackageIcon></PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <Authors>Libor Svoboda</Authors>
     <Title>MonacoProvider</Title>
-    <SignAssembly>False</SignAssembly>
+    <SignAssembly>True</SignAssembly>
     <PackageOutputPath></PackageOutputPath>
     <PackAsTool>False</PackAsTool>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ImplicitUsings>enable</ImplicitUsings>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>True</DelaySign>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

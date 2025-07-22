@@ -10,7 +10,7 @@
       DBEntitySchema
       Using this library, you will be able to provide a "/DBEntitySchema" endpoint to automatically generate an entity relationship diagram from a sql server database.</Description>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>diagram;relationship;entity;sql;server;derify;core;netcore</PackageTags>
     <Company>GroupWare-Solution.Eu</Company>
     <Product>DBEntitySchema</Product>
@@ -18,15 +18,15 @@
     <AssemblyVersion>2.1.6</AssemblyVersion>
     <FileVersion>2.1.6</FileVersion>
     <Version>2.1.6</Version>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.DBEntitySchema</PackageId>
-    <PackageReadmeFile></PackageReadmeFile>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageOutputPath></PackageOutputPath>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
@@ -86,6 +86,17 @@
     <EmbeddedResource Include="wwwroot\js\script.js">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

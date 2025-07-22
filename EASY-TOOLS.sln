@@ -43,6 +43,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.LicenseVerify", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.MonacoProvider", "EASYTools.MonacoProvider\EASYTools.MonacoProvider.csproj", "{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Položky řešení", "{73E6DEBC-5D85-E032-7380-14D1E53616C6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		EasyITGroupWareSolution.snk = EasyITGroupWareSolution.snk
+		favicon.ico = favicon.ico
+		groupware-solution.eu.png = groupware-solution.eu.png
+		LICENSE = LICENSE
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Analysis|Any CPU = Analysis|Any CPU

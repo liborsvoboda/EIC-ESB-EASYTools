@@ -5,8 +5,11 @@
     <version>1.0.0</version>
     <title>LicenseVerify</title>
     <authors>Libor Svoboda</authors>
+    <icon>groupware-solution.eu.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Package Description</description>
-    <repository type="git" commit="ca3020965b1a6add48de66fb61c4492a0f65d33d" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="982a72643fc8b063fbf8221834153297dca5b823" />
     <dependencies>
       <group targetFramework="net6.0" />
       <group targetFramework="net8.0" />
@@ -30,5 +33,7 @@
     <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="content\favicon.ico" />
     <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
     <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>
