@@ -50,7 +50,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
@@ -61,7 +61,6 @@
     <Company>GroupWare-Solution.Eu</Company>
     <Description>WPF HTMLEditor based MSHTML on Language  Translation Support
 with image upload from URL</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
@@ -72,8 +71,10 @@ with image upload from URL</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
+    <PackageOutputPath></PackageOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>

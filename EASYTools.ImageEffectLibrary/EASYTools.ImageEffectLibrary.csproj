@@ -9,18 +9,18 @@
     <Title>ImageEffectGallery</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
+    <PackageOutputPath></PackageOutputPath>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>Image Effect Library</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>

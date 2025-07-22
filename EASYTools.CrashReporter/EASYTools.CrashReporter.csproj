@@ -53,7 +53,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
@@ -63,7 +63,7 @@
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>CrashReporter, Email sender on crash App</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <Copyright></Copyright>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
@@ -73,9 +73,9 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <Version>1.0.1</Version>
+    <DelaySign>True</DelaySign>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
@@ -167,6 +167,10 @@
     <Analyzer Include="..\packages\Microsoft.DependencyValidation.Analyzers.0.10.0\analyzers\dotnet\Microsoft.DependencyValidation.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

@@ -11,9 +11,8 @@
     <readme>Readme.md</readme>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>CrashReporter, Email sender on crash App</description>
-    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>crash report fail email</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="cd9fde07635ec9950c469cee4c47e5ed73a22e2f" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2" />
     </dependencies>
@@ -33,9 +32,9 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.CrashReporter\bin\Debug\net462\EASYTools.CrashReporter.dll" target="lib\net462\EASYTools.CrashReporter.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.CrashReporter\bin\Debug\net462\EASYTools.CrashReporter.dll" target="lib\net462\EASYTools.CrashReporter.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

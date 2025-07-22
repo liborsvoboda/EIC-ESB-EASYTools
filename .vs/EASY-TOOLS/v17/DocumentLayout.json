@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|solutionrelative:easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licenseverify\\easytools.licenseverify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|solutionrelative:easytools.licenseverify\\easytools.licenseverify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|solutionrelative:easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licensegenerator\\easytools.licensegenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|solutionrelative:easytools.licensegenerator\\easytools.licensegenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,69 +18,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EASYTools.MonacoProvider",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "Title": "EASYTools.ImageEffectLibrary",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:46.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.MonacoProvider",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:48.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EASYTools.LicenseVerify",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "RelativeToolTip": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:25.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EASYTools.LicenseVerify",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "RelativeToolTip": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:26.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EASYTools.LicenseGenerator",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "RelativeToolTip": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:00.733Z",
+              "WhenOpened": "2025-07-22T07:59:56.12Z",
               "EditorCaption": ""
             },
             {
@@ -177,14 +111,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EASYTools.LicenseGenerator",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-              "RelativeToolTip": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.ImageEffectLibrary",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:47:02.023Z",
+              "WhenOpened": "2025-07-22T08:00:10.635Z",
               "EditorCaption": ""
             }
           ]

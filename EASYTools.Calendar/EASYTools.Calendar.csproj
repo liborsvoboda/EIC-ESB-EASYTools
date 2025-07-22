@@ -63,7 +63,6 @@
     <AnalysisLevel>6.0</AnalysisLevel>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <DelaySign>True</DelaySign>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -90,6 +89,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

@@ -13,11 +13,10 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupWare-Solution.Eu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF HTMLEditor based MSHTML on Language  Translation Support\r\nwith image upload a" +
     "s content")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3020965b1a6add48de66fb61c4492a0f65d33d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.HTMLFullEditor.Locale.Override")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.HTMLFullEditor.Locale.Override")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

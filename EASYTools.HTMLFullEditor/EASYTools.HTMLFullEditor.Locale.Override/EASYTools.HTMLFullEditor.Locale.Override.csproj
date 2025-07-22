@@ -36,25 +36,25 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Libor Svoboda</Authors>
     <Title>HTMLFullEditor.Locale.Override</Title>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>WPF HTMLEditor based MSHTML on Language  Translation Support
 with image upload as content</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>WPF,html, editor,htmleditor</PackageTags>
     <PackAsTool>False</PackAsTool>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
+    <PackageOutputPath></PackageOutputPath>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>

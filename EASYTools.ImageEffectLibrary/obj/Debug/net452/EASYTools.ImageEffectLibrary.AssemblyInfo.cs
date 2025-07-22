@@ -13,10 +13,9 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupWare-Solution.Eu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Image Effect Library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3020965b1a6add48de66fb61c4492a0f65d33d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.ImageEffectLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.ImageEffectLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

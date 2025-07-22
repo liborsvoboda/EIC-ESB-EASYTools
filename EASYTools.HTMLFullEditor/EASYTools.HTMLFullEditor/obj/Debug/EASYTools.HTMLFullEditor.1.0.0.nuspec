@@ -12,9 +12,8 @@
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>WPF HTMLEditor based MSHTML on Language  Translation Support
 with image upload as content</description>
-    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>WPF,html, editor,htmleditor</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="cd9fde07635ec9950c469cee4c47e5ed73a22e2f" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.11.0" exclude="Build,Analyzers" />
@@ -46,17 +45,17 @@ with image upload as content</description>
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\EASYTools.HTMLFullEditor.dll" target="lib\net462\EASYTools.HTMLFullEditor.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="content\Code\ResourceHelper.Icons.tt" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="contentFiles\any\net462\Code\ResourceHelper.Icons.tt" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="content\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="content\Localization\ResourceManager.Texts.tt" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="contentFiles\any\net462\Localization\ResourceManager.Texts.tt" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="content\Resources\Microsoft.mshtml.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="contentFiles\any\net462\Resources\Microsoft.mshtml.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\bin\Debug\net462\EASYTools.HTMLFullEditor.dll" target="lib\net462\EASYTools.HTMLFullEditor.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="content\Code\ResourceHelper.Icons.tt" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Code\ResourceHelper.Icons.tt" target="contentFiles\any\net462\Code\ResourceHelper.Icons.tt" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="content\Localization\ResourceManager.Texts.tt" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Localization\ResourceManager.Texts.tt" target="contentFiles\any\net462\Localization\ResourceManager.Texts.tt" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="content\Resources\Microsoft.mshtml.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor\Resources\Microsoft.mshtml.dll" target="contentFiles\any\net462\Resources\Microsoft.mshtml.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

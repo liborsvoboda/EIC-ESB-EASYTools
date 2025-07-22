@@ -5,6 +5,7 @@
     <version>1.0.0</version>
     <title>HTMLEditorNoImg</title>
     <authors>Libor Svoboda</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="file">LICENSE</license>
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>groupware-solution.eu.png</icon>
@@ -12,9 +13,8 @@
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>WPF HTMLEditor based MSHTML on Language  Translation Support
 with image upload from URL</description>
-    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>WPF,html, editor,htmleditor</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="cd9fde07635ec9950c469cee4c47e5ed73a22e2f" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Extended.Wpf.Toolkit" version="4.6.1" exclude="Build,Analyzers" />
@@ -43,11 +43,11 @@ with image upload from URL</description>
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\bin\Debug\net462\EASYTools.HTMLEditorNoImg.dll" target="lib\net462\EASYTools.HTMLEditorNoImg.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="content\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.HTMLEditorNoImg\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLEditorNoImg\bin\Debug\net462\EASYTools.HTMLEditorNoImg.dll" target="lib\net462\EASYTools.HTMLEditorNoImg.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLEditorNoImg\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLEditorNoImg\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

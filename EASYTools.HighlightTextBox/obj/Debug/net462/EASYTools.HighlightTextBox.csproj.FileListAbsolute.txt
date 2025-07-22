@@ -20,3 +20,15 @@ E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFT
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTool.HighlightTextBox\obj\Debug\net462\refint\EASYTools.HighlightTextBox.dll
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTool.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.pdb
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTool.HighlightTextBox\obj\Debug\net462\ref\EASYTools.HighlightTextBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\bin\Debug\net462\EASYTools.HighlightTextBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\bin\Debug\net462\EASYTools.HighlightTextBox.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.csproj.AssemblyReference.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.AssemblyInfoInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.AssemblyInfo.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.csproj.CoreCompileInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.sourcelink.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\refint\EASYTools.HighlightTextBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\ref\EASYTools.HighlightTextBox.dll
