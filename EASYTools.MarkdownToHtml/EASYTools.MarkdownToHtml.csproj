@@ -31,26 +31,26 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.MarkdownToHtml</PackageId>
     <Title>MarkdownToHtml</Title>
     <Company>GroupWare-Solution.Eu</Company>
     <Product>EASYTools.MarkdownToHtml</Product>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS\</PackageOutputPath>
+    <PackageOutputPath></PackageOutputPath>
     <ToolCommandName>MarkdownToHtml</ToolCommandName>
     <AnalysisLevel>6.0</AnalysisLevel>
     <Authors>Libor Svoboda</Authors>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <Description>Html Definitions for Convert Text  to MarkDown </Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <RepositoryType>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryType>
     <PackageTags>Markdown;Md;WPF;</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -104,7 +104,15 @@
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

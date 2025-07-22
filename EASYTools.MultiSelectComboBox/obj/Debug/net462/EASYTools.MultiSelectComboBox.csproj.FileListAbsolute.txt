@@ -12,3 +12,17 @@ E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.Mu
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.sourcelink.json
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.dll
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\bin\Debug\net462\EASYTools.MultiSelectComboBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\bin\Debug\net462\EASYTools.MultiSelectComboBox.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.csproj.AssemblyReference.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\MultiSelectComboBox.baml
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\MultiSelectComboBox.g.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox_MarkupCompile.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.g.resources
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.AssemblyInfoInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.AssemblyInfo.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.csproj.CoreCompileInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.sourcelink.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\obj\Debug\net462\EASYTools.MultiSelectComboBox.pdb

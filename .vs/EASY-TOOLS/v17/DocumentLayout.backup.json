@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69281D9E-BB26-477E-84D9-5CC0A3009B5E}|EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj|solutionrelative:easytools.imageeffectlibrary\\easytools.imageeffectlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.vncclient\\easytools.vncclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|solutionrelative:easytools.vncclient\\easytools.vncclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.vncclient\\easytools.vncclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|solutionrelative:easytools.vncclient\\easytools.vncclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +26,44 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EASYTools.ImageEffectLibrary",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "Title": "EASYTools.VNCLib",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T07:59:56.12Z",
+              "WhenOpened": "2025-07-22T08:11:36.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.VNCLib",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T08:11:41.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EASYTools.VNCClient",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "RelativeToolTip": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T08:05:20.099Z",
               "EditorCaption": ""
             },
             {
@@ -111,14 +144,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.ImageEffectLibrary",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeDocumentMoniker": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
-              "RelativeToolTip": "EASYTools.ImageEffectLibrary\\EASYTools.ImageEffectLibrary.csproj",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.VNCClient",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
+              "RelativeToolTip": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T08:00:10.635Z",
+              "WhenOpened": "2025-07-22T08:05:16.79Z",
               "EditorCaption": ""
             }
           ]

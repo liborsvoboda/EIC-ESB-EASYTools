@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Markdowmn Convert Definitions to Flow Document for WPF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3020965b1a6add48de66fb61c4492a0f65d33d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02a6d0ebc58c67ac961dfa0cb0dd130ee0eb5510")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarkDownToFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.MarkdownToFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
