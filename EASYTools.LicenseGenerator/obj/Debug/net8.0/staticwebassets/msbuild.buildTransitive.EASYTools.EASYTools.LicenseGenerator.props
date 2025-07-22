@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\EASYTools.EASYTools.LicenseGenerator.props" />
-</Project>

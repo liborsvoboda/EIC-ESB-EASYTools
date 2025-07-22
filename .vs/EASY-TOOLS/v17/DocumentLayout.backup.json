@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|solutionrelative:easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|solutionrelative:easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.crashreporter\\easytools.crashreporter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7696262E-45FC-4F68-A65E-468CD988CBC2}|EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj|solutionrelative:easytools.crashreporter\\easytools.crashreporter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|solutionrelative:easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{37619116-CCE8-465A-8B1F-081CA53364BB}|EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj|solutionrelative:easytools.markdowntohtml\\easytools.markdowntohtml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|solutionrelative:easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|c:\\install\\apps\\eic-esb-easytools\\easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34186C3B-C308-4CAE-B462-DB7B5F5E378C}|EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj|solutionrelative:easytools.markdowntoflow\\easytools.markdowntoflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +38,83 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.LicenseGenerator",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "RelativeToolTip": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:31:24.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EASYTools.LicenseVerify",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "RelativeToolTip": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:30:33.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.CrashReporter",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeDocumentMoniker": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "RelativeToolTip": "EASYTools.CrashReporter\\EASYTools.CrashReporter.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:29:10.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EASYTools.MarkdownToHtml",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeToolTip": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:21:24.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EASYTools.MarkdownToHtml",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "RelativeToolTip": "EASYTools.MarkdownToHtml\\EASYTools.MarkdownToHtml.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:21:26.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EASYTools.MarkdownToFlow",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "RelativeToolTip": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T07:19:50.213Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -98,27 +193,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.MonacoProvider",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "DocumentIndex": 5,
+              "Title": "EASYTools.MarkdownToFlow",
+              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
+              "RelativeToolTip": "EASYTools.MarkdownToFlow\\EASYTools.MarkdownToFlow.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-16T07:55:50.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools.MonacoProvider",
-              "DocumentMoniker": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "ToolTip": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-16T07:54:44.223Z",
+              "WhenOpened": "2025-07-22T07:19:55.533Z",
               "EditorCaption": ""
             }
           ]

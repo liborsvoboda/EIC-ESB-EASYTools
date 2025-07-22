@@ -9,12 +9,12 @@
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
-    <PackageId>EASYTools.$(AssemblyName)</PackageId>
+    <PackageId>EASYTools.LicenseVerify</PackageId>
     <Title>LicenseVerify</Title>
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
-    <PackageIcon></PackageIcon>
-    <PackageReadmeFile></PackageReadmeFile>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <PackageOutputPath></PackageOutputPath>
@@ -48,6 +48,17 @@
 
   <ItemGroup>
     <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 

@@ -8,7 +8,7 @@
       "version": "0.2.2",
       "restore": {
         "projectUniqueName": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
-        "projectName": "EASYTools.EASYTools.MonacoProvider",
+        "projectName": "EASYTools.MonacoProvider",
         "projectPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
         "packagesPath": "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\",
         "outputPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\obj\\",
@@ -26,6 +26,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Install\\Apps\\NUGETS": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

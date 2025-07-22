@@ -17,7 +17,7 @@ using System.Reflection;
     "/DBEntitySchema\" endpoint to automatically generate an entity relationship diagr" +
     "am from a sql server database.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.6")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.6+2c95d771512eb848f429d0b0b78295d8b32e05b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1.6+ca3020965b1a6add48de66fb61c4492a0f65d33d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBEntitySchema")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.DBEntitySchema")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.1.6")]

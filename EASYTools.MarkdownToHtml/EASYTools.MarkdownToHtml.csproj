@@ -31,7 +31,7 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.MarkdownToHtml</PackageId>
     <Title>MarkdownToHtml</Title>
     <Company>GroupWare-Solution.Eu</Company>
@@ -104,19 +104,14 @@
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\groupware-solution.eu.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\Readme.md">
+    <None Include="Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.DependencyValidation.Analyzers">

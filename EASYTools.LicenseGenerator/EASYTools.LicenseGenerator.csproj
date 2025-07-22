@@ -11,17 +11,18 @@
     <SignAssembly>False</SignAssembly>
     <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>EASYTools.$(AssemblyName)</PackageId>
+    <PackageId>EASYTools.LicenseGenerator</PackageId>
     <Title>LicenseGenerator</Title>
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>Licence File Generator</Description>
-    <PackageIcon></PackageIcon>
-    <PackageReadmeFile></PackageReadmeFile>
+    <PackageIcon>groupware-solution.eu.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageTags>License</PackageTags>
     <PackageOutputPath></PackageOutputPath>
     <PackAsTool>False</PackAsTool>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
+    <RepositoryUrl>https://kliknetezde.cz</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
@@ -42,6 +43,17 @@
 
   <ItemGroup>
     <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
   </ItemGroup>
 
 </Project>

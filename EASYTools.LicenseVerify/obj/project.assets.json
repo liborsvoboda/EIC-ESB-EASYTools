@@ -17,7 +17,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
-      "projectName": "EASYTools.EASYTools.LicenseVerify",
+      "projectName": "EASYTools.LicenseVerify",
       "projectPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
       "packagesPath": "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\",
       "outputPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\obj\\",
@@ -36,6 +36,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Install\\Apps\\NUGETS": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

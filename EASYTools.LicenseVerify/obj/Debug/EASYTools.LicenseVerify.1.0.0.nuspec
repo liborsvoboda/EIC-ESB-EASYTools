@@ -5,12 +5,8 @@
     <version>1.0.0</version>
     <title>LicenseVerify</title>
     <authors>Libor Svoboda</authors>
-    <license type="file">LICENSE</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
     <description>Package Description</description>
-    <repository type="git" commit="9ab3b94699a8ac0c955f741ed054702d6df7b8d1" />
+    <repository type="git" commit="ca3020965b1a6add48de66fb61c4492a0f65d33d" />
     <dependencies>
       <group targetFramework="net6.0" />
       <group targetFramework="net8.0" />
@@ -29,13 +25,10 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseVerify\bin\Debug\net6.0\LicenseVerify.dll" target="lib\net6.0\LicenseVerify.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseVerify\bin\Debug\net8.0\LicenseVerify.dll" target="lib\net8.0\LicenseVerify.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseVerify\favicon.ico" target="content\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseVerify\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseVerify\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net6.0\EASYTools.LicenseVerify.dll" target="lib\net6.0\EASYTools.LicenseVerify.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net8.0\EASYTools.LicenseVerify.dll" target="lib\net8.0\EASYTools.LicenseVerify.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
   </files>
 </package>

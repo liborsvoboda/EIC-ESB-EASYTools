@@ -5,13 +5,12 @@
     <version>1.0.0</version>
     <title>LicenseGenerator</title>
     <authors>Libor Svoboda</authors>
-    <license type="file">LICENSE</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>groupware-solution.eu.png</icon>
     <readme>Readme.md</readme>
+    <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Licence File Generator</description>
     <tags>License</tags>
-    <repository type="git" commit="9ab3b94699a8ac0c955f741ed054702d6df7b8d1" />
+    <repository type="git" url="https://kliknetezde.cz" commit="ca3020965b1a6add48de66fb61c4492a0f65d33d" />
     <dependencies>
       <group targetFramework="net6.0" />
       <group targetFramework="net8.0" />
@@ -30,13 +29,10 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseGenerator\bin\Debug\net6.0\LicenseGenerator.dll" target="lib\net6.0\LicenseGenerator.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseGenerator\bin\Debug\net8.0\LicenseGenerator.dll" target="lib\net8.0\LicenseGenerator.dll" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseGenerator\favicon.ico" target="content\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseGenerator\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EICESB-MODULES\LicenseGenerator\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\LICENSE" target="\LICENSE" />
-    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\Readme.md" target="\Readme.md" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.dll" target="lib\net6.0\EASYTools.LicenseGenerator.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net8.0\EASYTools.LicenseGenerator.dll" target="lib\net8.0\EASYTools.LicenseGenerator.dll" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
   </files>
 </package>

@@ -22,3 +22,15 @@ E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFT
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\refint\EASYTools.MarkdownToFlow.dll
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.pdb
 E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EASYTools.MarkdownToFlow\obj\Debug\net462\ref\EASYTools.MarkdownToFlow.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.AssemblyReference.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfoInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfo.cs
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.CoreCompileInputs.cache
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.sourcelink.json
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\refint\EASYTools.MarkdownToFlow.dll
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.pdb
+C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\ref\EASYTools.MarkdownToFlow.dll

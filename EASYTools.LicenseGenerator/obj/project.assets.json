@@ -17,7 +17,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
-      "projectName": "EASYTools.EASYTools.LicenseGenerator",
+      "projectName": "EASYTools.LicenseGenerator",
       "projectPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
       "packagesPath": "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\",
       "outputPath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\obj\\",
@@ -36,6 +36,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Install\\Apps\\NUGETS": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

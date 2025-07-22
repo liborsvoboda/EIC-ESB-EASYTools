@@ -59,7 +59,7 @@
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <ToolCommandName>MarkDownToFLow</ToolCommandName>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
+    <PackageOutputPath></PackageOutputPath>
     <IncludeSymbols>False</IncludeSymbols>
     <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
@@ -68,12 +68,13 @@
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <Description>Markdowmn Convert Definitions to Flow Document for WPF</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
+    <Copyright></Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>Markdown;Md;WPF;</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net4.6.2'">
     <IsPublishable>True</IsPublishable>
@@ -121,10 +122,6 @@
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\groupware-solution.eu.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

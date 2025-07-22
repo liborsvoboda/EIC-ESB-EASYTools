@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>EASYTools.$(AssemblyName)</PackageId>
+    <PackageId>EASYTools.MonacoProvider</PackageId>
     <Version>0.2.2</Version>
     <AssemblyVersion>0.2.1</AssemblyVersion>
     <FileVersion>0.2.1</FileVersion>
