@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Remote VNC Client Application")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02a6d0ebc58c67ac961dfa0cb0dd130ee0eb5510")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27516e8e7f6d34371be21d3d93f04f9e8ad9550d")]
+>>>>>>> f92f651 (upd)
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.VNCClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.VNCClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
