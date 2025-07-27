@@ -1,4 +1,4 @@
-﻿
+
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
@@ -19,11 +19,12 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-[Bb]in
+
 
 *.lib
 *.sbr
 obj/
+[Bb]in/
 [Rr]elease*/
 [Nn]ode_modules*/
 _ReSharper*/
