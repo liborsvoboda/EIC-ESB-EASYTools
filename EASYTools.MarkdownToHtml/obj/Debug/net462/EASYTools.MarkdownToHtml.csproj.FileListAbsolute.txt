@@ -32,3 +32,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASY
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\refint\EASYTools.MarkdownToHtml.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\ref\EASYTools.MarkdownToHtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\bin\Debug\net462\EASYTools.MarkdownToHtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\bin\Debug\net462\EASYTools.MarkdownToHtml.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\refint\EASYTools.MarkdownToHtml.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\EASYTools.MarkdownToHtml.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\obj\Debug\net462\ref\EASYTools.MarkdownToHtml.dll

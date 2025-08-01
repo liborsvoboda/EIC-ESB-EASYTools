@@ -93,7 +93,7 @@ namespace EASYTools.CrashReporter {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.CrashReporter;V1.0.1.0;component/wdocrashreport.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.CrashReporter;component/wdocrashreport.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\wdoCrashReport.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

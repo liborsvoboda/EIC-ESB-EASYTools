@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|solutionrelative:easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +14,18 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools.VNCLib",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.Calculator",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "RelativeDocumentMoniker": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "RelativeToolTip": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:58:12.369Z",
+              "WhenOpened": "2025-08-01T13:20:06.739Z",
               "EditorCaption": ""
             },
             {
@@ -112,18 +107,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.VNCLib",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:58:14.97Z",
-              "EditorCaption": ""
             }
           ]
         },

@@ -11,3 +11,16 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASY
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\refint\EASYTools.DBEntitySchema.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\ref\EASYTools.DBEntitySchema.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\refint\EASYTools.DBEntitySchema.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\EASYTools.DBEntitySchema.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\obj\Debug\net6.0\ref\EASYTools.DBEntitySchema.dll

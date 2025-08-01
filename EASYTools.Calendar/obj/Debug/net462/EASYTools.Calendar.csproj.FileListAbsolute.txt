@@ -24,3 +24,16 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\refint\EASYTools.Calendar.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\ref\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\bin\Debug\net462\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\bin\Debug\net462\EASYTools.Calendar.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.g.resources
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\refint\EASYTools.Calendar.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\EASYTools.Calendar.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\obj\Debug\net462\ref\EASYTools.Calendar.dll

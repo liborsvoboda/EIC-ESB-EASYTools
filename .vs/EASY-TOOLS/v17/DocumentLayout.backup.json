@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vncclient\\easytools.vncclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|solutionrelative:easytools.vncclient\\easytools.vncclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vncclient\\easytools.vncclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A166674C-7FBA-43CC-BE79-70A2650647FF}|EASYTools.VNCClient\\EASYTools.VNCClient.csproj|solutionrelative:easytools.vncclient\\easytools.vncclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0784CDC9-0F52-4B8B-9488-6589C11E94E2}|EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.touchkeyboard\\easytools.touchkeyboard.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0784CDC9-0F52-4B8B-9488-6589C11E94E2}|EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj|solutionrelative:easytools.touchkeyboard\\easytools.touchkeyboard.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|solutionrelative:easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|solutionrelative:easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +14,18 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools.VNCClient",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "RelativeDocumentMoniker": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "RelativeToolTip": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.Calculator",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "RelativeDocumentMoniker": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
+              "RelativeToolTip": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:57:00.823Z",
+              "WhenOpened": "2025-08-01T13:20:06.739Z",
               "EditorCaption": ""
             },
             {
@@ -120,42 +107,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.VNCClient",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "RelativeDocumentMoniker": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "RelativeToolTip": "EASYTools.VNCClient\\EASYTools.VNCClient.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:57:12.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EASYTools.TouchKeyboard",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj",
-              "RelativeDocumentMoniker": "EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj",
-              "RelativeToolTip": "EASYTools.TouchKeyboard\\EASYTools.TouchKeyboard.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:56:07.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EASYTools.Summary",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.Summary.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Summary\\EASYTools.Summary.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.Summary.csproj",
-              "RelativeToolTip": "EASYTools.Summary\\EASYTools.Summary.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T12:55:45.41Z",
-              "EditorCaption": ""
             }
           ]
         },

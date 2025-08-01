@@ -34,3 +34,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASY
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\refint\EASYTools.MarkdownToFlow.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\ref\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\bin\Debug\net462\EASYTools.MarkdownToFlow.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\refint\EASYTools.MarkdownToFlow.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\EASYTools.MarkdownToFlow.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToFlow\obj\Debug\net462\ref\EASYTools.MarkdownToFlow.dll

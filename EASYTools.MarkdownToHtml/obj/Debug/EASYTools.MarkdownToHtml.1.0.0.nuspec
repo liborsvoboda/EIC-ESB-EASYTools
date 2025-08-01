@@ -5,14 +5,10 @@
     <version>1.0.0</version>
     <title>MarkdownToHtml</title>
     <authors>Libor Svoboda</authors>
-    <license type="file">LICENSE</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Html Definitions for Convert Text  to MarkDown</description>
     <tags>Markdown Md WPF</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="02a6d0ebc58c67ac961dfa0cb0dd130ee0eb5510" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.11.0" exclude="Build,Analyzers" />
@@ -29,11 +25,9 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\bin\Debug\net462\EASYTools.MarkdownToHtml.dll" target="lib\net462\EASYTools.MarkdownToHtml.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\bin\Debug\net462\EASYTools.MarkdownToHtml.dll" target="lib\net462\EASYTools.MarkdownToHtml.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MarkdownToHtml\Readme.md" target="\Readme.md" />
   </files>
 </package>

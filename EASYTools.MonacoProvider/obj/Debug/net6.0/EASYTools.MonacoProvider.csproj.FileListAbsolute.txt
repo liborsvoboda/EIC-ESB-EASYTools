@@ -11,3 +11,16 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASY
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\refint\EASYTools.MonacoProvider.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\ref\EASYTools.MonacoProvider.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\refint\EASYTools.MonacoProvider.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\EASYTools.MonacoProvider.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\obj\Debug\net6.0\ref\EASYTools.MonacoProvider.dll

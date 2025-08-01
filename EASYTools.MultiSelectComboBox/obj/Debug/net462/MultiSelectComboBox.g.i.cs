@@ -59,7 +59,7 @@ namespace MultiSelectComboBox {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.MultiSelectComboBox;V1.0.0.0;component/multiselectcombobox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.MultiSelectComboBox;component/multiselectcombobox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MultiSelectComboBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

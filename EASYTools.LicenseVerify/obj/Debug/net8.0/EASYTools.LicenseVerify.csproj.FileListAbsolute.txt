@@ -27,3 +27,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\stati
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\staticwebassets\msbuild.build.EASYTools.LicenseVerify.props
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EASYTools.LicenseVerify.props
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EASYTools.LicenseVerify.props
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net8.0\EASYTools.LicenseVerify.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net8.0\EASYTools.LicenseVerify.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\bin\Debug\net8.0\EASYTools.LicenseVerify.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\refint\EASYTools.LicenseVerify.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\EASYTools.LicenseVerify.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseVerify\obj\Debug\net8.0\ref\EASYTools.LicenseVerify.dll

@@ -5,11 +5,12 @@
     <version>1.0.0</version>
     <title>ImageEffectGallery</title>
     <authors>Libor Svoboda</authors>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Image Effect Library</description>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework=".NETFramework4.5.2">
         <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.11.0" exclude="Build,Analyzers" />
@@ -20,10 +21,9 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\bin\Debug\net452\EASYTools.ImageEffectLibrary.dll" target="lib\net452\EASYTools.ImageEffectLibrary.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\favicon.ico" target="contentFiles\any\net452\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\bin\Debug\net452\EASYTools.ImageEffectLibrary.dll" target="lib\net452\EASYTools.ImageEffectLibrary.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\favicon.ico" target="contentFiles\any\net452\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
   </files>
 </package>

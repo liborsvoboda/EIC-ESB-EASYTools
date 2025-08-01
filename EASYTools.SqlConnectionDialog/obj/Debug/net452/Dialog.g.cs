@@ -65,7 +65,7 @@ namespace EASYTools.SqlConnectionDialog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.SqlConnectionDialog;V1.0.0.0;component/dialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.SqlConnectionDialog;component/dialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Dialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

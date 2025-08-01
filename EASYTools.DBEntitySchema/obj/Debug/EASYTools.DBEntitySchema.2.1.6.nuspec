@@ -11,7 +11,7 @@
     <description>DBEntitySchema
       Using this library, you will be able to provide a "/DBEntitySchema" endpoint to automatically generate an entity relationship diagram from a sql server database.</description>
     <tags>diagram relationship entity sql server derify core netcore</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="982a72643fc8b063fbf8221834153297dca5b823" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="Microsoft.AspNetCore.Hosting" version="2.1.1" exclude="Build,Analyzers" />
@@ -27,10 +27,11 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.dll" target="lib\net6.0\EASYTools.DBEntitySchema.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\bin\Debug\net6.0\EASYTools.DBEntitySchema.dll" target="lib\net6.0\EASYTools.DBEntitySchema.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.DBEntitySchema\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

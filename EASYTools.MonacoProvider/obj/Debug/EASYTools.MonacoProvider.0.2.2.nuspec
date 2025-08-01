@@ -5,11 +5,12 @@
     <version>0.2.2</version>
     <title>MonacoProvider</title>
     <authors>Libor Svoboda</authors>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Package Description</description>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="982a72643fc8b063fbf8221834153297dca5b823" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="Microsoft.CodeAnalysis.CSharp.Features" version="4.8.0" exclude="Build,Analyzers" />
@@ -23,10 +24,9 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.dll" target="lib\net6.0\EASYTools.MonacoProvider.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MonacoProvider\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\bin\Debug\net6.0\EASYTools.MonacoProvider.dll" target="lib\net6.0\EASYTools.MonacoProvider.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MonacoProvider\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
   </files>
 </package>

@@ -51,7 +51,7 @@ namespace EASYTools.CrashReporter {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.CrashReporter;V1.0.1.0;component/ucexceptions.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.CrashReporter;component/ucexceptions.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ucExceptions.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

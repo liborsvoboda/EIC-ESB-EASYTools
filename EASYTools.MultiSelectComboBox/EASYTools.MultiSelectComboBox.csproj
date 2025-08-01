@@ -42,12 +42,8 @@
     <DelaySign>True</DelaySign>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>EASYTools.MultiSelectComboBox</Title>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageOutputPath></PackageOutputPath>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="MultiSelectComboBox.xaml" />

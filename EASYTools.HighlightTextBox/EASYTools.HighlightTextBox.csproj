@@ -44,8 +44,6 @@
     <Company>GroupWare-Solution.Eu</Company>
     <Description>WPF HighLight TextBox extension </Description>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>highlight; mark; text; code</PackageTags>
     <PackAsTool>False</PackAsTool>
@@ -53,11 +51,9 @@
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageOutputPath></PackageOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <DelaySign>True</DelaySign>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>

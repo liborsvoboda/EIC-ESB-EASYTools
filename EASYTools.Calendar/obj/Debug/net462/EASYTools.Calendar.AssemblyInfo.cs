@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF Calendar with notes ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+d669ed529518cc546111ca6b0b10d5e1622ee123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+16705240cc166e1327ff08ac7db413645522f02a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.Calendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.Calendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

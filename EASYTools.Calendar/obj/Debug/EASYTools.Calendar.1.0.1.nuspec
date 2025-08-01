@@ -5,15 +5,10 @@
     <version>1.0.1</version>
     <title>Calendar</title>
     <authors>Libor Svoboda</authors>
-    <license type="file">LICENSE</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>WPF Calendar with notes</description>
-    <copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</copyright>
     <tags>WPF calendar schedule</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Microsoft.DependencyValidation.Analyzers" version="0.11.0" exclude="Build,Analyzers" />
@@ -34,9 +29,8 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.Calendar\bin\Debug\net462\EASYTools.Calendar.dll" target="lib\net462\EASYTools.Calendar.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.Calendar\bin\Debug\net462\EASYTools.Calendar.dll" target="lib\net462\EASYTools.Calendar.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

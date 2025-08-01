@@ -52,11 +52,8 @@
     <Company>GroupWare-Solution.Eu</Company>
     <Description>WPF Calendar with notes </Description>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>WPF;calendar;schedule;</PackageTags>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <PackAsTool>False</PackAsTool>
     <AnalysisLevel>6.0</AnalysisLevel>
@@ -66,7 +63,6 @@
     <DelaySign>True</DelaySign>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Version>1.0.1</Version>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

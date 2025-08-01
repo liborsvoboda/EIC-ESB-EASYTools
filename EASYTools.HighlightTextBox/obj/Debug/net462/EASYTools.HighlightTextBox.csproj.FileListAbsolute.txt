@@ -32,3 +32,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EA
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\refint\EASYTools.HighlightTextBox.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\ref\EASYTools.HighlightTextBox.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\bin\Debug\net462\EASYTools.HighlightTextBox.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\bin\Debug\net462\EASYTools.HighlightTextBox.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\refint\EASYTools.HighlightTextBox.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\EASYTools.HighlightTextBox.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HighlightTextBox\obj\Debug\net462\ref\EASYTools.HighlightTextBox.dll

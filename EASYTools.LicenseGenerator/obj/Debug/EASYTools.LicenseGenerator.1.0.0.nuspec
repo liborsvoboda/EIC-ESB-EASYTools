@@ -5,12 +5,15 @@
     <version>1.0.0</version>
     <title>LicenseGenerator</title>
     <authors>Libor Svoboda</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>groupware-solution.eu.png</icon>
     <readme>Readme.md</readme>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Licence File Generator</description>
     <tags>License</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="982a72643fc8b063fbf8221834153297dca5b823" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework="net6.0" />
       <group targetFramework="net8.0" />
@@ -29,12 +32,13 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.dll" target="lib\net6.0\EASYTools.LicenseGenerator.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net8.0\EASYTools.LicenseGenerator.dll" target="lib\net8.0\EASYTools.LicenseGenerator.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.dll" target="lib\net6.0\EASYTools.LicenseGenerator.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net8.0\EASYTools.LicenseGenerator.dll" target="lib\net8.0\EASYTools.LicenseGenerator.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net6.0\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\favicon.ico" target="contentFiles\any\net8.0\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
   </files>
 </package>

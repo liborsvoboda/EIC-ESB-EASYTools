@@ -71,3 +71,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\refint\EASYTools.ImageEffectLibrary.dll
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.pdb
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\ref\EASYTools.ImageEffectLibrary.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\bin\Debug\net452\EASYTools.ImageEffectLibrary.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\bin\Debug\net452\EASYTools.ImageEffectLibrary.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.csproj.AssemblyReference.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\refint\EASYTools.ImageEffectLibrary.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\EASYTools.ImageEffectLibrary.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.ImageEffectLibrary\obj\Debug\net452\ref\EASYTools.ImageEffectLibrary.dll

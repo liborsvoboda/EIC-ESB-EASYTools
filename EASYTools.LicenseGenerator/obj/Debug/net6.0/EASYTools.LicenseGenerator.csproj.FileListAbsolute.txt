@@ -27,3 +27,15 @@ C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\st
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\staticwebassets\msbuild.build.EASYTools.LicenseGenerator.props
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EASYTools.LicenseGenerator.props
 C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EASYTools.LicenseGenerator.props
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.deps.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\bin\Debug\net6.0\EASYTools.LicenseGenerator.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.AssemblyInfoInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.AssemblyInfo.cs
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.csproj.CoreCompileInputs.cache
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.sourcelink.json
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\refint\EASYTools.LicenseGenerator.dll
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\EASYTools.LicenseGenerator.pdb
+E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.LicenseGenerator\obj\Debug\net6.0\ref\EASYTools.LicenseGenerator.dll

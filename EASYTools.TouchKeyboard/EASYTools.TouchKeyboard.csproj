@@ -26,21 +26,17 @@
     <Company>GroupWare-Solution.Eu</Company>
     <Product>EASYTools.TouchKeyboard</Product>
     <Description>WPF Modal Touch Keyboard </Description>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <ToolCommandName>EASYTools.TouchKeyboard</ToolCommandName>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>Touch;keyboard;panel;kiosk;</PackageTags>
     <PackageOutputPath></PackageOutputPath>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <DelaySign>True</DelaySign>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

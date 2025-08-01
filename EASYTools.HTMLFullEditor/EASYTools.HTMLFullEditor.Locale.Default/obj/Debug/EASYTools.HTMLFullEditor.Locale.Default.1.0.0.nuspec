@@ -5,15 +5,11 @@
     <version>1.0.0</version>
     <title>HTMLFullEditor.Locale.Default</title>
     <authors>Libor Svoboda</authors>
-    <license type="file">LICENSE</license>
-    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
-    <icon>groupware-solution.eu.png</icon>
-    <readme>Readme.md</readme>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>WPF HTMLEditor based MSHTML on Language  Translation Support
 with image upload as content</description>
     <tags>WPF,html, editor,htmleditor</tags>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="EASYTools.HTMLFullEditor" version="1.0.0" exclude="Build,Analyzers" />
@@ -34,12 +30,9 @@ with image upload as content</description>
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\obj\Debug\net462\cs\EASYTools.HTMLFullEditor.Locale.Default.resources.dll" target="lib\net462\cs\EASYTools.HTMLFullEditor.Locale.Default.resources.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\EASYTools.HTMLFullEditor.Locale.Default.dll" target="lib\net462\EASYTools.HTMLFullEditor.Locale.Default.dll" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\favicon.ico" target="content\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\groupware-solution.eu.png" target="\groupware-solution.eu.png" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\LICENSE" target="\LICENSE" />
-    <file src="C:\Install\Apps\EIC-ESB-EASYTools\Readme.md" target="\Readme.md" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\obj\Debug\net462\cs\EASYTools.HTMLFullEditor.Locale.Default.resources.dll" target="lib\net462\cs\EASYTools.HTMLFullEditor.Locale.Default.resources.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\bin\Debug\net462\EASYTools.HTMLFullEditor.Locale.Default.dll" target="lib\net462\EASYTools.HTMLFullEditor.Locale.Default.dll" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\favicon.ico" target="content\favicon.ico" />
+    <file src="E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.HTMLFullEditor\EASYTools.HTMLFullEditor.Locale.Default\favicon.ico" target="contentFiles\any\net462\favicon.ico" />
   </files>
 </package>

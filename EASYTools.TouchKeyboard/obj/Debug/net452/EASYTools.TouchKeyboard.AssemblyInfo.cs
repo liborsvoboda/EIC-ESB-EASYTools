@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF Modal Touch Keyboard ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d669ed529518cc546111ca6b0b10d5e1622ee123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16705240cc166e1327ff08ac7db413645522f02a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.TouchKeyboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.TouchKeyboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

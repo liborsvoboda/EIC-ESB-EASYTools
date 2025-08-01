@@ -64,12 +64,8 @@
     <DelaySign>true</DelaySign>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>EASYTools.Calculator</Title>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageProjectUrl>https://KlikneeteZde.Cz</PackageProjectUrl>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Calculator.xaml" />

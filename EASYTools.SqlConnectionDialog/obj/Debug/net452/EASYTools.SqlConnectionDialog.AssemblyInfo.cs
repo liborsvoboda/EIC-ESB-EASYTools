@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("SQL Connection Dialog for WPF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d669ed529518cc546111ca6b0b10d5e1622ee123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16705240cc166e1327ff08ac7db413645522f02a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.SqlConnectionDialog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.SqlConnectionDialog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
