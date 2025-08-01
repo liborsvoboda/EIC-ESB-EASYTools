@@ -151,7 +151,7 @@ namespace EASYTools.HTMLEditorNoImg {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.HTMLEditorNoImg;component/controls/richtexteditor.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.HTMLEditorNoImg;V1.0.0.0;component/controls/richtexteditor.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\RichTextEditor.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

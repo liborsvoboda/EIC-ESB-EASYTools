@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = EASYTools.MultiSelectComboBox
-build_property.ProjectDir = C:\Install\Apps\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\
+build_property.ProjectDir = E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EIC-ESB-EASYTools\EASYTools.MultiSelectComboBox\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

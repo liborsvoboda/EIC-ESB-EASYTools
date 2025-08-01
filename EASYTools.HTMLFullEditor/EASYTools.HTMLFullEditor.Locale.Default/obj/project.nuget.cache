@@ -1,17 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "15rMK8MGwpc=",
+  "dgSpecHash": "o2lRp4cqTy0=",
   "success": true,
-  "projectFilePath": "C:\\Install\\Apps\\EIC-ESB-EASYTools\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
+  "projectFilePath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.HTMLFullEditor\\EASYTools.HTMLFullEditor.Locale.Default\\EASYTools.HTMLFullEditor.Locale.Default.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.resources.extensions\\4.7.1\\system.resources.extensions.4.7.1.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
-    "C:\\Users\\Libor.Svoboda\\.nuget\\packages\\unofficial.microsoft.mshtml.netstandard\\7.0.3300.2\\unofficial.microsoft.mshtml.netstandard.7.0.3300.2.nupkg.sha512"
+    "C:\\Users\\tatka\\.nuget\\packages\\microsoft.dependencyvalidation.analyzers\\0.11.0\\microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.resources.extensions\\4.7.1\\system.resources.extensions.4.7.1.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\unofficial.microsoft.mshtml.netstandard\\7.0.3300.2\\unofficial.microsoft.mshtml.netstandard.7.0.3300.2.nupkg.sha512",
+    "C:\\Users\\tatka\\.nuget\\packages\\easytools.htmlfulleditor\\1.0.0\\easytools.htmlfulleditor.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

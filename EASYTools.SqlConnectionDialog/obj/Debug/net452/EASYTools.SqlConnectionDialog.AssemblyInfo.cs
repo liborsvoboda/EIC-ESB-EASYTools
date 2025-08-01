@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EASY-IT-PROJECTS\\EASYIT-WPFTOOLS\\LICENSE")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("SQL Connection Dialog for WPF")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02a6d0ebc58c67ac961dfa0cb0dd130ee0eb5510")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5b52e409192f1847ce4e8d7c8b2904df2a2d41")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.SqlConnectionDialog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.SqlConnectionDialog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

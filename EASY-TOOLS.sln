@@ -31,17 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.VNCLib", "EASYToo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.Calculator", "EASYTools.Calculator\EASYTools.Calculator.csproj", "{9906F177-3532-41E0-AF13-09FEB24A6BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.MultiSelectComboBox", "EASYTools.MultiSelectComboBox\EASYTools.MultiSelectComboBox.csproj", "{CE17A54E-0661-429F-AFDC-272E8668B14E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.MultiSelectComboBox", "EASYTools.MultiSelectComboBox\EASYTools.MultiSelectComboBox.csproj", "{CE17A54E-0661-429F-AFDC-272E8668B14E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.HighlightTextBox", "EASYTools.HighlightTextBox\EASYTools.HighlightTextBox.csproj", "{D69325FA-A62E-45F4-9E6C-E27C33552522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.HighlightTextBox", "EASYTools.HighlightTextBox\EASYTools.HighlightTextBox.csproj", "{D69325FA-A62E-45F4-9E6C-E27C33552522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.DBEntitySchema", "EASYTools.DBEntitySchema\EASYTools.DBEntitySchema.csproj", "{BE00811C-6ED2-7FB6-A5D8-F628776032FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DBEntitySchema", "EASYTools.DBEntitySchema\EASYTools.DBEntitySchema.csproj", "{BE00811C-6ED2-7FB6-A5D8-F628776032FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.LicenseGenerator", "EASYTools.LicenseGenerator\EASYTools.LicenseGenerator.csproj", "{FFA56615-5C78-234A-BC1B-0041CB7749B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.LicenseGenerator", "EASYTools.LicenseGenerator\EASYTools.LicenseGenerator.csproj", "{FFA56615-5C78-234A-BC1B-0041CB7749B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.LicenseVerify", "EASYTools.LicenseVerify\EASYTools.LicenseVerify.csproj", "{005C9B46-97F0-AC4D-6029-0A6E28246CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.LicenseVerify", "EASYTools.LicenseVerify\EASYTools.LicenseVerify.csproj", "{005C9B46-97F0-AC4D-6029-0A6E28246CB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EASYTools.MonacoProvider", "EASYTools.MonacoProvider\EASYTools.MonacoProvider.csproj", "{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.MonacoProvider", "EASYTools.MonacoProvider\EASYTools.MonacoProvider.csproj", "{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Položky řešení", "{73E6DEBC-5D85-E032-7380-14D1E53616C6}"
 	ProjectSection(SolutionItems) = preProject
@@ -53,6 +53,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Polo�
 		LICENSE = LICENSE
 		Readme.md = Readme.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastReport.Compat", "EASYTools.FastReport\FastReport.Compat\FastReport.Compat\FastReport.Compat.csproj", "{9152D7BC-DF88-47C0-A9DE-346558836D87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastReport.OpenSource.Web", "EASYTools.FastReport\FastReport.Core.Web\FastReport.OpenSource.Web.csproj", "{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastReport.OpenSource", "EASYTools.FastReport\FastReport.OpenSource\FastReport.OpenSource.csproj", "{549CB454-D1D0-493F-82CB-17C766D75ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -304,6 +310,42 @@ Global
 		{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}.Release|x86.ActiveCfg = Release|Any CPU
 		{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}.Release|x86.Build.0 = Release|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Analysis|x86.ActiveCfg = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Analysis|x86.Build.0 = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Debug|x86.Build.0 = Debug|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Release|x86.ActiveCfg = Release|Any CPU
+		{9152D7BC-DF88-47C0-A9DE-346558836D87}.Release|x86.Build.0 = Release|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Analysis|x86.ActiveCfg = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Analysis|x86.Build.0 = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Debug|x86.Build.0 = Debug|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{50C28C07-2E15-4A6A-8EC0-6FD0E26E32E7}.Release|x86.Build.0 = Release|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Analysis|Any CPU.ActiveCfg = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Analysis|Any CPU.Build.0 = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Analysis|x86.ActiveCfg = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Analysis|x86.Build.0 = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Debug|x86.Build.0 = Debug|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Release|x86.ActiveCfg = Release|Any CPU
+		{549CB454-D1D0-493F-82CB-17C766D75ECE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

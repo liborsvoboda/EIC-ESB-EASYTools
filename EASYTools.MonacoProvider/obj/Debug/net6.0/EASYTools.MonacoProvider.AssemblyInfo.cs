@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Libor Svoboda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.2+982a72643fc8b063fbf8221834153297dca5b823")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.2+7d5b52e409192f1847ce4e8d7c8b2904df2a2d41")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.MonacoProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.MonacoProvider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.2.1")]

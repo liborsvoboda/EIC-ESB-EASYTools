@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EASYTools.Calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e170d5a012cfe5ae5a5b0ccd6996d42a99e4020e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5b52e409192f1847ce4e8d7c8b2904df2a2d41")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.Calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.Calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

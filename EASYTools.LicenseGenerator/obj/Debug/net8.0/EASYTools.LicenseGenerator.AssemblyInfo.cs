@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Licence File Generator")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+982a72643fc8b063fbf8221834153297dca5b823")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5b52e409192f1847ce4e8d7c8b2904df2a2d41")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.LicenseGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.LicenseGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

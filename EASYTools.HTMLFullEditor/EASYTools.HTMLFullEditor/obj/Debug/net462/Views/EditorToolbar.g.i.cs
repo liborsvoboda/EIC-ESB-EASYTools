@@ -56,7 +56,7 @@ namespace EASYTools.HTMLFullEditor.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EASYTools.HTMLFullEditor;component/views/editortoolbar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EASYTools.HTMLFullEditor;V1.0.0.0;component/views/editortoolbar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EditorToolbar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
