@@ -40,7 +40,7 @@
     <StartupObject />
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>EASYTools.SqlConnectionDialog</PackageId>
     <Title>EASYTools.SqlConnectionDialog</Title>
@@ -54,7 +54,6 @@
     <PackageOutputPath></PackageOutputPath>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>6.0</AnalysisLevel>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
@@ -62,6 +61,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <DelaySign>True</DelaySign>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)'=='net4.5.2'">
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
@@ -78,20 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\groupware-solution.eu.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Dialog.xaml">
@@ -113,6 +99,20 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
     <!--<None Include="..\groupware-solution.eu.png">

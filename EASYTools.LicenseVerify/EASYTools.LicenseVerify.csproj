@@ -8,7 +8,7 @@
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>C:\Install\Apps\EIC-ESB-EASYTools\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageId>EASYTools.LicenseVerify</PackageId>
     <Title>LicenseVerify</Title>
     <Authors>Libor Svoboda</Authors>
@@ -23,6 +23,8 @@
     <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
     <DelaySign>True</DelaySign>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
@@ -58,6 +60,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <None Include="..\LICENSE" Link="LICENSE">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
     <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -66,6 +72,10 @@
 
   <ItemGroup>
     <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

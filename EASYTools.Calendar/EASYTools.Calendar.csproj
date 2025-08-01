@@ -51,7 +51,6 @@
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>WPF Calendar with notes </Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
@@ -67,6 +66,7 @@
     <DelaySign>True</DelaySign>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Version>1.0.1</Version>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -93,10 +93,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Include="..\Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -105,5 +101,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>

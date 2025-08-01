@@ -3,23 +3,12 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|solutionrelative:easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\Sdks\\NuGet.Build.Tasks.Pack\\build\\NuGet.Build.Tasks.Pack.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|solutionrelative:easytools.summary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\easytools.summary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|solutionrelative:easytools.summary\\easytools.summary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\fileoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.SUMMARY.csproj|solutionrelative:easytools.summary\\fileoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77B5CB63-E14B-4253-881D-6BE9D7C57076}|EASYTools.VNCLib\\EASYTools.VNCLib.csproj|solutionrelative:easytools.vnclib\\easytools.vnclib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,68 +18,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NuGet.Build.Tasks.Pack.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\Sdks\\NuGet.Build.Tasks.Pack\\build\\NuGet.Build.Tasks.Pack.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\Sdks\\NuGet.Build.Tasks.Pack\\build\\NuGet.Build.Tasks.Pack.targets",
-              "ViewState": "AgIAANQAAAAAAAAAAAAEwNwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-08-01T06:30:37.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.SUMMARY",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "RelativeToolTip": "EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T06:28:31.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\Program.cs",
-              "RelativeDocumentMoniker": "EASYTools.Summary\\Program.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\Program.cs",
-              "RelativeToolTip": "EASYTools.Summary\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:28:12.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileOperations.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\FileOperations.cs",
-              "RelativeDocumentMoniker": "EASYTools.Summary\\FileOperations.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\FileOperations.cs",
-              "RelativeToolTip": "EASYTools.Summary\\FileOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:27:54.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EASYTools.SUMMARY",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.SUMMARY.csproj",
-              "RelativeToolTip": "EASYTools.Summary\\EASYTools.SUMMARY.csproj",
+              "Title": "EASYTools.VNCLib",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T06:27:32.967Z",
+              "WhenOpened": "2025-08-01T12:58:12.369Z",
               "EditorCaption": ""
             },
             {
@@ -172,6 +112,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.VNCLib",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeDocumentMoniker": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "RelativeToolTip": "EASYTools.VNCLib\\EASYTools.VNCLib.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T12:58:14.97Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -194,6 +146,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
