@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Image Effect Library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d5b52e409192f1847ce4e8d7c8b2904df2a2d41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b86ac1ce78fa6d4170307e4f71f2d5e594d6d5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.ImageEffectLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.ImageEffectLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Reflection;
 using System.Text;
-using Summary;
+using EASYTools.Summary;
 
 
 class Program {

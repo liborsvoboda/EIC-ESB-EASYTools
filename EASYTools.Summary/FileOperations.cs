@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Summary {
+namespace EASYTools.Summary {
     public static class FileOperations {
 
 
