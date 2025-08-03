@@ -17,7 +17,7 @@
     <Authors>Libor Svoboda</Authors>
     <AssemblyVersion>2.1.6</AssemblyVersion>
     <FileVersion>2.1.6</FileVersion>
-    <Version>2.1.6</Version>
+    <Version>2.1.7</Version>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <ApplicationIcon>favicon.ico</ApplicationIcon>

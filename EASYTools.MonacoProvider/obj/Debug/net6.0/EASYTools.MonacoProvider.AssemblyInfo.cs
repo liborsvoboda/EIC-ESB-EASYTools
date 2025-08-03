@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Libor Svoboda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.2+16705240cc166e1327ff08ac7db413645522f02a")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.2.4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.2.4+3abafec187d2545ffc927ca7fe6bbe5e547cd186")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.MonacoProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.MonacoProvider")]
-[assembly: System.Reflection.AssemblyVersionAttribute("0.2.1")]
+[assembly: System.Reflection.AssemblyVersionAttribute("0.2.4")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/liborsvoboda/EIC-ESB-EASYTools.git")]
 
 // Vygenerované třídou WriteCodeFragment nástroje MSBuild

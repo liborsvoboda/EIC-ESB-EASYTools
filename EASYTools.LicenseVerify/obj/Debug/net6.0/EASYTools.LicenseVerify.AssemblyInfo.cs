@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupWare-Solution.Eu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16705240cc166e1327ff08ac7db413645522f02a")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+3abafec187d2545ffc927ca7fe6bbe5e547cd186")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.LicenseVerify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.LicenseVerify")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/liborsvoboda/EIC-ESB-EASYTools.git")]
 
 // Vygenerované třídou WriteCodeFragment nástroje MSBuild

@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj": {
-      "version": "0.2.2",
+      "version": "0.2.4",
       "restore": {
         "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
         "projectName": "EASYTools.MonacoProvider",
@@ -55,19 +55,19 @@
           "dependencies": {
             "Microsoft.CodeAnalysis.CSharp.Features": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.0.1, )"
             },
             "Microsoft.CodeAnalysis.CSharp.Workspaces": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.0.1, )"
             },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.0.1, )"
             },
             "Microsoft.CodeAnalysis.Workspaces.Common": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.0.1, )"
             }
           },
           "imports": [

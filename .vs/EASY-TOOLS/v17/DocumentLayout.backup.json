@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9906F177-3532-41E0-AF13-09FEB24A6BED}|EASYTools.Calculator\\EASYTools.Calculator.csproj|solutionrelative:easytools.calculator\\easytools.calculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.dbentityschema\\easytools.dbentityschema.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|solutionrelative:easytools.dbentityschema\\easytools.dbentityschema.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FFA56615-5C78-234A-BC1B-0041CB7749B4}|EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj|solutionrelative:easytools.licensegenerator\\easytools.licensegenerator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{005C9B46-97F0-AC4D-6029-0A6E28246CB2}|EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj|solutionrelative:easytools.licenseverify\\easytools.licenseverify.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EASYTools.Calculator",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
-              "RelativeDocumentMoniker": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Calculator\\EASYTools.Calculator.csproj",
-              "RelativeToolTip": "EASYTools.Calculator\\EASYTools.Calculator.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-01T13:20:06.739Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -107,6 +111,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EASYTools.DBEntitySchema",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
+              "RelativeDocumentMoniker": "EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
+              "RelativeToolTip": "EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T18:25:11.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EASYTools.LicenseGenerator",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "RelativeToolTip": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T18:22:15.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.LicenseVerify",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "RelativeToolTip": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T18:21:25.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EASYTools.MonacoProvider",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T18:16:36.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EASYTools.MonacoProvider",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T17:31:27.284Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -129,10 +194,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",

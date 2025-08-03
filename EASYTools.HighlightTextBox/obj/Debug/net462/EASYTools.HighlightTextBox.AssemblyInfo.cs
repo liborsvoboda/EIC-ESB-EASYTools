@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF HighLight TextBox extension ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16705240cc166e1327ff08ac7db413645522f02a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3abafec187d2545ffc927ca7fe6bbe5e547cd186")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.HighlightTextBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.HighlightTextBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

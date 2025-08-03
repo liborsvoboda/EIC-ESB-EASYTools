@@ -2192,7 +2192,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "2.1.6",
+    "version": "2.1.7",
     "restore": {
       "projectUniqueName": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
       "projectName": "EASYTools.DBEntitySchema",

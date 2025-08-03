@@ -10,13 +10,13 @@
     <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <projectUrl>https://kliknetezde.cz/</projectUrl>
     <description>Package Description</description>
-    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="16705240cc166e1327ff08ac7db413645522f02a" />
+    <repository type="git" url="https://github.com/liborsvoboda/EIC-ESB-EASYTools.git" commit="3abafec187d2545ffc927ca7fe6bbe5e547cd186" />
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="Microsoft.CodeAnalysis.CSharp.Features" version="4.8.0" exclude="Build,Analyzers" />
-        <dependency id="Microsoft.CodeAnalysis.CSharp.Workspaces" version="4.8.0" exclude="Build,Analyzers" />
-        <dependency id="Microsoft.CodeAnalysis.Common" version="4.8.0" exclude="Build,Analyzers" />
-        <dependency id="Microsoft.CodeAnalysis.Workspaces.Common" version="4.8.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Features" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Workspaces" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Common" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.Workspaces.Common" version="4.9.2" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <contentFiles>
