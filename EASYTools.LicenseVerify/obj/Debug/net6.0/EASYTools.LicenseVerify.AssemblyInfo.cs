@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupWare-Solution.Eu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+3abafec187d2545ffc927ca7fe6bbe5e547cd186")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+bb6cf05755a3a2aaf7f02cf2949c55391cd993ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.LicenseVerify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.LicenseVerify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.Summary.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.Summary.csproj|solutionrelative:easytools.summary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.Summary.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7EEA3D77-2ACD-4211-86AC-F4E6F8F5ADE0}|EASYTools.Summary\\EASYTools.Summary.csproj|solutionrelative:easytools.summary\\easytools.summary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.dbentityschema\\easytools.dbentityschema.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|solutionrelative:easytools.dbentityschema\\easytools.dbentityschema.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 231,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,6 +78,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
@@ -94,84 +106,87 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EASYTools.Summary",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.Summary.csproj",
+              "RelativeDocumentMoniker": "EASYTools.Summary\\EASYTools.Summary.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.Summary.csproj",
+              "RelativeToolTip": "EASYTools.Summary\\EASYTools.Summary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-09T09:07:38.697Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\Program.cs",
+              "RelativeDocumentMoniker": "EASYTools.Summary\\Program.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\Program.cs",
+              "RelativeToolTip": "EASYTools.Summary\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T09:04:28.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EASYTools.DBEntitySchema",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
               "RelativeDocumentMoniker": "EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
               "RelativeToolTip": "EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T18:25:11.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T18:25:11.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EASYTools.LicenseGenerator",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
               "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
               "RelativeToolTip": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T18:22:15.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T18:22:15.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EASYTools.LicenseVerify",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
               "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
               "RelativeToolTip": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T18:21:25.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T18:21:25.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EASYTools.MonacoProvider",
+              "DocumentIndex": 6,
+              "Title": "EASYTools.MonacoProvider.csproj",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T18:16:36.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T18:16:36.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EASYTools.MonacoProvider",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeToolTip": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-02T17:31:27.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T17:31:27.284Z"
             }
           ]
         },
@@ -181,7 +196,23 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             },
             {
               "$type": "Bookmark",
@@ -190,24 +221,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 113,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             },
             {
               "$type": "Bookmark",
@@ -220,7 +233,7 @@
           ]
         },
         {
-          "DockedHeight": 210,
+          "DockedHeight": 113,
           "SelectedChildIndex": -1,
           "Children": [
             {

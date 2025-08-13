@@ -27,6 +27,6 @@ class Program {
             Console.WriteLine("Any md file founded. Summary.md not created");
         }
 
-        Console.ReadKey();
+        //Console.ReadKey();
     }
 }
