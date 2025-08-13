@@ -5,20 +5,21 @@
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <DelaySign>True</DelaySign>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>TupleExtension</Title>
     <Company>GroupWare-Solution.Eu</Company>
     <Authors>Libor Svoboda</Authors>
-    <Description>MOre Fields in Tuple</Description>
+    <Description>More Fields for Tuple</Description>
     <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageTags>Tuple</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EICESB-NUGETS</PackageOutputPath>
     <NoWin32Manifest>true</NoWin32Manifest>
+    <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <IsPublishable>False</IsPublishable>
@@ -30,21 +31,21 @@
     <Content Include="favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\groupware-solution.eu.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="NETStandard.Library" Version="1.6" />
     <PackageReference Include="System.ValueTuple" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>

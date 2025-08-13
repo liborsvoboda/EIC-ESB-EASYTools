@@ -9,23 +9,33 @@
     <NoWin32Manifest>true</NoWin32Manifest>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>ReplaceInFiles</Title>
+    <Title>StringReplaceInFiles</Title>
     <Company>GroupWare-Solution.Eu</Company>
     <Authors>Libor Svoboda</Authors>
-    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <Description>Conditional Replacing strings in Files Utility</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>Replace;string;files;folder;</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
     <DelaySign>True</DelaySign>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,7 +43,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Readme.md">
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

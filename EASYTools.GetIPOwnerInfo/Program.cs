@@ -28,7 +28,7 @@ namespace EASYTools.GetIPOwnerInfoTool {
                 Console.WriteLine("Tool write the returned results from API responses to file, which is set as second parameter or will be created the 'ResponseJsonFile.json' automatically.");
                 Console.WriteLine("Example of config.json file with free APIUrl for load OwnerInfo of each IP address in the list {'checkIP': 'http://ip-api.com/json/'}");
                 Console.WriteLine("Example of jsonFile with IP addresses List for Owners check: [{\"IP\":\"10.10.10.10\"},{\"IP\":\"10.10.10.20\"}]");
-                Console.WriteLine("Example of use utility: EASYTools..GetIPOwnerInfoTool.exe 'c:\aha\\IPListJsonFile.json' 'c:\aha\\ResponseJsonFile.json' ");
+                Console.WriteLine("Example of use utility: EASYTools.GetIPOwnerInfoTool.exe 'c:\\aha\\IPListJsonFile.json' 'c:\\aha\\ResponseJsonFile.json' ");
                 Console.WriteLine("Simple using. Bye from https://GroupWare-Solution.eU");
                 Console.ReadKey();
                 Functions.ApplicationClose();

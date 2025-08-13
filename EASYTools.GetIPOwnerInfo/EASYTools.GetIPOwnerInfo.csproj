@@ -8,26 +8,22 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>GetIPOwnerInfo</Title>
-    <PackageIcon>groupware-solution.eu.png</PackageIcon>
     <PackAsTool>False</PackAsTool>
     <IncludeSymbols>False</IncludeSymbols>
     <AnalysisLevel>6.0</AnalysisLevel>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-MODULES\EASYIT-WPFTOOLS\EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>EasyITGroupWareSolution.snk</AssemblyOriginatorKeyFile>
     <Authors>Libor Svoboda</Authors>
     <Company>GroupWare-Solution.Eu</Company>
     <Description>Get WHoIs for List IP over Free public API</Description>
-    <Copyright>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EASYIT-WPFTOOLS\LICENSE</Copyright>
-    <PackageProjectUrl>https://kliknetezde.cz</PackageProjectUrl>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://KlikneteZde.Cz</PackageProjectUrl>
     <RepositoryUrl>https://github.com/liborsvoboda/EIC-ESB-EASYTools.git</RepositoryUrl>
     <PackageTags>Whois;IPinfo;API;</PackageTags>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
     <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
-    <PackageOutputPath>E:\Projekty\zEasy\EASY-IT-EXTENSIONS\EASY-IT-PROJECTS\EICESB-NUGETS</PackageOutputPath>
     <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
-    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <DelaySign>True</DelaySign>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net4.6.2|AnyCPU'">
@@ -56,15 +52,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.AppContext" Version="4.3.0" />
     <PackageReference Include="System.Text.Encoding" Version="4.3.0" />
+    <PackageReference Include="System.Text.Json" Version="4.6.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -76,6 +65,21 @@
 
   <ItemGroup>
     <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="groupware-solution.eu.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

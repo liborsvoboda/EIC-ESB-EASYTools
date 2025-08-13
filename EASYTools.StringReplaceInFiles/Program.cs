@@ -57,7 +57,7 @@ namespace EASYTools.ReplaceInFilesTool {
                 Console.WriteLine("You can define specific file types by mask on second position examle: tool.exe \"c:\test\" \"*.txt\" \"oldstring\" \"newstring\" true false");
                 Console.WriteLine("Replacing in One File: tool.exe \"c:\test\test.txt\" \"oldstring\" \"newstring\" false ");
                 Console.WriteLine("Removing Line Range in One File (25-30 lines will be removed): tool.exe \"c:\test\test.txt\" \"25\" \"30\"");
-                Console.WriteLine("Simple using. Bye from https://GroupWare-Solution.Eu");
+                Console.WriteLine("Simple using. Bye from https://KlikneteZde.Cz");
                 Console.ReadKey();
                 Functions.ApplicationClose();
             }
