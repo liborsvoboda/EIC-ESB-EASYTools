@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.dbentityschema\\dbentityschemaextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE00811C-6ED2-7FB6-A5D8-F628776032FF}|EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj|solutionrelative:easytools.dbentityschema\\dbentityschemaextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.getipownerinfo\\easytools.getipownerinfo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfo\\easytools.getipownerinfo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -13,14 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E0229212-04A6-407D-9DC2-7A2D912505B9}|EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.stringreplaceinfiles\\easytools.stringreplaceinfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E0229212-04A6-407D-9DC2-7A2D912505B9}|EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj|solutionrelative:easytools.stringreplaceinfiles\\easytools.stringreplaceinfiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools..GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.getipownerinfo\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools..GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfo\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools..GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.getipownerinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools..GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0229212-04A6-407D-9DC2-7A2D912505B9}|EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.stringreplaceinfiles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,6 +65,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{84C6066F-6504-8E9B-8A07-C81AA64C3D7D}|EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj|solutionrelative:easytools.monacoprovider\\easytools.monacoprovider.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.getipownerinfo\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfo\\functions\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|e:\\projekty\\zeasy\\easy-it-extensions\\eic-esb-easytools\\easytools.getipownerinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F01BDB7-E065-4975-B98F-086C34E0A059}|EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj|solutionrelative:easytools.getipownerinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,116 +87,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EASYTools.GetIPOwnerInfo",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T19:35:05.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Functions.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
-              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
-              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Title": "DBEntitySchemaExtensions.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\DBEntitySchemaExtensions.cs",
+              "RelativeDocumentMoniker": "EASYTools.DBEntitySchema\\DBEntitySchemaExtensions.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\DBEntitySchemaExtensions.cs*",
+              "RelativeToolTip": "EASYTools.DBEntitySchema\\DBEntitySchemaExtensions.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:25:35.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Program.cs",
-              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\Program.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Program.cs",
-              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:21:58.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EASYTools..GetIPOwnerInfo",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T19:20:09.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EASYTools.StringReplaceInFiles",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T19:17:15.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Program.cs",
-              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\Program.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Program.cs",
-              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:14:13.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Functions.cs",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
-              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
-              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:12:32.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EASYTools.StringReplaceInFiles",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T19:04:01.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EASYTools.TupleExtension",
-              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
-              "RelativeDocumentMoniker": "EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
-              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
-              "RelativeToolTip": "EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-13T18:57:28.827Z",
+              "WhenOpened": "2025-12-03T16:45:40.233Z",
               "EditorCaption": ""
             },
             {
@@ -269,15 +171,126 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EASYTools.GetIPOwnerInfo.csproj",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T19:35:05.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
+              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
+              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\Functions\\Functions.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:25:35.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Program.cs",
+              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\Program.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\Program.cs",
+              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:21:58.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EASYTools.GetIPOwnerInfo",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "RelativeDocumentMoniker": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "RelativeToolTip": "EASYTools.GetIPOwnerInfo\\EASYTools.GetIPOwnerInfo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T19:20:09.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EASYTools.StringReplaceInFiles.csproj",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T19:17:15.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Program.cs",
+              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\Program.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Program.cs",
+              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:14:13.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
+              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
+              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\Functions\\Functions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:12:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EASYTools.StringReplaceInFiles",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "RelativeDocumentMoniker": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "RelativeToolTip": "EASYTools.StringReplaceInFiles\\EASYTools.StringReplaceInFiles.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T19:04:01.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "EASYTools.TupleExtension.csproj",
+              "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
+              "RelativeDocumentMoniker": "EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
+              "ToolTip": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
+              "RelativeToolTip": "EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-13T18:57:28.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EASYTools.TupleExtension",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
               "RelativeDocumentMoniker": "EASYTools.TupleExtension\\EASYTools.TupleExtension.csproj",
@@ -289,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "EASYTools.Summary",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\EASYTools.Summary.csproj",
               "RelativeDocumentMoniker": "EASYTools.Summary\\EASYTools.Summary.csproj",
@@ -301,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.Summary\\Program.cs",
               "RelativeDocumentMoniker": "EASYTools.Summary\\Program.cs",
@@ -309,12 +322,11 @@
               "RelativeToolTip": "EASYTools.Summary\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAABBwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T09:04:28.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T09:04:28.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "EASYTools.DBEntitySchema",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
               "RelativeDocumentMoniker": "EASYTools.DBEntitySchema\\EASYTools.DBEntitySchema.csproj",
@@ -326,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "EASYTools.LicenseGenerator",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
               "RelativeDocumentMoniker": "EASYTools.LicenseGenerator\\EASYTools.LicenseGenerator.csproj",
@@ -338,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "EASYTools.LicenseVerify",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
               "RelativeDocumentMoniker": "EASYTools.LicenseVerify\\EASYTools.LicenseVerify.csproj",
@@ -350,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "EASYTools.MonacoProvider.csproj",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
@@ -363,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "EASYTools.MonacoProvider",
               "DocumentMoniker": "E:\\Projekty\\zEasy\\EASY-IT-EXTENSIONS\\EIC-ESB-EASYTools\\EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
               "RelativeDocumentMoniker": "EASYTools.MonacoProvider\\EASYTools.MonacoProvider.csproj",
@@ -398,10 +410,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             },
             {
               "$type": "Bookmark",

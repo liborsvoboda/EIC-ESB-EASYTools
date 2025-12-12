@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFtpServer
+   | FTP Server documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFtpServer
+   | FTP Server documentation ">
+    <meta name="generator" content="docfx 2.43.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FubarDev.FtpServer.IFtpServer">
+  
+  
+  <h1 id="FubarDev_FtpServer_IFtpServer" data-uid="FubarDev.FtpServer.IFtpServer" class="text-break">Interface IFtpServer
+  </h1>
+  <div class="markdown level0 summary"><p>The interface that must be implemented by the FTP server.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FubarDev.FtpServer.IPausableFtpService.html#FubarDev_FtpServer_IPausableFtpService_Status">IPausableFtpService.Status</a>
+    </div>
+    <div>
+      <a class="xref" href="FubarDev.FtpServer.IPausableFtpService.html#FubarDev_FtpServer_IPausableFtpService_PauseAsync_System_Threading_CancellationToken_">IPausableFtpService.PauseAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="FubarDev.FtpServer.IPausableFtpService.html#FubarDev_FtpServer_IPausableFtpService_ContinueAsync_System_Threading_CancellationToken_">IPausableFtpService.ContinueAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="FubarDev.FtpServer.IFtpService.html#FubarDev_FtpServer_IFtpService_StartAsync_System_Threading_CancellationToken_">IFtpService.StartAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="FubarDev.FtpServer.IFtpService.html#FubarDev_FtpServer_IFtpService_StopAsync_System_Threading_CancellationToken_">IFtpService.StopAsync(CancellationToken)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FubarDev.FtpServer.html">FubarDev.FtpServer</a></h6>
+  <h6><strong>Assembly</strong>: FubarDev.FtpServer.Abstractions.dll</h6>
+  <h5 id="FubarDev_FtpServer_IFtpServer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IFtpServer : IPausableFtpService, IFtpService</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_MaxActiveConnections.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.MaxActiveConnections%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L44">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_MaxActiveConnections_" data-uid="FubarDev.FtpServer.IFtpServer.MaxActiveConnections*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_MaxActiveConnections" data-uid="FubarDev.FtpServer.IFtpServer.MaxActiveConnections">MaxActiveConnections</h4>
+  <div class="markdown level1 summary"><p>Gets the max allows active connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int MaxActiveConnections { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="FubarDev_FtpServer_IFtpServer_MaxActiveConnections_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This will cause connections to be refused if count is exceeded.
+0 (default) means no control over connection count.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_Port.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.Port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L35">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_Port_" data-uid="FubarDev.FtpServer.IFtpServer.Port*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_Port" data-uid="FubarDev.FtpServer.IFtpServer.Port">Port</h4>
+  <div class="markdown level1 summary"><p>Gets the port on which the FTP server is listening for incoming connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Port { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="FubarDev_FtpServer_IFtpServer_Port_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This value is only final after the <a class="xref" href="FubarDev.FtpServer.IFtpServer.html#FubarDev_FtpServer_IFtpServer_ListenerStarted">ListenerStarted</a> event was raised.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_Ready.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.Ready%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L49">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_Ready_" data-uid="FubarDev.FtpServer.IFtpServer.Ready*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_Ready" data-uid="FubarDev.FtpServer.IFtpServer.Ready">Ready</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether server ready to receive incoming connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Ready { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_ServerAddress.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.ServerAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L27">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_ServerAddress_" data-uid="FubarDev.FtpServer.IFtpServer.ServerAddress*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_ServerAddress" data-uid="FubarDev.FtpServer.IFtpServer.ServerAddress">ServerAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the public IP address (required for <code>PASV</code> and <code>EPSV</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string? ServerAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_Statistics.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.Statistics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L54">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_Statistics_" data-uid="FubarDev.FtpServer.IFtpServer.Statistics*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_Statistics" data-uid="FubarDev.FtpServer.IFtpServer.Statistics">Statistics</h4>
+  <div class="markdown level1 summary"><p>Gets the FTP server statistics.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFtpServerStatistics Statistics { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.IFtpServerStatistics.html">IFtpServerStatistics</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_Start.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L59">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_Start_" data-uid="FubarDev.FtpServer.IFtpServer.Start*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_Start" data-uid="FubarDev.FtpServer.IFtpServer.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts the FTP server in the background.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;User IFtpServerHost.StartAsync instead.&quot;)]
+void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_Stop.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L68">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_IFtpServer_Stop_" data-uid="FubarDev.FtpServer.IFtpServer.Stop*"></a>
+  <h4 id="FubarDev_FtpServer_IFtpServer_Stop" data-uid="FubarDev.FtpServer.IFtpServer.Stop">Stop()</h4>
+  <div class="markdown level1 summary"><p>Stops the FTP server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;User IFtpServerHost.StopAsync instead.&quot;)]
+void Stop()</code></pre>
+  </div>
+  <h5 id="FubarDev_FtpServer_IFtpServer_Stop_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The FTP server cannot be started again after it was stopped.</p>
+</div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_ConfigureConnection.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.ConfigureConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L17">View Source</a>
+  </span>
+  <h4 id="FubarDev_FtpServer_IFtpServer_ConfigureConnection" data-uid="FubarDev.FtpServer.IFtpServer.ConfigureConnection">ConfigureConnection</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the connection is ready to be configured.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ConnectionEventArgs&gt; ConfigureConnection</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="FubarDev.FtpServer.ConnectionEventArgs.html">ConnectionEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer_ListenerStarted.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer.ListenerStarted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L22">View Source</a>
+  </span>
+  <h4 id="FubarDev_FtpServer_IFtpServer_ListenerStarted" data-uid="FubarDev.FtpServer.IFtpServer.ListenerStarted">ListenerStarted</h4>
+  <div class="markdown level1 summary"><p>This event is raised when the listener was started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ListenerStartedEventArgs&gt; ListenerStarted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;<a class="xref" href="FubarDev.FtpServer.ListenerStartedEventArgs.html">ListenerStartedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_IFtpServer.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.IFtpServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer.Abstractions/IFtpServer.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <table border='0'><tr><td><span>Copyright © 2018 Fubar Development Junker<br>Generated by <strong>DocFX</strong></span></td><td><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png'></a><br><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>FluentMigrator Documentation</span> by <a xmlns:cc='http://creativecommons.org/ns#' href='https://fluentmigrator.github.io' property='cc:attributionName' rel='cc:attributionURL'>FluentMigrator Project</a> is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</td></tr></table>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

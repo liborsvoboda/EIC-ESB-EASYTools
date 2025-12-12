@@ -1,0 +1,1088 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FtpConnection
+   | FTP Server documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FtpConnection
+   | FTP Server documentation ">
+    <meta name="generator" content="docfx 2.43.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FubarDev.FtpServer.FtpConnection">
+  
+  
+  <h1 id="FubarDev_FtpServer_FtpConnection" data-uid="FubarDev.FtpServer.FtpConnection" class="text-break">Class FtpConnection
+  </h1>
+  <div class="markdown level0 summary"><p>This class represents a FTP connection.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="FubarDev.FtpServer.FtpConnectionContext.html">FtpConnectionContext</a></div>
+    <div class="level2"><span class="xref">FtpConnection</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="FubarDev.FtpServer.IFtpConnection.html">IFtpConnection</a></div>
+    <div><a class="xref" href="FubarDev.FtpServer.Features.IConnectionFeature.html">IConnectionFeature</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="FubarDev.FtpServer.Events.IFtpConnectionEvent.html">IFtpConnectionEvent</a>&gt;</div>
+    <div><a class="xref" href="FubarDev.FtpServer.Events.IFtpConnectionEventHost.html">IFtpConnectionEventHost</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FubarDev.FtpServer.html">FubarDev.FtpServer</a></h6>
+  <h6><strong>Assembly</strong>: FubarDev.FtpServer.dll</h6>
+  <h5 id="FubarDev_FtpServer_FtpConnection_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class FtpConnection : FtpConnectionContext, IFtpConnection, IConnectionFeature, IDisposable, IObservable&lt;IFtpConnectionEvent&gt;, IFtpConnectionEventHost</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection__ctor_FubarDev_FtpServer_TcpSocketClientAccessor_Microsoft_Extensions_Options_IOptions_FubarDev_FtpServer_FtpConnectionOptions__Microsoft_Extensions_Options_IOptions_FubarDev_FtpServer_PortCommandOptions__FubarDev_FtpServer_IFtpConnectionAccessor_FubarDev_FtpServer_Localization_IFtpCatalogLoader_FubarDev_FtpServer_ServerCommands_IServerCommandExecutor_System_IServiceProvider_FubarDev_FtpServer_DataConnection_SecureDataConnectionWrapper_FubarDev_FtpServer_Authentication_ISslStreamWrapperFactory_System_Nullable_Microsoft_Extensions_Logging_ILogger_FubarDev_FtpServer_FtpConnection___System_Nullable_Microsoft_Extensions_Logging_ILoggerFactory__.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.%23ctor(FubarDev.FtpServer.TcpSocketClientAccessor%2CMicrosoft.Extensions.Options.IOptions%7BFubarDev.FtpServer.FtpConnectionOptions%7D%2CMicrosoft.Extensions.Options.IOptions%7BFubarDev.FtpServer.PortCommandOptions%7D%2CFubarDev.FtpServer.IFtpConnectionAccessor%2CFubarDev.FtpServer.Localization.IFtpCatalogLoader%2CFubarDev.FtpServer.ServerCommands.IServerCommandExecutor%2CSystem.IServiceProvider%2CFubarDev.FtpServer.DataConnection.SecureDataConnectionWrapper%2CFubarDev.FtpServer.Authentication.ISslStreamWrapperFactory%2CSystem.Nullable%7BMicrosoft.Extensions.Logging.ILogger%7BFubarDev.FtpServer.FtpConnection%7D%7D%2CSystem.Nullable%7BMicrosoft.Extensions.Logging.ILoggerFactory%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L124">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection__ctor_" data-uid="FubarDev.FtpServer.FtpConnection.#ctor*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection__ctor_FubarDev_FtpServer_TcpSocketClientAccessor_Microsoft_Extensions_Options_IOptions_FubarDev_FtpServer_FtpConnectionOptions__Microsoft_Extensions_Options_IOptions_FubarDev_FtpServer_PortCommandOptions__FubarDev_FtpServer_IFtpConnectionAccessor_FubarDev_FtpServer_Localization_IFtpCatalogLoader_FubarDev_FtpServer_ServerCommands_IServerCommandExecutor_System_IServiceProvider_FubarDev_FtpServer_DataConnection_SecureDataConnectionWrapper_FubarDev_FtpServer_Authentication_ISslStreamWrapperFactory_System_Nullable_Microsoft_Extensions_Logging_ILogger_FubarDev_FtpServer_FtpConnection___System_Nullable_Microsoft_Extensions_Logging_ILoggerFactory__" data-uid="FubarDev.FtpServer.FtpConnection.#ctor(FubarDev.FtpServer.TcpSocketClientAccessor,Microsoft.Extensions.Options.IOptions{FubarDev.FtpServer.FtpConnectionOptions},Microsoft.Extensions.Options.IOptions{FubarDev.FtpServer.PortCommandOptions},FubarDev.FtpServer.IFtpConnectionAccessor,FubarDev.FtpServer.Localization.IFtpCatalogLoader,FubarDev.FtpServer.ServerCommands.IServerCommandExecutor,System.IServiceProvider,FubarDev.FtpServer.DataConnection.SecureDataConnectionWrapper,FubarDev.FtpServer.Authentication.ISslStreamWrapperFactory,System.Nullable{Microsoft.Extensions.Logging.ILogger{FubarDev.FtpServer.FtpConnection}},System.Nullable{Microsoft.Extensions.Logging.ILoggerFactory})">FtpConnection(TcpSocketClientAccessor, IOptions&lt;FtpConnectionOptions&gt;, IOptions&lt;PortCommandOptions&gt;, IFtpConnectionAccessor, IFtpCatalogLoader, IServerCommandExecutor, IServiceProvider, SecureDataConnectionWrapper, ISslStreamWrapperFactory, Nullable&lt;ILogger&lt;FtpConnection&gt;&gt;, Nullable&lt;ILoggerFactory&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FubarDev.FtpServer.FtpConnection.html">FtpConnection</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FtpConnection(TcpSocketClientAccessor socketAccessor, IOptions&lt;FtpConnectionOptions&gt; options, IOptions&lt;PortCommandOptions&gt; portOptions, IFtpConnectionAccessor connectionAccessor, IFtpCatalogLoader catalogLoader, IServerCommandExecutor serverCommandExecutor, IServiceProvider serviceProvider, SecureDataConnectionWrapper secureDataConnectionWrapper, ISslStreamWrapperFactory sslStreamWrapperFactory, ILogger&lt;FtpConnection&gt;? logger = default(ILogger&lt;FtpConnection&gt;? ), ILoggerFactory? loggerFactory = default(ILoggerFactory? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.TcpSocketClientAccessor.html">TcpSocketClientAccessor</a></td>
+        <td><span class="parametername">socketAccessor</span></td>
+        <td><p>The accessor to get the socket used to communicate with the client.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>&lt;<a class="xref" href="FubarDev.FtpServer.FtpConnectionOptions.html">FtpConnectionOptions</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The options for the FTP connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1">IOptions</a>&lt;<a class="xref" href="FubarDev.FtpServer.PortCommandOptions.html">PortCommandOptions</a>&gt;</td>
+        <td><span class="parametername">portOptions</span></td>
+        <td><p>The <code>PORT</code> command options.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.IFtpConnectionAccessor.html">IFtpConnectionAccessor</a></td>
+        <td><span class="parametername">connectionAccessor</span></td>
+        <td><p>The accessor to get the connection that is active during the <a class="xref" href="FubarDev.FtpServer.CommandHandlers.FtpCommandHandler.html#FubarDev_FtpServer_CommandHandlers_FtpCommandHandler_Process_FubarDev_FtpServer_FtpCommand_System_Threading_CancellationToken_">Process(FtpCommand, CancellationToken)</a> method execution.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.Localization.IFtpCatalogLoader.html">IFtpCatalogLoader</a></td>
+        <td><span class="parametername">catalogLoader</span></td>
+        <td><p>The catalog loader for the FTP server.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.ServerCommands.IServerCommandExecutor.html">IServerCommandExecutor</a></td>
+        <td><span class="parametername">serverCommandExecutor</span></td>
+        <td><p>The executor for server commands.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td><p>The service provider for the connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.DataConnection.SecureDataConnectionWrapper.html">SecureDataConnectionWrapper</a></td>
+        <td><span class="parametername">secureDataConnectionWrapper</span></td>
+        <td><p>Wraps a data connection into an SSL stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.Authentication.ISslStreamWrapperFactory.html">ISslStreamWrapperFactory</a></td>
+        <td><span class="parametername">sslStreamWrapperFactory</span></td>
+        <td><p>The SSL stream wrapper factory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="FubarDev.FtpServer.FtpConnection.html">FtpConnection</a>&gt;&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger for the FTP connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a>&gt;</td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>The logger factory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_ConnectionId.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.ConnectionId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L236">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_ConnectionId_" data-uid="FubarDev.FtpServer.FtpConnection.ConnectionId*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_ConnectionId" data-uid="FubarDev.FtpServer.FtpConnection.ConnectionId">ConnectionId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the connection identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ConnectionId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FubarDev.FtpServer.FtpConnectionContext.html#FubarDev_FtpServer_FtpConnectionContext_ConnectionId">FtpConnectionContext.ConnectionId</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_ConnectionServices.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.ConnectionServices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L233">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_ConnectionServices_" data-uid="FubarDev.FtpServer.FtpConnection.ConnectionServices*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_ConnectionServices" data-uid="FubarDev.FtpServer.FtpConnection.ConnectionServices">ConnectionServices</h4>
+  <div class="markdown level1 summary"><p>Gets the connection services.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IServiceProvider ConnectionServices { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Data.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L252">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Data_" data-uid="FubarDev.FtpServer.FtpConnection.Data*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Data" data-uid="FubarDev.FtpServer.FtpConnection.Data">Data</h4>
+  <div class="markdown level1 summary"><p>Gets the FTP connection data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the Features property instead.&quot;)]
+public FtpConnectionData Data { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.FtpConnectionData.html">FtpConnectionData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Encoding.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Encoding%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L244">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Encoding_" data-uid="FubarDev.FtpServer.FtpConnection.Encoding*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Encoding" data-uid="FubarDev.FtpServer.FtpConnection.Encoding">Encoding</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the encoding for the LIST/NLST commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the IEncodingFeature instead.&quot;)]
+public Encoding Encoding { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Features.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Features%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L241">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Features_" data-uid="FubarDev.FtpServer.FtpConnection.Features*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Features" data-uid="FubarDev.FtpServer.FtpConnection.Features">Features</h4>
+  <div class="markdown level1 summary"><p>Gets the feature collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IFeatureCollection Features { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.http.features.ifeaturecollection">IFeatureCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FubarDev.FtpServer.FtpConnectionContext.html#FubarDev_FtpServer_FtpConnectionContext_Features">FtpConnectionContext.Features</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_IsSecure.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.IsSecure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L285">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_IsSecure_" data-uid="FubarDev.FtpServer.FtpConnection.IsSecure*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_IsSecure" data-uid="FubarDev.FtpServer.FtpConnection.IsSecure">IsSecure</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this is a secure connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Not needed anymore.&quot;)]
+public bool IsSecure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_LocalEndPoint.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.LocalEndPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L260">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_LocalEndPoint_" data-uid="FubarDev.FtpServer.FtpConnection.LocalEndPoint*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_LocalEndPoint" data-uid="FubarDev.FtpServer.FtpConnection.LocalEndPoint">LocalEndPoint</h4>
+  <div class="markdown level1 summary"><p>Gets the local end point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the IConnectionFeature instead.&quot;)]
+public IPEndPoint LocalEndPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.ipendpoint">IPEndPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Log.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Log%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L256">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Log_" data-uid="FubarDev.FtpServer.FtpConnection.Log*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Log" data-uid="FubarDev.FtpServer.FtpConnection.Log">Log</h4>
+  <div class="markdown level1 summary"><p>Gets the FTP connection logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use your own logger instead of the one from the connection.&quot;)]
+public ILogger? Log { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_OriginalStream.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.OriginalStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L273">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_OriginalStream_" data-uid="FubarDev.FtpServer.FtpConnection.OriginalStream*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_OriginalStream" data-uid="FubarDev.FtpServer.FtpConnection.OriginalStream">OriginalStream</h4>
+  <div class="markdown level1 summary"><p>Gets the control connection stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the ISecureConnectionFeature instead.&quot;)]
+public Stream OriginalStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_RemoteAddress.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.RemoteAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L269">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_RemoteAddress_" data-uid="FubarDev.FtpServer.FtpConnection.RemoteAddress*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_RemoteAddress" data-uid="FubarDev.FtpServer.FtpConnection.RemoteAddress">RemoteAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the remote address of the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the IConnectionFeature instead - and use the RemoteEndPoint property.&quot;)]
+public Address RemoteAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.Address.html">Address</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_RemoteEndPoint.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.RemoteEndPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L265">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_RemoteEndPoint_" data-uid="FubarDev.FtpServer.FtpConnection.RemoteEndPoint*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_RemoteEndPoint" data-uid="FubarDev.FtpServer.FtpConnection.RemoteEndPoint">RemoteEndPoint</h4>
+  <div class="markdown level1 summary"><p>Gets the remote end point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Query the information using the IConnectionFeature instead.&quot;)]
+public IPEndPoint RemoteEndPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.ipendpoint">IPEndPoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_SocketStream.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.SocketStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L277">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_SocketStream_" data-uid="FubarDev.FtpServer.FtpConnection.SocketStream*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_SocketStream" data-uid="FubarDev.FtpServer.FtpConnection.SocketStream">SocketStream</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the control connection stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Not needed anymore.&quot;)]
+public Stream SocketStream { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_CreateEncryptedStream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.CreateEncryptedStream(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L418">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_CreateEncryptedStream_" data-uid="FubarDev.FtpServer.FtpConnection.CreateEncryptedStream*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_CreateEncryptedStream_System_IO_Stream_" data-uid="FubarDev.FtpServer.FtpConnection.CreateEncryptedStream(System.IO.Stream)">CreateEncryptedStream(Stream)</h4>
+  <div class="markdown level1 summary"><p>Create an encrypted stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The data connection returned by OpenDataConnection is already encrypted.&quot;)]
+public Task&lt;Stream&gt; CreateEncryptedStream(Stream unencryptedStream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">unencryptedStream</span></td>
+        <td><p>The stream to encrypt.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a>&gt;</td>
+        <td><p>The encrypted stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Dispose.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L438">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Dispose_" data-uid="FubarDev.FtpServer.FtpConnection.Dispose*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Dispose" data-uid="FubarDev.FtpServer.FtpConnection.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_OpenDataConnectionAsync_System_Nullable_System_TimeSpan__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.OpenDataConnectionAsync(System.Nullable%7BSystem.TimeSpan%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L404">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_OpenDataConnectionAsync_" data-uid="FubarDev.FtpServer.FtpConnection.OpenDataConnectionAsync*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_OpenDataConnectionAsync_System_Nullable_System_TimeSpan__System_Threading_CancellationToken_" data-uid="FubarDev.FtpServer.FtpConnection.OpenDataConnectionAsync(System.Nullable{System.TimeSpan},System.Threading.CancellationToken)">OpenDataConnectionAsync(Nullable&lt;TimeSpan&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Creates a response socket for e.g. LIST/NLST.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IFtpDataConnection&gt; OpenDataConnectionAsync(TimeSpan? timeout, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>&gt;</td>
+        <td><span class="parametername">timeout</span></td>
+        <td><p>The timeout for establishing a data connection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="FubarDev.FtpServer.IFtpDataConnection.html">IFtpDataConnection</a>&gt;</td>
+        <td><p>The data connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_PublishEvent_FubarDev_FtpServer_Events_IFtpConnectionEvent_.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.PublishEvent(FubarDev.FtpServer.Events.IFtpConnectionEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L457">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_PublishEvent_" data-uid="FubarDev.FtpServer.FtpConnection.PublishEvent*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_PublishEvent_FubarDev_FtpServer_Events_IFtpConnectionEvent_" data-uid="FubarDev.FtpServer.FtpConnection.PublishEvent(FubarDev.FtpServer.Events.IFtpConnectionEvent)">PublishEvent(IFtpConnectionEvent)</h4>
+  <div class="markdown level1 summary"><p>Publish the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PublishEvent(IFtpConnectionEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.Events.IFtpConnectionEvent.html">IFtpConnectionEvent</a></td>
+        <td><span class="parametername">evt</span></td>
+        <td><p>The event to publish.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_StartAsync.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.StartAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L294">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_StartAsync_" data-uid="FubarDev.FtpServer.FtpConnection.StartAsync*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_StartAsync" data-uid="FubarDev.FtpServer.FtpConnection.StartAsync">StartAsync()</h4>
+  <div class="markdown level1 summary"><p>Starts processing of messages for this connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task StartAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_StopAsync.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.StopAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L331">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_StopAsync_" data-uid="FubarDev.FtpServer.FtpConnection.StopAsync*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_StopAsync" data-uid="FubarDev.FtpServer.FtpConnection.StopAsync">StopAsync()</h4>
+  <div class="markdown level1 summary"><p>Closes the connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task StopAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Subscribe_System_IObserver_FubarDev_FtpServer_Events_IFtpConnectionEvent__.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Subscribe(System.IObserver%7BFubarDev.FtpServer.Events.IFtpConnectionEvent%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L426">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_Subscribe_" data-uid="FubarDev.FtpServer.FtpConnection.Subscribe*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Subscribe_System_IObserver_FubarDev_FtpServer_Events_IFtpConnectionEvent__" data-uid="FubarDev.FtpServer.FtpConnection.Subscribe(System.IObserver{FubarDev.FtpServer.Events.IFtpConnectionEvent})">Subscribe(IObserver&lt;IFtpConnectionEvent&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDisposable Subscribe(IObserver&lt;IFtpConnectionEvent&gt; observer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iobserver-1">IObserver</a>&lt;<a class="xref" href="FubarDev.FtpServer.Events.IFtpConnectionEvent.html">IFtpConnectionEvent</a>&gt;</td>
+        <td><span class="parametername">observer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_WriteAsync_FubarDev_FtpServer_IFtpResponse_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.WriteAsync(FubarDev.FtpServer.IFtpResponse%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L381">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_WriteAsync_" data-uid="FubarDev.FtpServer.FtpConnection.WriteAsync*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_WriteAsync_FubarDev_FtpServer_IFtpResponse_System_Threading_CancellationToken_" data-uid="FubarDev.FtpServer.FtpConnection.WriteAsync(FubarDev.FtpServer.IFtpResponse,System.Threading.CancellationToken)">WriteAsync(IFtpResponse, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Writes a FTP response to a client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the IConnectionFeature.ServerCommandWriter instead.&quot;)]
+public Task WriteAsync(IFtpResponse response, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FubarDev.FtpServer.IFtpResponse.html">IFtpResponse</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The response to write to the client.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_WriteAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.WriteAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L396">View Source</a>
+  </span>
+  <a id="FubarDev_FtpServer_FtpConnection_WriteAsync_" data-uid="FubarDev.FtpServer.FtpConnection.WriteAsync*"></a>
+  <h4 id="FubarDev_FtpServer_FtpConnection_WriteAsync_System_String_System_Threading_CancellationToken_" data-uid="FubarDev.FtpServer.FtpConnection.WriteAsync(System.String,System.Threading.CancellationToken)">WriteAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Writes response to a client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the IConnectionFeature.ServerCommandWriter instead.&quot;)]
+public Task WriteAsync(string response, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The response to write to the client.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>The task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection_Closed.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection.Closed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L230">View Source</a>
+  </span>
+  <h4 id="FubarDev_FtpServer_FtpConnection_Closed" data-uid="FubarDev.FtpServer.FtpConnection.Closed">Closed</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the event handler that is triggered when the connection is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler? Closed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="FubarDev.FtpServer.IFtpConnection.html">IFtpConnection</a>
+  </div>
+  <div>
+      <a class="xref" href="FubarDev.FtpServer.Features.IConnectionFeature.html">IConnectionFeature</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iobservable-1">System.IObservable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="FubarDev.FtpServer.Events.IFtpConnectionEventHost.html">IFtpConnectionEventHost</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FubarDevelopment/FtpServer/new/master/docfx_project/apidoc/new?filename=FubarDev_FtpServer_FtpConnection.md&amp;value=---%0Auid%3A%20FubarDev.FtpServer.FtpConnection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FubarDevelopment/FtpServer/blob/master/src/FubarDev.FtpServer/FtpConnection.cs/#L44" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <table border='0'><tr><td><span>Copyright © 2018 Fubar Development Junker<br>Generated by <strong>DocFX</strong></span></td><td><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons License' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png'></a><br><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>FluentMigrator Documentation</span> by <a xmlns:cc='http://creativecommons.org/ns#' href='https://fluentmigrator.github.io' property='cc:attributionName' rel='cc:attributionURL'>FluentMigrator Project</a> is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</td></tr></table>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

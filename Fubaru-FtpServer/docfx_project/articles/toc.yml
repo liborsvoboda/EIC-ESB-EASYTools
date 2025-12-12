@@ -1,0 +1,38 @@
+- name: Introduction
+  href: intro.md
+- name: Quickstart
+  href: xref:quickstart
+- name: Integration
+  items:
+  - name: ASP.NET Core
+    href: xref:quickstart-aspnetcore-host
+  - name: Generic Host
+    href: xref:quickstart-generic-host
+- name: Basics
+  items:
+  - name: Configuration
+    href: xref:configuration
+  - name: Logging
+    href: xref:logging
+  - name: Authentication
+    href: xref:authentication
+  - name: File Systems
+    href: xref:file-systems
+- name: Advanced Topics
+  items:
+  - name: Logging
+    href: xref:logging
+  - name: FTPS
+    href: xref:ftps
+  - name: Google Drive
+    href: xref:google-drive
+  - name: Project structure
+    href: xref:project-structure
+  - name: Custom File System
+    href: xref:custom-file-system
+  - name: Custom Account Management
+    href: xref:custom-account-management
+- name: Guides
+  items:
+  - name: Upgrade to 3.0
+    href: xref:upgrade-to-3.0

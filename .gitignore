@@ -26,6 +26,7 @@ Thumbs.db
 obj/
 [Bb]in/
 [Rr]elease*/
+[Dd]ebug/
 [Nn]ode_modules*/
 _ReSharper*/
 [Tt]est[Rr]esult*

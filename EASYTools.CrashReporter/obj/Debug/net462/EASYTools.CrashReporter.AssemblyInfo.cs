@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("CrashReporter, Email sender on crash App")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+52b4c15ca313519831fe1b8d6b6cfa06c67d2d15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+e1abc9fff2d9faf2b941166a46c31a648bdc50c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.CrashReporter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.CrashReporter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
