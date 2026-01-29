@@ -23,7 +23,7 @@ Thumbs.db
 
 *.lib
 *.sbr
-obj/
+[Oo]bj/
 [Bb]in/
 [Rr]elease*/
 [Dd]ebug/
