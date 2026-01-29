@@ -99,7 +99,23 @@ namespace EASYTools.Summary {
         /// <param name="file"></param>
         /// <returns></returns>
         public static bool CreateFile(string file) {
-            if (!File.Exists(file)) { File.Create(file).Close(); }
+            string targetDir = string.Empty;
+            if (!File.Exists(file))
+            {
+                if (Directory.Exists(Path.GetDirectoryName(file))) { File.Create(file).Close(); }
+                else
+                {
+                    string[] dir = Path.GetDirectoryName(file).Split(Path.DirectorySeparatorChar);
+                    dir.ToList().ForEach(directory => {
+                        targetDir = string.IsNullOrWhiteSpace(targetDir) ? directory : targetDir + Path.DirectorySeparatorChar + directory;
+                        if (!FileOperations.CheckDirectory(targetDir))
+                        {
+                            FileOperations.CreateDirectory(targetDir);
+                        }
+                    });
+                    File.Create(file).Close();
+                }
+            }
             return CheckFile(file);
         }
 

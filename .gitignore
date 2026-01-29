@@ -23,6 +23,7 @@ Thumbs.db
 
 *.lib
 *.sbr
+
 [Oo]bj/
 [Bb]in/
 [Rr]elease*/
@@ -33,3 +34,8 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+[Bb]in
+[Dd]ebug*/
+obj/
+.idea/
