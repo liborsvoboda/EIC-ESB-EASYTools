@@ -1,0 +1,149 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52EFD82B-3CC2-486D-849B-199D9670C487}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		azure-pipelines.yml = azure-pipelines.yml
+		DotNetSdkMono.props = DotNetSdkMono.props
+		FubarDev.FtpServer.ruleset = FubarDev.FtpServer.ruleset
+		Global.props = Global.props
+		LICENSE.md = LICENSE.md
+		PackageLibrary.props = PackageLibrary.props
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{7004709E-5C0D-4D3E-AF27-89968FA47C19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{118460ED-4F14-4FF3-BFBF-11497DFB80B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{441F13FB-D457-402E-8DAC-4B6485AFCE30}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DotNet.Glob", "third-party\DotNet.Glob\DotNet.Glob.shproj", "{A45290B4-20F7-48E9-8543-C69240BFB9F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart", "samples\QuickStart\QuickStart.csproj", "{60775D4D-A625-44FA-A9D2-D23FC29BB132}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GnuSslStream", "third-party\GnuSslStream\GnuSslStream.shproj", "{FD524518-E097-4AC0-AAC8-D5EA24F31545}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.GenericHost", "samples\QuickStart.GenericHost\QuickStart.GenericHost.csproj", "{23752176-0F1A-4352-B677-CD7878B7E8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.AspNetCoreHost", "samples\QuickStart.AspNetCoreHost\QuickStart.AspNetCoreHost.csproj", "{D03594D1-84CC-4B55-A56D-20ED446CFDB1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ReadLine", "third-party\ReadLine\ReadLine.shproj", "{F68F448F-E8A4-4536-9A83-12018B6294B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer", "src\FubarDev.FtpServer\EASYTools.FtpServer.csproj", "{90726FEE-B560-40A6-A262-37C3818207D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.Abstractions", "src\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj", "{8AF7CFE7-281C-4558-80D8-72F832A8AD49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.Commands", "src\FubarDev.FtpServer.Commands\EASYTools.FtpServer.Commands.csproj", "{912AD2B8-8968-4FC2-A168-C8395D29A304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.FileSystem.DotNet", "src\FubarDev.FtpServer.FileSystem.DotNet\EASYTools.FtpServer.FileSystem.DotNet.csproj", "{CB2486E0-310F-4087-A39A-FD4396E6C551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.FileSystem.GoogleDrive", "src\FubarDev.FtpServer.FileSystem.GoogleDrive\EASYTools.FtpServer.FileSystem.GoogleDrive.csproj", "{8586449A-F6F1-47EB-84B4-DC4B71417380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.FileSystem.InMemory", "src\FubarDev.FtpServer.FileSystem.InMemory\EASYTools.FtpServer.FileSystem.InMemory.csproj", "{CC9340D2-6218-41B5-A6DB-9C9EE5D20277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.FileSystem.S3", "src\FubarDev.FtpServer.FileSystem.S3\EASYTools.FtpServer.FileSystem.S3.csproj", "{AD732B44-C4AF-44D5-9D00-19BA12B09C56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.FileSystem.Unix", "src\FubarDev.FtpServer.FileSystem.Unix\EASYTools.FtpServer.FileSystem.Unix.csproj", "{76EF655B-814F-49C1-8B82-A0D03682F597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.FtpServer.MembershipProvider.Pam", "src\FubarDev.FtpServer.MembershipProvider.Pam\EASYTools.FtpServer.MembershipProvider.Pam.csproj", "{4CA15ECE-0C39-4779-8F56-7137D18F6406}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EASYTools.FtpServer.Shared", "src\FubarDev.FtpServer.Shared\EASYTools.FtpServer.Shared.shproj", "{52126B62-DE83-4597-A832-D144F9A5A870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60775D4D-A625-44FA-A9D2-D23FC29BB132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60775D4D-A625-44FA-A9D2-D23FC29BB132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60775D4D-A625-44FA-A9D2-D23FC29BB132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60775D4D-A625-44FA-A9D2-D23FC29BB132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23752176-0F1A-4352-B677-CD7878B7E8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23752176-0F1A-4352-B677-CD7878B7E8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23752176-0F1A-4352-B677-CD7878B7E8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23752176-0F1A-4352-B677-CD7878B7E8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03594D1-84CC-4B55-A56D-20ED446CFDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03594D1-84CC-4B55-A56D-20ED446CFDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03594D1-84CC-4B55-A56D-20ED446CFDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03594D1-84CC-4B55-A56D-20ED446CFDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90726FEE-B560-40A6-A262-37C3818207D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90726FEE-B560-40A6-A262-37C3818207D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90726FEE-B560-40A6-A262-37C3818207D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90726FEE-B560-40A6-A262-37C3818207D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF7CFE7-281C-4558-80D8-72F832A8AD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF7CFE7-281C-4558-80D8-72F832A8AD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF7CFE7-281C-4558-80D8-72F832A8AD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF7CFE7-281C-4558-80D8-72F832A8AD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912AD2B8-8968-4FC2-A168-C8395D29A304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912AD2B8-8968-4FC2-A168-C8395D29A304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912AD2B8-8968-4FC2-A168-C8395D29A304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912AD2B8-8968-4FC2-A168-C8395D29A304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2486E0-310F-4087-A39A-FD4396E6C551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2486E0-310F-4087-A39A-FD4396E6C551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2486E0-310F-4087-A39A-FD4396E6C551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2486E0-310F-4087-A39A-FD4396E6C551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8586449A-F6F1-47EB-84B4-DC4B71417380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8586449A-F6F1-47EB-84B4-DC4B71417380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8586449A-F6F1-47EB-84B4-DC4B71417380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8586449A-F6F1-47EB-84B4-DC4B71417380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9340D2-6218-41B5-A6DB-9C9EE5D20277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9340D2-6218-41B5-A6DB-9C9EE5D20277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9340D2-6218-41B5-A6DB-9C9EE5D20277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9340D2-6218-41B5-A6DB-9C9EE5D20277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD732B44-C4AF-44D5-9D00-19BA12B09C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD732B44-C4AF-44D5-9D00-19BA12B09C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD732B44-C4AF-44D5-9D00-19BA12B09C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD732B44-C4AF-44D5-9D00-19BA12B09C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EF655B-814F-49C1-8B82-A0D03682F597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EF655B-814F-49C1-8B82-A0D03682F597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EF655B-814F-49C1-8B82-A0D03682F597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EF655B-814F-49C1-8B82-A0D03682F597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA15ECE-0C39-4779-8F56-7137D18F6406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA15ECE-0C39-4779-8F56-7137D18F6406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA15ECE-0C39-4779-8F56-7137D18F6406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA15ECE-0C39-4779-8F56-7137D18F6406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A45290B4-20F7-48E9-8543-C69240BFB9F8} = {441F13FB-D457-402E-8DAC-4B6485AFCE30}
+		{60775D4D-A625-44FA-A9D2-D23FC29BB132} = {7004709E-5C0D-4D3E-AF27-89968FA47C19}
+		{FD524518-E097-4AC0-AAC8-D5EA24F31545} = {441F13FB-D457-402E-8DAC-4B6485AFCE30}
+		{23752176-0F1A-4352-B677-CD7878B7E8FC} = {7004709E-5C0D-4D3E-AF27-89968FA47C19}
+		{D03594D1-84CC-4B55-A56D-20ED446CFDB1} = {7004709E-5C0D-4D3E-AF27-89968FA47C19}
+		{F68F448F-E8A4-4536-9A83-12018B6294B0} = {441F13FB-D457-402E-8DAC-4B6485AFCE30}
+		{90726FEE-B560-40A6-A262-37C3818207D0} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{8AF7CFE7-281C-4558-80D8-72F832A8AD49} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{912AD2B8-8968-4FC2-A168-C8395D29A304} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{CB2486E0-310F-4087-A39A-FD4396E6C551} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{8586449A-F6F1-47EB-84B4-DC4B71417380} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{CC9340D2-6218-41B5-A6DB-9C9EE5D20277} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{AD732B44-C4AF-44D5-9D00-19BA12B09C56} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{76EF655B-814F-49C1-8B82-A0D03682F597} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{4CA15ECE-0C39-4779-8F56-7137D18F6406} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+		{52126B62-DE83-4597-A832-D144F9A5A870} = {118460ED-4F14-4FF3-BFBF-11497DFB80B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAA7D00E-C61D-4640-A54E-D307E4682263}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{52126b62-de83-4597-a832-d144f9a5a870}*SharedItemsImports = 13
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{76ef655b-814f-49c1-8b82-a0d03682f597}*SharedItemsImports = 5
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{8586449a-f6f1-47eb-84b4-dc4b71417380}*SharedItemsImports = 5
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{8af7cfe7-281c-4558-80d8-72f832a8ad49}*SharedItemsImports = 5
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{90726fee-b560-40a6-a262-37c3818207d0}*SharedItemsImports = 5
+		third-party\DotNet.Glob\DotNet.Glob.projitems*{912ad2b8-8968-4fc2-a168-c8395d29a304}*SharedItemsImports = 5
+		third-party\DotNet.Glob\DotNet.Glob.projitems*{a45290b4-20f7-48e9-8543-c69240bfb9f8}*SharedItemsImports = 13
+		src\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems*{cb2486e0-310f-4087-a39a-fd4396e6c551}*SharedItemsImports = 5
+		third-party\ReadLine\ReadLine.projitems*{f68f448f-e8a4-4536-9a83-12018b6294b0}*SharedItemsImports = 13
+		third-party\GnuSslStream\GnuSslStream.projitems*{fd524518-e097-4ac0-aac8-d5ea24f31545}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

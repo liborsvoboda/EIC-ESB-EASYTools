@@ -5,7 +5,7 @@
     <PackageTags>file;system;portable;FTP;server</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj" />
   </ItemGroup>
   <Import Project="../../PackageLibrary.props" />
 </Project>

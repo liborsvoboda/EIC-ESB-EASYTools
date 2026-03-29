@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
-    <ProjectReference Include="..\FubarDev.FtpServer\FubarDev.FtpServer.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer\EASYTools.FtpServer.csproj" />
   </ItemGroup>
 
 </Project>

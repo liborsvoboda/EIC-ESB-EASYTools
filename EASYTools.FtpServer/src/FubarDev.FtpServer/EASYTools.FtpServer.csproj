@@ -2,14 +2,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-    <Description>Google Drive file system for the portable FTP server</Description>
-    <PackageTags>portable;FTP;server;Google;Drive</PackageTags>
+    <Description>TCP-based FTP server implementation</Description>
+    <PackageTags>portable;FTP;server</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>FubarDev.FtpServer</Title>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Google.Apis.Drive.v3" Version="1.73.0.3987" />
+    <PackageReference Include="Scrutor" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Commands\EASYTools.FtpServer.Commands.csproj" />
   </ItemGroup>
   <Import Project="..\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems" Label="Shared" />
   <Import Project="../../PackageLibrary.props" />

@@ -8,7 +8,7 @@
     <Title>FubarDev.FtpServer.FileSystem.DotNet</Title>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj" />
   </ItemGroup>
   <Import Project="../../PackageLibrary.props" />
   <Import Project="..\FubarDev.FtpServer.Shared\FubarDev.FtpServer.Shared.projitems" Label="Shared" />

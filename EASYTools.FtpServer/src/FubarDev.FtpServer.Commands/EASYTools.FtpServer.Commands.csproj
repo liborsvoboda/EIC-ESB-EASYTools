@@ -8,7 +8,7 @@
   </PropertyGroup>
   <Import Project="../../PackageLibrary.props" />
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" PrivateAssets="All" />

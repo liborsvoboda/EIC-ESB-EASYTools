@@ -10,7 +10,7 @@
     <PackageReference Include="AWSSDK.S3" Version="3.3.104.33" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\FubarDev.FtpServer.Abstractions.csproj" />
+    <ProjectReference Include="..\FubarDev.FtpServer.Abstractions\EASYTools.FtpServer.Abstractions.csproj" />
   </ItemGroup>
 
   <Import Project="../../PackageLibrary.props" />
