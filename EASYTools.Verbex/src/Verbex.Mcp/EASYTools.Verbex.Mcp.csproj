@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Verbex.Mcp</RootNamespace>
+		<AssemblyName>verbex-mcp</AssemblyName>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>EASYTools.VEBEX.Mcp</PackageId>
+		<Authors>EASYTools.VEBEX.Mcp</Authors>
+		<Version>1.0.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="EasyTools.Voltaic" Version="0.1.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Verbex\EASYTools.Verbex.csproj" />
+	</ItemGroup>
+
+</Project>

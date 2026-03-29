@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM", "WatsonORM\EASYTools.WatsonORM.csproj", "{52733B8B-DC7E-436C-B6D5-815E6F246C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM.Core", "WatsonORM.Core\EASYTools.WatsonORM.Core.csproj", "{61CB8C45-1160-4157-B2CF-FC78A26B75B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM.Mysql", "WatsonORM.Mysql\EASYTools.WatsonORM.Mysql.csproj", "{CA77F29E-9E8C-46A5-AD7E-189AAC418D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM.Postgresql", "WatsonORM.Postgresql\EASYTools.WatsonORM.Postgresql.csproj", "{E31DF20E-F611-47AF-86A9-3B14605E2692}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM.Sqlite", "WatsonORM.Sqlite\EASYTools.WatsonORM.Sqlite.csproj", "{4AF9C3DC-5EAE-4091-8F9D-A47D5DF4A578}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.WatsonORM.SqlServer", "WatsonORM.SqlServer\EASYTools.WatsonORM.SqlServer.csproj", "{5B571DD6-C572-4578-963B-8499A13AC02D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52733B8B-DC7E-436C-B6D5-815E6F246C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52733B8B-DC7E-436C-B6D5-815E6F246C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52733B8B-DC7E-436C-B6D5-815E6F246C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52733B8B-DC7E-436C-B6D5-815E6F246C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CB8C45-1160-4157-B2CF-FC78A26B75B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CB8C45-1160-4157-B2CF-FC78A26B75B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CB8C45-1160-4157-B2CF-FC78A26B75B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CB8C45-1160-4157-B2CF-FC78A26B75B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA77F29E-9E8C-46A5-AD7E-189AAC418D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA77F29E-9E8C-46A5-AD7E-189AAC418D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA77F29E-9E8C-46A5-AD7E-189AAC418D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA77F29E-9E8C-46A5-AD7E-189AAC418D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31DF20E-F611-47AF-86A9-3B14605E2692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31DF20E-F611-47AF-86A9-3B14605E2692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31DF20E-F611-47AF-86A9-3B14605E2692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31DF20E-F611-47AF-86A9-3B14605E2692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF9C3DC-5EAE-4091-8F9D-A47D5DF4A578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF9C3DC-5EAE-4091-8F9D-A47D5DF4A578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF9C3DC-5EAE-4091-8F9D-A47D5DF4A578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF9C3DC-5EAE-4091-8F9D-A47D5DF4A578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B571DD6-C572-4578-963B-8499A13AC02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B571DD6-C572-4578-963B-8499A13AC02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B571DD6-C572-4578-963B-8499A13AC02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B571DD6-C572-4578-963B-8499A13AC02D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13570C35-5E0D-46EB-8420-EF1AAB356D35}
+	EndGlobalSection
+EndGlobal

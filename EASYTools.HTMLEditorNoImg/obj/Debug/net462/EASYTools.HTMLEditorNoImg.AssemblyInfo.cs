@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("WPF HTMLEditor based MSHTML on Language  Translation Support\r\nwith image upload f" +
     "rom URL")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1abc9fff2d9faf2b941166a46c31a648bdc50c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1e77936527e2a882f90e563421191eaabc17c72")]
 [assembly: System.Reflection.AssemblyProductAttribute("EASYTools.HTMLEditorNoImg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EASYTools.HTMLEditorNoImg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

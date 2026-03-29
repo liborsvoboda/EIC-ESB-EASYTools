@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.S3Server", "S3Server\EASYTools.S3Server.csproj", "{F35EE255-76F4-410A-8D42-4DDB43567223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F35EE255-76F4-410A-8D42-4DDB43567223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35EE255-76F4-410A-8D42-4DDB43567223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35EE255-76F4-410A-8D42-4DDB43567223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35EE255-76F4-410A-8D42-4DDB43567223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26F07DE-7CD9-4393-B339-D01B8169FD1A}
+	EndGlobalSection
+EndGlobal

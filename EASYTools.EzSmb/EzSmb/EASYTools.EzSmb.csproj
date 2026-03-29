@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>EzSmb</Title>
+    <Summary>SMB(Windows shared folder) Client Library powered by TalAloni's SmbLibrary, Xamarin and .NET Core Ready.</Summary>
+    <PackageProjectUrl>https://github.com/ume05rw/EzSmb</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ume05rw/EzSmb.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageTags>smb cifs samba nas shared smbclient</PackageTags>
+    <PackageReleaseNotes>Fix Node.Read method, result stream position to zero.</PackageReleaseNotes>
+    <Owners>Do-Be's</Owners>
+    <Authors>Do-Be's</Authors>
+    <Company>Do-Be's</Company>
+    <Description>It's easy to use, and supports SMB ver2 for Windows 10.
+Xamarin &amp; .NET Core can access Windows Shared Folders and NAS without using mpr.dll or Netapi32.dll.
+Supports .Net Standard 2.0.</Description>
+    <AssemblyVersion>1.3.10.0</AssemblyVersion>
+    <FileVersion>1.3.10.0</FileVersion>
+    <Version>1.3.10</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\dev\Library\EzSmb\EzSmb\EzSmb.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Smb.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SMBLibrary.ForXamarin" Version="1.4.6.1" />
+  </ItemGroup>
+
+</Project>

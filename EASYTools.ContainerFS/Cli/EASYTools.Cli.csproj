@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net452;net461;netcoreapp3.1;net6.0</TargetFrameworks>
+    <AssemblyName>cfs</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContainerFS\ContainerFS.csproj" />
+  </ItemGroup>
+
+</Project>

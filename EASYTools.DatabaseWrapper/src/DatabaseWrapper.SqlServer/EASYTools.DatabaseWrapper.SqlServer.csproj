@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net48;net6.0</TargetFrameworks>
+		<Version>6.1.5</Version>
+		<PackageReleaseNotes>Oracle support (thank you @Skimmenthal13!), bugfixes, dependency updates.</PackageReleaseNotes>
+		<PackageTags>database sql server mssql mysql pgsql sqlite postgres postgresql oracle dynamic query builder datarow datatable orm relational mapper relation key foreign</PackageTags>
+		<Authors>Joel Christner</Authors>
+		<Company>Joel Christner</Company>
+		<Description>Simple database wrapper for SQL Server written in C# supporting dynamic query building and nesting using expressions.  Refer to other DatabaseWrapper packages for support for MySQL, Sqlite, and PostgreSQL.</Description>
+		<Copyright>(c)2025 Joel Christner</Copyright>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/jchristn/DatabaseWrapper</PackageProjectUrl>
+		<PackageIconUrl></PackageIconUrl>
+		<RepositoryUrl>https://github.com/jchristn/DatabaseWrapper</RepositoryUrl>
+		<RepositoryType>Github</RepositoryType>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>DatabaseWrapper.Core.xml</DocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageIcon>icon.png</PackageIcon>
+		<SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DatabaseWrapper.Core" Version="6.1.5" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="assets\icon.ico">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="assets\icon.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="DatabaseWrapper.SqlServer.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="LICENSE.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="assets\icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

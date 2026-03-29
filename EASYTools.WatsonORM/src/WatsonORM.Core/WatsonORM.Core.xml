@@ -1,0 +1,839 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WatsonORM.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Watson.ORM.Core.ColumnAttribute">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.Name">
+            <summary>
+            Name of the column.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.PrimaryKey">
+            <summary>
+            Indicates whether or not the column is a primary key.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.Type">
+            <summary>
+            The data type of the column.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.MaxLength">
+            <summary>
+            The maximum length of the column.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.Precision">
+            <summary>
+            The decimal precision of the column.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.ColumnAttribute.Nullable">
+            <summary>
+            Indicates whether or not the column allows a null value.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(Watson.ORM.Core.DataTypes,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="dataType">The data type of the column.</param> 
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(Watson.ORM.Core.DataTypes,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(Watson.ORM.Core.DataTypes,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="precision">The decimal precision of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.Boolean,Watson.ORM.Core.DataTypes,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param> 
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.Boolean,Watson.ORM.Core.DataTypes,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.Boolean,Watson.ORM.Core.DataTypes,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="precision">The decimal precision of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.String,System.Boolean,Watson.ORM.Core.DataTypes,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="name">Name of the column.</param>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param> 
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.String,System.Boolean,Watson.ORM.Core.DataTypes,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="name">Name of the column.</param>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ColumnAttribute.#ctor(System.String,System.Boolean,Watson.ORM.Core.DataTypes,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Links a class property to a column in a WatsonORM-managed database table.
+            </summary>
+            <param name="name">Name of the column.</param>
+            <param name="primaryKey">Indicates whether or not the column is a primary key.</param>
+            <param name="dataType">The data type of the column.</param>
+            <param name="maxLength">The maximum length of the column.</param>
+            <param name="precision">The decimal precision of the column.</param>
+            <param name="isNullable">Indicates whether or not the column allows a null value.</param>
+        </member>
+        <member name="T:Watson.ORM.Core.DataTypes">
+            <summary>
+            Type of data contained in the column.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Varchar">
+            <summary>
+            Variable-length character.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Nvarchar">
+            <summary>
+            Variable-length unicode character.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.TinyInt">
+            <summary>
+            Tiny integer.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Int">
+            <summary>
+            Integer.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Boolean">
+            <summary>
+            Boolean.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Enum">
+            <summary>
+            Enum.
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Long">
+            <summary>
+            Long
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Decimal">
+            <summary>
+            Decimal
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Double">
+            <summary>
+            Double
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.DateTime">
+            <summary>
+            Timestamp
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.DateTimeOffset">
+            <summary>
+            Timestamp with offset
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Blob">
+            <summary>
+            Blob
+            </summary>
+        </member>
+        <member name="F:Watson.ORM.Core.DataTypes.Guid">
+            <summary>
+            GUID.
+            </summary>
+        </member>
+        <member name="T:Watson.ORM.Core.ReflectionHelper">
+            <summary>
+            Methods to assist 
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.HasAttribute(System.Object,System.Attribute)">
+            <summary>
+            Determine if an object has an attribute.
+            </summary>
+            <param name="obj">Object.</param>
+            <param name="attr">Attribute.</param>
+            <returns>True if the attribute exists.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetTableNameFromType(System.Type)">
+            <summary>
+            Get database table name from a given type.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Database table name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetTableNameFromObject(System.Object)">
+            <summary>
+            Get database table name from a given object.
+            </summary>
+            <param name="obj">Object.</param>
+            <returns>Database table name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetColumnsFromType(System.Type)">
+            <summary>
+            Get list of columns from a given type.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>List of Column.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetColumnsFromObject(System.Object)">
+            <summary>
+            Get list of columns from a given object.
+            </summary>
+            <param name="obj">Object.</param>
+            <returns>List of Column.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetColumnForProperty(System.Type)">
+            <summary>
+            Get table column for a given property.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Column.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetColumnForProperty``1(System.String)">
+            <summary>
+            Get table column for a given property by name.
+            </summary>
+            <typeparam name="T">Type.</typeparam>
+            <param name="propName">Property name.</param>
+            <returns>Column.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetColumnNameForPropertyName``1(System.String)">
+            <summary>
+            Get table column name for a given property name.
+            </summary>
+            <typeparam name="T">Type.</typeparam>
+            <param name="propName">Property name.</param>
+            <returns>Column name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetPropertyNameFromColumnName(System.Type,System.String)">
+            <summary>
+            Get property name from a given column name.
+            </summary>
+            <param name="t">Type.</param>
+            <param name="columnName">Column name.</param>
+            <returns>Property name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetPrimaryKeyColumnName(System.Type)">
+            <summary>
+            Get primary key column name for a given type.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Primary key column name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetPrimaryKeyPropertyName(System.Type)">
+            <summary>
+            Get property name of the primary key column.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Property name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.WalkObject(System.Object)">
+            <summary>
+            Walk an object using reflection and display its properties on the console.
+            </summary>
+            <param name="obj">Object.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.ReflectionHelper.GetPropertyValue(System.Object,System.String)">
+            <summary>
+            Retrieve a property value by property name.
+            </summary>
+            <param name="obj">Object.</param>
+            <param name="propName">Property name.</param>
+            <returns>Property value.</returns>
+        </member>
+        <member name="T:Watson.ORM.Core.TableAttribute">
+            <summary>
+            Links a class to a WatsonORM-managed database table.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.TableAttribute.TableName">
+            <summary>
+            Table name.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.TableAttribute.#ctor(System.String)">
+            <summary>
+            Links a class to a WatsonORM-managed database table.
+            </summary>
+            <param name="tableName">The name of the corresponding database table.</param>
+        </member>
+        <member name="T:Watson.ORM.Core.TypeMetadata">
+            <summary>
+            Metadata about a given type.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.TypeMetadata.TableName">
+            <summary>
+            The name of the database table.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.TypeMetadata.PrimaryKeyPropertyName">
+            <summary>
+            Property name of the primary key field.
+            </summary>
+        </member>
+        <member name="P:Watson.ORM.Core.TypeMetadata.Columns">
+            <summary>
+            Columns in the table.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadata.#ctor(System.String,System.String,System.Collections.Generic.List{DatabaseWrapper.Core.Column})">
+            <summary>
+            Instantiate the object.
+            </summary>
+            <param name="tableName">The name of the database table.</param>
+            <param name="primaryKeyPropertyName">Property name of the primary key field.</param>
+            <param name="columns">Columns in the table.</param>
+        </member>
+        <member name="T:Watson.ORM.Core.TypeMetadataManager">
+            <summary>
+            Type metadata manager for WatsonORM.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.#ctor">
+            <summary>
+            Instantiate the object.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.Add(System.Type,Watson.ORM.Core.TypeMetadata)">
+            <summary>
+            Add a TypeMetadata entry for a given Type.
+            </summary>
+            <param name="t">Type.</param>
+            <param name="md">TypeMetadata.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetTypeMetadata(System.Type)">
+            <summary>
+            Get TypeMetadata for a given Type, or throw an InvalidOperationException.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>TypeMetadata.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetTableNameFromType(System.Type)">
+            <summary>
+            Get the database table name from a given Type, or throw an InvalidOperationException.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Database table name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetTableNameFromObject(System.Object)">
+            <summary>
+            Get the table name from a given object, or throw an InvalidOperationException.
+            </summary>
+            <param name="obj">Object.</param>
+            <returns>Database table name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetPrimaryKeyColumnName(System.Type)">
+            <summary>
+            Get the primary key column name from a given type, or throw an InvalidOperationException.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Primary key column name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetPrimaryKeyPropertyName(System.Type)">
+            <summary>
+            Get the primary key property name from a given Type, or throw an InvalidOperationException.
+            </summary>
+            <param name="t">Type.</param>
+            <returns>Primary key property name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetPrimaryKeyValue(System.Object,System.String)">
+            <summary>
+            Get the primary key value from a given object given the object and the property name.
+            </summary>
+            <param name="obj">Object.</param>
+            <param name="propName">Property name.</param>
+            <returns>Value.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetPropertyValue(System.Object,System.String)">
+            <summary>
+            Get the value of a given property from an object.
+            </summary>
+            <param name="obj">Object.</param>
+            <param name="propName">Property name.</param>
+            <returns>Value.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetColumnNameForPropertyName``1(System.String)">
+            <summary>
+            Get the database table column name for a given property name.
+            </summary>
+            <typeparam name="T">Type.</typeparam>
+            <param name="propName">Property name.</param>
+            <returns>Column name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.TypeMetadataManager.GetPropertyNameFromColumnName(System.Type,System.String)">
+            <summary>
+            Get the property name from the database table column name.
+            </summary>
+            <param name="t">Type.</param>
+            <param name="columnName">Column name.</param>
+            <returns>Property name.</returns>
+        </member>
+        <member name="T:Watson.ORM.Core.WatsonORMBase">
+            <summary>
+            Base class for WatsonORM.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InitializeDatabase">
+            <summary>
+            Initialize the database client.
+            If the client is already initialized, it will first be disposed.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.ValidateTables(System.Collections.Generic.List{System.Type},System.Collections.Generic.List{System.String}@,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            Validate a series of tables to determine if any errors or warnings exist.
+            </summary>
+            <param name="types">List of classes for which tables should be validated.</param>
+            <param name="errors">List of human-readable errors.</param>
+            <param name="warnings">List of human-readable warnings.</param>
+            <returns>True if the table will initialize successfully.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.ValidateTable(System.Type,System.Collections.Generic.List{System.String}@,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            Validate a table to determine if any errors or warnings exist.
+            </summary>
+            <param name="t">Class for which a table should be validated.</param>
+            <param name="errors">List of human-readable errors.</param>
+            <param name="warnings">List of human-readable warnings.</param>
+            <returns>True if the table will initialize successfully.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InitializeTables(System.Collections.Generic.List{System.Type})">
+            <summary>
+            Create tables (if they don't exist) for a given set of classes.
+            </summary>
+            <param name="types">List of classes for which a table should be created.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InitializeTable(System.Type)">
+            <summary>
+            Create table (if it doesn't exist) for a given class.
+            Adding a table that has already been added will throw an ArgumentException.
+            </summary>
+            <param name="t">Class for which a table should be created.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DropTable(System.Type)">
+            <summary>
+            Drop table if it exists for a given class.
+            </summary>
+            <param name="t">Class for which a table should be dropped.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DropTableAsync(System.Type,System.Threading.CancellationToken)">
+            <summary>
+            Drop table if it exists for a given class.
+            </summary>
+            <param name="t">Class for which a table should be dropped.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.TruncateTable(System.Type)">
+            <summary>
+            Truncate table if it exists for a given class.
+            </summary>
+            <param name="t">Class for which a table should be dropped.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.TruncateTableAsync(System.Type,System.Threading.CancellationToken)">
+            <summary>
+            Truncate table if it exists for a given class.
+            </summary>
+            <param name="t">Class for which a table should be dropped.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Insert``1(``0)">
+            <summary>
+            INSERT an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to INSERT.</param>
+            <returns>INSERTed object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InsertAsync``1(``0,System.Threading.CancellationToken)">
+            <summary>
+            INSERT an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to INSERT.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>INSERTed object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InsertMany``1(System.Collections.Generic.List{``0})">
+            <summary>
+            INSERT multiple records.
+            This operation will iteratively call Insert on each individual object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">List of objects.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InsertManyAsync``1(System.Collections.Generic.List{``0},System.Threading.CancellationToken)">
+            <summary>
+            INSERT multiple records.
+            This operation will iteratively call Insert on each individual object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">List of objects.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InsertMultiple``1(System.Collections.Generic.List{``0})">
+            <summary>
+            INSERT multiple records.
+            This operation performs the INSERT using a single database query, and does not return a list of inserted objects.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">List of objects.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.InsertMultipleAsync``1(System.Collections.Generic.List{``0},System.Threading.CancellationToken)">
+            <summary>
+            INSERT multiple records.
+            This operation performs the INSERT using a single database query, and does not return a list of inserted objects.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">List of objects.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Update``1(``0)">
+            <summary>
+            UPDATE an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to UPDATE.</param>
+            <returns>UPDATEd object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.UpdateAsync``1(``0,System.Threading.CancellationToken)">
+            <summary>
+            UPDATE an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to UPDATE.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>UPDATEd object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.UpdateMany``1(ExpressionTree.Expr,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            UPDATE multiple rows.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="updateVals">Update values.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.UpdateManyAsync``1(ExpressionTree.Expr,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)">
+            <summary>
+            UPDATE multiple rows.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="updateVals">Update values.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.UpdateMany``1(System.Collections.Generic.List{``0})">
+            <summary>
+            UPDATE multiple rows.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">Objects.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.UpdateManyAsync``1(System.Collections.Generic.List{``0},System.Threading.CancellationToken)">
+            <summary>
+            UPDATE multiple rows.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="objs">Objects.</param>
+            <param name="token">Cancellation token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Delete``1(``0)">
+            <summary>
+            DELETE an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to DELETE.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DeleteAsync``1(``0,System.Threading.CancellationToken)">
+            <summary>
+            DELETE an object.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="obj">Object to DELETE.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DeleteByPrimaryKey``1(System.Object)">
+            <summary>
+            DELETE an object by its primary key.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="id">Id value.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DeleteByPrimaryKeyAsync``1(System.Object,System.Threading.CancellationToken)">
+            <summary>
+            DELETE an object by its primary key.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="id">Id value.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DeleteMany``1(ExpressionTree.Expr)">
+            <summary>
+            DELETE objects by an Expression..
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.DeleteManyAsync``1(ExpressionTree.Expr,System.Threading.CancellationToken)">
+            <summary>
+            DELETE objects by an Expression..
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="token">Cancellation token.</param>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectByPrimaryKey``1(System.Object)">
+            <summary>
+            SELECT an object by id.
+            This operation will return null if the object does not exist.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="id">Id.</param>
+            <returns>Object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectByPrimaryKeyAsync``1(System.Object,System.Threading.CancellationToken)">
+            <summary>
+            SELECT an object by id.
+            This operation will return null if the object does not exist.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="id">Id.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>Object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectFirst``1(ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[])">
+            <summary>
+            SELECT the first instance of an object matching a given expression.
+            This operation will return null if the object does not exist.
+            </summary>
+            <typeparam name="T">Type of filter.</typeparam>
+            <param name="expr">Expression by which SELECT should be filtered (i.e. WHERE clause).</param> 
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <returns>Object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectFirstAsync``1(ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[],System.Threading.CancellationToken)">
+            <summary>
+            SELECT the first instance of an object matching a given expression.
+            This operation will return null if the object does not exist.
+            </summary>
+            <typeparam name="T">Type of filter.</typeparam>
+            <param name="expr">Expression by which SELECT should be filtered (i.e. WHERE clause).</param> 
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>Object.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectMany``1(ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[])">
+            <summary>
+            SELECT multiple rows.
+            This operation will return an empty list if no matching objects are found.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectManyAsync``1(ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[],System.Threading.CancellationToken)">
+            <summary>
+            SELECT multiple rows.
+            This operation will return an empty list if no matching objects are found.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectMany``1(System.Nullable{System.Int32},System.Nullable{System.Int32},ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[])">
+            <summary>
+            SELECT multiple rows with pagination.
+            This operation will return an empty list if no matching objects are found.
+            </summary> 
+            <param name="indexStart">Index start.</param>
+            <param name="maxResults">Maximum number of results to retrieve.</param> 
+            <param name="expr">Filter to apply when SELECTing rows (i.e. WHERE clause).</param>
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SelectManyAsync``1(System.Nullable{System.Int32},System.Nullable{System.Int32},ExpressionTree.Expr,DatabaseWrapper.Core.ResultOrder[],System.Threading.CancellationToken)">
+            <summary>
+            SELECT multiple rows with pagination.
+            This operation will return an empty list if no matching objects are found.
+            </summary> 
+            <param name="indexStart">Index start.</param>
+            <param name="maxResults">Maximum number of results to retrieve.</param> 
+            <param name="expr">Filter to apply when SELECTing rows (i.e. WHERE clause).</param>
+            <param name="ro">Result ordering, if not set, results will be ordered ascending by primary key.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>List of objects.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.GetTableName(System.Type)">
+            <summary>
+            Retrieve the table name for a given type.
+            </summary>
+            <param name="type">Type.</param>
+            <returns>Table name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.GetColumnName``1(System.String)">
+            <summary>
+            Retrieve the column name for a given property.
+            </summary>
+            <typeparam name="T">Type of object.</typeparam>
+            <param name="propName">Property name.</param>
+            <returns>Column name.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Exists``1(ExpressionTree.Expr)">
+            <summary>
+            Check if objects of a given type exist that match the supplied expression.
+            </summary> 
+            <typeparam name="T">Type.</typeparam>
+            <param name="expr">Expression.</param>
+            <returns>True if exists.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.ExistsAsync``1(ExpressionTree.Expr,System.Threading.CancellationToken)">
+            <summary>
+            Check if objects of a given type exist that match the supplied expression.
+            </summary> 
+            <typeparam name="T">Type.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>True if exists.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Count``1(ExpressionTree.Expr)">
+            <summary>
+            Determine the number of objects of a given type that exist that match the supplied expression.
+            </summary> 
+            <typeparam name="T">Type.</typeparam>
+            <param name="expr">Expression.</param>
+            <returns>Number of matching records.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.CountAsync``1(ExpressionTree.Expr,System.Threading.CancellationToken)">
+            <summary>
+            Determine the number of objects of a given type that exist that match the supplied expression.
+            </summary> 
+            <typeparam name="T">Type.</typeparam>
+            <param name="expr">Expression.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>Number of matching records.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Sum``1(System.String,ExpressionTree.Expr)">
+            <summary>
+            Add the contents of the specified column from objects that match the supplied expression.
+            </summary>
+            <typeparam name="T">Type.</typeparam>
+            <param name="columnName"></param>
+            <param name="expr">Expression.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.SumAsync``1(System.String,ExpressionTree.Expr,System.Threading.CancellationToken)">
+            <summary>
+            Add the contents of the specified column from objects that match the supplied expression.
+            </summary>
+            <typeparam name="T">Type.</typeparam>
+            <param name="columnName"></param>
+            <param name="expr">Expression.</param>
+            <param name="token">Cancellation token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Query(System.String)">
+            <summary>
+            Execute a query directly against the database.
+            </summary>
+            <param name="query">Query.</param>
+            <returns>DataTable.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.QueryAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Execute a query directly against the database.
+            </summary>
+            <param name="query">Query.</param>
+            <param name="token">Cancellation token.</param>
+            <returns>DataTable.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Timestamp(System.DateTime)">
+            <summary>
+            Retrieve a timestamp formatted for the database.
+            </summary>
+            <param name="dt">DateTime.</param>
+            <returns>Formatted DateTime string.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.TimestampOffset(System.DateTimeOffset)">
+            <summary>
+            Retrieve a timestamp with offset formatted for the database.
+            </summary>
+            <param name="dt">DateTimeOffset.</param>
+            <returns>Formatted DateTime string.</returns>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMBase.Sanitize(System.String)">
+            <summary>
+            Returns a sanitized string useful in a raw query.
+            If null is supplied, null is returned.
+            </summary>
+            <param name="str">String.</param>
+            <returns>String.</returns>
+        </member>
+        <member name="T:Watson.ORM.Core.WatsonORMHelper">
+            <summary>
+            Helper methods for Watson ORM.
+            </summary>
+        </member>
+        <member name="M:Watson.ORM.Core.WatsonORMHelper.PreprocessExpression(ExpressionTree.Expr)">
+            <summary>
+            Preprocess an expression, primarily to convert Boolean to integer.
+            </summary>
+            <param name="expr">Expression.</param>
+            <returns>Expression.</returns>
+        </member>
+    </members>
+</doc>

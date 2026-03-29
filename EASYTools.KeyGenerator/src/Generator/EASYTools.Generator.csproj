@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Authors>Joel Christner and Udi Shemer</Authors>
+		<Version>1.0.0</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ClosestString" Version="1.0.1" />
+		<PackageReference Include="WatsonORM" Version="2.1.2" />
+	</ItemGroup>
+
+</Project>

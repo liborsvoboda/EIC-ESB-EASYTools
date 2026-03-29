@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net452;net461;netcoreapp3.1;net6.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.2.0.1</Version>
+    <Authors>Joel Christner</Authors>
+    <Description>Self-contained single-user file system written in C#.</Description>
+    <Copyright>(c)2021 Joel Christner</Copyright>
+    <PackageTags>file system filesystem container object</PackageTags>
+    <PackageProjectUrl>https://github.com/jchristn/containerfs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jchristn/containerfs</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageIconUrl>https://raw.githubusercontent.com/jchristn/containerfs/master/assets/icon.ico</PackageIconUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageReleaseNotes>Retarget to .NET Core 2.0 and .NET Framework 4.5.2</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>ContainerFS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>ContainerFS.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Docs\Roadmap.txt" />
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Docs\Roadmap.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SyslogLogging" Version="2.0.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ContainerFS.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

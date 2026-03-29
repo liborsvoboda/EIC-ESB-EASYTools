@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<StartupObject>Verbex.Server.VerbexServer</StartupObject>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<NoWarn>1701;1702;CS8600;CS8601;CS8602;CS8629</NoWarn>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Watson" Version="6.5.1" />
+		<PackageReference Include="SyslogLogging" Version="2.0.11" />
+		<PackageReference Include="Timestamps" Version="1.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Verbex\EASYTools.Verbex.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="clean.bat">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="clean.sh">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
