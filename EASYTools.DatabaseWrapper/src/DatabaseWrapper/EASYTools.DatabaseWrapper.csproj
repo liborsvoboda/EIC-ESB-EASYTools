@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard2.1;net48;net6.0</TargetFrameworks>
-		<Version>6.1.5</Version>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<Version>6.1.6</Version>
 		<PackageReleaseNotes>Oracle support (thank you @Skimmenthal13!), bugfixes, dependency updates.</PackageReleaseNotes>
 		<PackageTags>database sql server mssql mysql pgsql sqlite postgres postgresql oracle dynamic query builder datarow datatable orm relational mapper relation key foreign</PackageTags>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
