@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32328.378
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11620.152 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DatabaseWrapper", "DatabaseWrapper\EASYTools.DatabaseWrapper.csproj", "{FB67A8A3-FE77-4824-897E-87D6C4E179DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DatabaseWrapper.Core", "DatabaseWrapper.Core\EASYTools.DatabaseWrapper.Core.csproj", "{5C2D6520-4D85-43D9-BB97-42F7FB2B697A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DatabaseWrapper.Mysql", "DatabaseWrapper.Mysql\EASYTools.DatabaseWrapper.Mysql.csproj", "{903DE096-C8CD-49A0-BDE2-BF4A0500C836}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DatabaseWrapper.Oracle", "DatabaseWrapper.Oracle\EASYTools.DatabaseWrapper.Oracle.csproj", "{35151DCC-74F8-4331-96BB-35D197ABC398}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EASYTools.DatabaseWrapper.Postgresql", "DatabaseWrapper.Postgresql\EASYTools.DatabaseWrapper.Postgresql.csproj", "{4BD784C9-7ADA-47A9-A99E-E7C3F097A555}"
 EndProject
@@ -35,10 +33,6 @@ Global
 		{903DE096-C8CD-49A0-BDE2-BF4A0500C836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903DE096-C8CD-49A0-BDE2-BF4A0500C836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903DE096-C8CD-49A0-BDE2-BF4A0500C836}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35151DCC-74F8-4331-96BB-35D197ABC398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35151DCC-74F8-4331-96BB-35D197ABC398}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35151DCC-74F8-4331-96BB-35D197ABC398}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35151DCC-74F8-4331-96BB-35D197ABC398}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BD784C9-7ADA-47A9-A99E-E7C3F097A555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BD784C9-7ADA-47A9-A99E-E7C3F097A555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BD784C9-7ADA-47A9-A99E-E7C3F097A555}.Release|Any CPU.ActiveCfg = Release|Any CPU

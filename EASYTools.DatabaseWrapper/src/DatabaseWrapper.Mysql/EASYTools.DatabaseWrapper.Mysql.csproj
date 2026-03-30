@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0</TargetFrameworks>
-		<Version>6.1.7</Version>
+		<Version>6.1.8</Version>
 		<PackageReleaseNotes>Oracle support (thank you @Skimmenthal13!), bugfixes, dependency updates.</PackageReleaseNotes>
 		<PackageTags>database sql server mssql mysql pgsql sqlite postgres postgresql oracle dynamic query builder datarow datatable orm relational mapper relation key foreign</PackageTags>
 		<Authors>Joel Christner</Authors>
@@ -25,7 +25,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DatabaseWrapper.Core" Version="6.1.5" />
+		<PackageReference Include="EASYTools.DatabaseWrapper.Core" Version="6.1.8" />
 		<PackageReference Include="MySql.Data" Version="9.2.0" />
 	</ItemGroup>
 

@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0</TargetFrameworks>
-		<Version>6.1.7</Version>
+		<Version>6.1.8</Version>
 		<PackageReleaseNotes>Oracle support (thank you @Skimmenthal13!), bugfixes, dependency updates.</PackageReleaseNotes>
 		<PackageTags>database sql server mssql mysql pgsql sqlite postgres postgresql oracle dynamic query builder datarow datatable orm relational mapper relation key foreign</PackageTags>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -49,10 +49,10 @@
 
 	<ItemGroup>
 	  <PackageReference Include="DatabaseWrapper.Mysql" Version="6.1.5" />
-	  <PackageReference Include="DatabaseWrapper.Oracle" Version="6.1.5" />
 	  <PackageReference Include="DatabaseWrapper.Postgresql" Version="6.1.5" />
 	  <PackageReference Include="DatabaseWrapper.Sqlite" Version="6.1.5" />
 	  <PackageReference Include="DatabaseWrapper.SqlServer" Version="6.1.5" />
+	  <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>

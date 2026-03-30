@@ -40,8 +40,6 @@
                         return _Postgresql.ConnectionString;
                     case DbTypeEnum.Sqlite:
                         return _Sqlite.ConnectionString;
-                    case DbTypeEnum.Oracle:
-                        return _Oracle.ConnectionString;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -66,8 +64,6 @@
                         return _Sqlite.TimestampFormat;
                     case DbTypeEnum.SqlServer:
                         return _SqlServer.TimestampFormat;
-                    case DbTypeEnum.Oracle:
-                        return _Oracle.TimestampFormat;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -89,9 +85,6 @@
                         break;
                     case DbTypeEnum.SqlServer:
                         _SqlServer.TimestampFormat = value;
-                        break;
-                    case DbTypeEnum.Oracle:
-                        _Oracle.TimestampFormat = value;
                         break;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -117,8 +110,6 @@
                         return _Sqlite.TimestampOffsetFormat;
                     case DbTypeEnum.SqlServer:
                         return _SqlServer.TimestampOffsetFormat;
-                    case DbTypeEnum.Oracle:
-                        return _Oracle.TimestampOffsetFormat;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -140,9 +131,6 @@
                         break;
                     case DbTypeEnum.SqlServer:
                         _SqlServer.TimestampOffsetFormat = value;
-                        break;
-                    case DbTypeEnum.Oracle:
-                        _Oracle.TimestampOffsetFormat = value;
                         break;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -167,8 +155,6 @@
                         return _Sqlite.MaxStatementLength;
                     case DbTypeEnum.SqlServer:
                         return _SqlServer.MaxStatementLength;
-                    case DbTypeEnum.Oracle:
-                        return _Oracle.MaxStatementLength;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -204,9 +190,6 @@
                     case DbTypeEnum.SqlServer:
                         _SqlServer.Settings = value;
                         break;
-                    case DbTypeEnum.Oracle:
-                        _Oracle.Settings = value;
-                        break;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -234,9 +217,6 @@
                     case DbTypeEnum.SqlServer:
                         _SqlServer.QueryEvent += value;
                         break;
-                    case DbTypeEnum.Oracle:
-                        _Oracle.QueryEvent += value;
-                        break;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -257,9 +237,6 @@
                     case DbTypeEnum.SqlServer:
                         _SqlServer.QueryEvent -= value;
                         break;
-                    case DbTypeEnum.Oracle:
-                        _Oracle.QueryEvent -= value;
-                        break;
                     default:
                         throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
                 }
@@ -278,7 +255,6 @@
         private DatabaseWrapper.Postgresql.DatabaseClient   _Postgresql = null;
         private DatabaseWrapper.Sqlite.DatabaseClient       _Sqlite = null;
         private DatabaseWrapper.SqlServer.DatabaseClient    _SqlServer = null;
-        private DatabaseWrapper.Oracle.DatabaseClient       _Oracle = null;
         private Random _Random = new Random();
 
         #endregion
@@ -314,9 +290,6 @@
                     break;
                 case DbTypeEnum.SqlServer:
                     _SqlServer = new SqlServer.DatabaseClient(_Settings);
-                    break;
-                case DbTypeEnum.Oracle:
-                    _Oracle = new Oracle.DatabaseClient(_Settings);
                     break;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -386,9 +359,6 @@
                 case DbTypeEnum.SqlServer:
                     _SqlServer = new SqlServer.DatabaseClient(_Settings);
                     break;
-                case DbTypeEnum.Oracle:
-                    _Oracle = new Oracle.DatabaseClient(_Settings); 
-                    break;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -431,9 +401,6 @@
                 case DbTypeEnum.SqlServer:
                     _SqlServer = new SqlServer.DatabaseClient(_Settings);
                     break;
-                case DbTypeEnum.Oracle:
-                    _Oracle = new Oracle.DatabaseClient(_Settings); 
-                    break;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -468,8 +435,6 @@
                     return _Sqlite.ListTables();
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.ListTables();
-                case DbTypeEnum.Oracle:
-                    return _Oracle.ListTables();
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -492,8 +457,6 @@
                     return await _Sqlite.ListTablesAsync(token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.ListTablesAsync(token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.ListTablesAsync(token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -516,8 +479,6 @@
                     return _Sqlite.TableExists(tableName);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.TableExists(tableName);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.TableExists(tableName);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -541,8 +502,6 @@
                     return await _Sqlite.TableExistsAsync(tableName, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.TableExistsAsync(tableName, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.TableExistsAsync(tableName, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -565,8 +524,6 @@
                     return _Sqlite.DescribeTable(tableName);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.DescribeTable(tableName);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.DescribeTable(tableName);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -590,8 +547,6 @@
                     return await _Sqlite.DescribeTableAsync(tableName, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.DescribeTableAsync(tableName, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.DescribeTableAsync(tableName, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -613,8 +568,6 @@
                     return _Sqlite.DescribeDatabase();
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.DescribeDatabase();
-                case DbTypeEnum.Oracle:
-                    return _Oracle.DescribeDatabase();
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -637,9 +590,6 @@
                     return await _Sqlite.DescribeDatabaseAsync(token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.DescribeDatabaseAsync(token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    //return await Oracle.DescribeDatabaseAsync(token).ConfigureAwait(false);
-                    throw new ArgumentException("Oracle Managed Access driver doesn't handle async");
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -665,9 +615,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.CreateTable(tableName, columns);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.CreateTable(tableName,columns);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -696,9 +643,6 @@
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.CreateTableAsync(tableName, columns, token).ConfigureAwait(false);
                     return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.CreateTableAsync(tableName,columns, token).ConfigureAwait(false);
-                    return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -723,9 +667,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.DropTable(tableName);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.DropTable(tableName);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -753,9 +694,6 @@
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.DropTableAsync(tableName, token).ConfigureAwait(false);
                     return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.DropTableAsync(tableName, token).ConfigureAwait(false);
-                    return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -778,8 +716,6 @@
                     return _Sqlite.GetPrimaryKeyColumn(tableName);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.GetPrimaryKeyColumn(tableName);
-                case DbTypeEnum.Oracle: 
-                    return _Oracle.GetPrimaryKeyColumn(tableName);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -802,8 +738,6 @@
                     return _Sqlite.GetColumnNames(tableName);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.GetColumnNames(tableName);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.GetColumnNames(tableName);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -828,8 +762,6 @@
                     return _Sqlite.GetUniqueObjectById(tableName, columnName, value);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.GetUniqueObjectById(tableName, columnName, value);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.GetUniqueObjectById(tableName, columnName, value);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -855,8 +787,6 @@
                     return await _Sqlite.GetUniqueObjectByIdAsync(tableName, columnName, value, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.GetUniqueObjectByIdAsync(tableName, columnName, value, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.GetUniqueObjectByIdAsync(tableName, columnName, value, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -883,8 +813,6 @@
                     return _Sqlite.Select(tableName, indexStart, maxResults, returnFields, filter, null);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Select(tableName, indexStart, maxResults, returnFields, filter, null);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Select(tableName, indexStart, maxResults, returnFields, filter, null);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -912,8 +840,6 @@
                     return await _Sqlite.SelectAsync(tableName, indexStart, maxResults, returnFields, filter, null, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.SelectAsync(tableName, indexStart, maxResults, returnFields, filter, null, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.SelectAsync(tableName, indexStart, maxResults, returnFields, filter, null, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -941,8 +867,6 @@
                     return _Sqlite.Select(tableName, indexStart, maxResults, returnFields, filter, resultOrder);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Select(tableName, indexStart, maxResults, returnFields, filter, resultOrder);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Select(tableName, indexStart, maxResults, returnFields, filter, resultOrder);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -971,8 +895,6 @@
                     return await _Sqlite.SelectAsync(tableName, indexStart, maxResults, returnFields, filter, resultOrder, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.SelectAsync(tableName, indexStart, maxResults, returnFields, filter, resultOrder, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.SelectAsync(tableName,indexStart,maxResults,returnFields,filter,resultOrder,token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -996,8 +918,6 @@
                     return _Sqlite.Insert(tableName, keyValuePairs);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Insert(tableName, keyValuePairs);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Insert(tableName, keyValuePairs);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1022,8 +942,6 @@
                     return await _Sqlite.InsertAsync(tableName, keyValuePairs, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.InsertAsync(tableName, keyValuePairs, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.InsertAsync(tableName,keyValuePairs,token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1049,9 +967,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.InsertMultiple(tableName, keyValuePairList);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.InsertMultiple(tableName, keyValuePairList);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -1079,9 +994,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.InsertMultipleAsync(tableName, keyValuePairList, token).ConfigureAwait(false);
-                    return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.InsertMultipleAsync(tableName, keyValuePairList, token).ConfigureAwait(false);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -1112,9 +1024,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.Update(tableName, keyValuePairs, filter);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.Update(tableName, keyValuePairs, filter);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -1147,9 +1056,6 @@
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.UpdateAsync(tableName, keyValuePairs, filter, token).ConfigureAwait(false);
                     return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.UpdateAsync(tableName, keyValuePairs, filter, token).ConfigureAwait(false);
-                    return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1175,9 +1081,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.Delete(tableName, filter);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.Delete(tableName, filter);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -1206,9 +1109,6 @@
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.DeleteAsync(tableName, filter, token).ConfigureAwait(false);
                     return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.DeleteAsync(tableName, filter, token).ConfigureAwait(false);
-                    return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1233,9 +1133,6 @@
                     return;
                 case DbTypeEnum.SqlServer:
                     _SqlServer.Truncate(tableName);
-                    return;
-                case DbTypeEnum.Oracle:
-                    _Oracle.Truncate(tableName);
                     return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
@@ -1263,9 +1160,6 @@
                 case DbTypeEnum.SqlServer:
                     await _SqlServer.TruncateAsync(tableName, token).ConfigureAwait(false);
                     return;
-                case DbTypeEnum.Oracle:
-                    await _Oracle.TruncateAsync(tableName, token).ConfigureAwait(false);
-                    return;
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1288,8 +1182,6 @@
                     return _Sqlite.Query(query);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Query(query);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Query(query);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1313,8 +1205,6 @@
                     return await _Sqlite.QueryAsync(query, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.QueryAsync(query, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.QueryAsync(query, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1338,8 +1228,6 @@
                     return _Sqlite.Exists(tableName, filter);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Exists(tableName, filter);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Exists(tableName, filter);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1364,8 +1252,6 @@
                     return await _Sqlite.ExistsAsync(tableName, filter, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.ExistsAsync(tableName, filter, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.ExistsAsync(tableName, filter, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1389,8 +1275,6 @@
                     return _Sqlite.Count(tableName, filter);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Count(tableName, filter);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Count(tableName, filter);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1415,8 +1299,6 @@
                     return await _Sqlite.CountAsync(tableName, filter, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.CountAsync(tableName, filter, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.CountAsync(tableName, filter, token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1441,8 +1323,6 @@
                     return _Sqlite.Sum(tableName, fieldName, filter);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Sum(tableName, fieldName, filter);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Sum(tableName, fieldName, filter);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1468,8 +1348,6 @@
                     return await _Sqlite.SumAsync(tableName, fieldName, filter, token).ConfigureAwait(false);
                 case DbTypeEnum.SqlServer:
                     return await _SqlServer.SumAsync(tableName, fieldName, filter, token).ConfigureAwait(false);
-                case DbTypeEnum.Oracle:
-                    return await _Oracle.SumAsync(tableName,fieldName,filter,token).ConfigureAwait(false);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1492,8 +1370,6 @@
                     return _Sqlite.Timestamp(ts);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.Timestamp(ts);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.Timestamp(ts);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1516,8 +1392,6 @@
                     return _Sqlite.TimestampOffset(ts);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.TimestampOffset(ts);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.TimestampOffset(ts);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1540,8 +1414,6 @@
                     return _Sqlite.SanitizeString(s);
                 case DbTypeEnum.SqlServer:
                     return _SqlServer.SanitizeString(s);
-                case DbTypeEnum.Oracle:
-                    return _Oracle.SanitizeString(s);
                 default:
                     throw new ArgumentException("Unknown database type '" + _Settings.Type.ToString() + "'.");
             }
@@ -1579,10 +1451,6 @@
                 else if (_SqlServer != null)
                 {
                     _SqlServer.Dispose();
-                }
-                else if (_Oracle != null)
-                {
-                    _Oracle.Dispose();
                 }
                 else
                 {
