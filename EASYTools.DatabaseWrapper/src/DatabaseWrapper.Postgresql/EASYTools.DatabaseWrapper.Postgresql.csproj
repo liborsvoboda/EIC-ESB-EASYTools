@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0</TargetFrameworks>
-		<Version>6.1.8</Version>
+		<Version>6.2.0</Version>
 		<PackageReleaseNotes>Oracle support (thank you @Skimmenthal13!), bugfixes, dependency updates.</PackageReleaseNotes>
 		<PackageTags>database sql server mssql mysql pgsql sqlite postgres postgresql oracle dynamic query builder datarow datatable orm relational mapper relation key foreign</PackageTags>
 		<Authors>Joel Christner</Authors>
@@ -24,7 +24,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="EASYTools.DatabaseWrapper.Core" Version="6.1.8" />
 		<PackageReference Include="Npgsql" Version="8.0.4" />
 	</ItemGroup>
 
@@ -53,6 +52,10 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DatabaseWrapper.Core\EASYTools.DatabaseWrapper.Core.csproj" />
 	</ItemGroup>
 
 </Project>
